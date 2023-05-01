@@ -1,0 +1,3452 @@
+[ 2.5328 ]: Logfile name:  ../logs/network_ACASXU_run2a_2_1_batch_2000.onnx_property_property_2.prop_tc_0.001_ts_0.5_2023-04-23 01:07:11.995263.log
+[ 2.5329 ]: Timing data at:  ../dumps/time_for_network_ACASXU_run2a_2_1_batch_2000.onnx_property_property_2.prop_tc_0.001_ts_0.5_2023-04-23 01:07:11.995263.log
+[ 2.5329 ]: Config:  {'__name__': 'config', '__doc__': '\nVarious configs\n', '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7fc696dc19a0>, '__spec__': ModuleSpec(name='config', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fc696dc19a0>, origin='/home/sanaa/new-merge-across-layers/merge-across-layer/mal/config.py'), '__file__': '/home/sanaa/new-merge-across-layers/merge-across-layer/mal/config.py', '__cached__': '/home/sanaa/new-merge-across-layers/merge-across-layer/mal/__pycache__/config.cpython-38.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2021 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object., '__pybind11_internals_v4_gcc_libstdcpp_cxxabi1014__': <capsule object NULL at 0x7fc6815c1150>, '__pybind11_internals_v3__': <capsule object NULL at 0x7fc66897cf30>, '__pybind11_internals_v4_gcc_libstdcpp_cxxabi1013__': <capsule object NULL at 0x7fc62ce66960>, '__pybind11_internals_v4_gcc_libstdcpp_cxxabi1016__': <capsule object NULL at 0x7fc5eb2525a0>, '__pybind11_internals_v4_gcc_libstdcpp_cxxabi1011__': <capsule object NULL at 0x7fc5559e67b0>}, 'ASSERTS': True, 'DEBUG': True, 'VISUALIZE': True, 'TIMING': True, 'N_SAMPLES': 500, 'B_MIN_LB_UB_DIST': 0.01, 'B_MAX_ITERS': 100, 'B_RAND_SCALE': 0.001, 'FLOAT_EPSILON': 1e-05, 'MERGE_GROUP_SIZE_UB': 70, 'RECALC_VALUES': False, 'MARABOU_EPSILON': 0.0004, 'MARABOU_VERBOSITY': 2, 'MARABOU_PATH': '../Marabou/', 'LOGS_PATH': '../logs/', 'DUMP_PATH': '../dumps', 'LP_TIMEOUT': 1, 'LP_IGNORE_ERROR': True, 'USE_LP_REPLACEMENT': True, 'LPR_UB_LAMBDA': 0, 'LPR_MIN_LAMBDA': -100000.0, 'TO_REPEAT_INCR': 1, 'TO_REPEAT_NUM': 10}
+[ 2.5785 ]: Layer sizes:  [5, 50, 50, 50, 50, 50, 50, 4, 1]
+[ 2.5786 ]: Size of original net:  310
+[ 3.0736 ]: Starting merge
+[ 3.0845 ]: Values percentiles:  [ 0.          0.         18.58395398]
+[ 3.0847 ]: Calcuated values
+[ 3.1868 ]: Lower bound percentiles:  [0.         0.         0.91299105]
+[ 3.1871 ]: Upper bound percentiles:  [    0.            67.38668884 42405.35644866]
+[ 3.1879 ]: Calcuated intervals
+[ 30.2177 ]: Found 574 candidate merge groups
+[ 30.2486 ]: Verifying bounds for merge group size:  1
+[ 30.2488 ]: Using Marabou
+[ 30.2493 ]: Calling Marabou to verify bounds
+[ 30.2494 ]: Merge group size:  1
+[ 30.2503 ]: Verifying bounds for merge group size:  1
+[ 30.2504 ]: Using Marabou
+[ 30.2507 ]: Calling Marabou to verify bounds
+[ 30.2508 ]: Merge group size:  1
+[ 30.2515 ]: Verifying bounds for merge group size:  1
+[ 30.2516 ]: Using Marabou
+[ 30.2519 ]: Calling Marabou to verify bounds
+[ 30.2520 ]: Merge group size:  1
+[ 30.2526 ]: Verifying bounds for merge group size:  1
+[ 30.2527 ]: Using Marabou
+[ 30.2529 ]: Calling Marabou to verify bounds
+[ 30.2530 ]: Merge group size:  1
+[ 30.2539 ]: Verifying bounds for merge group size:  1
+[ 30.2540 ]: Using Marabou
+[ 30.2541 ]: Calling Marabou to verify bounds
+[ 30.2542 ]: Merge group size:  1
+[ 30.2550 ]: Verifying bounds for merge group size:  1
+[ 30.2552 ]: Using Marabou
+[ 30.2554 ]: Calling Marabou to verify bounds
+[ 30.2555 ]: Merge group size:  1
+[ 30.2561 ]: Verifying bounds for merge group size:  1
+[ 30.2563 ]: Using Marabou
+[ 30.2565 ]: Calling Marabou to verify bounds
+[ 30.2566 ]: Merge group size:  1
+[ 30.2576 ]: Verifying bounds for merge group size:  1
+[ 30.2576 ]: Using Marabou
+[ 30.2578 ]: Calling Marabou to verify bounds
+[ 30.2579 ]: Merge group size:  1
+[ 30.2589 ]: Verifying bounds for merge group size:  1
+[ 30.2589 ]: Using Marabou
+[ 30.2591 ]: Calling Marabou to verify bounds
+[ 30.2592 ]: Merge group size:  1
+[ 30.2598 ]: Verifying bounds for merge group size:  1
+[ 30.2599 ]: Using Marabou
+[ 30.2601 ]: Calling Marabou to verify bounds
+[ 30.2601 ]: Merge group size:  1
+[ 30.2607 ]: Min c:  -1.1022824080480904
+[ 30.2608 ]: Max c:  0.5208861736962977
+[ 30.2609 ]: b:  -0.24145994774012478
+[ 30.3897 ]: Network size is now:  596
+[ 30.5329 ]: Weights percentiles:  [6.97791984e-06 2.06669003e-01 1.38227997e+01]
+[ 30.5333 ]: Biases percentiles:  [0.        0.403914  2.6540699]
+[ 30.5473 ]: Verifying bounds for merge group size:  1
+[ 30.5473 ]: Using Marabou
+[ 30.5474 ]: Calling Marabou to verify bounds
+[ 30.5475 ]: Merge group size:  1
+[ 30.5480 ]: Verifying bounds for merge group size:  1
+[ 30.5480 ]: Using Marabou
+[ 30.5481 ]: Calling Marabou to verify bounds
+[ 30.5481 ]: Merge group size:  1
+[ 30.5485 ]: Verifying bounds for merge group size:  1
+[ 30.5485 ]: Using Marabou
+[ 30.5486 ]: Calling Marabou to verify bounds
+[ 30.5486 ]: Merge group size:  1
+[ 30.5490 ]: Verifying bounds for merge group size:  1
+[ 30.5491 ]: Using Marabou
+[ 30.5492 ]: Calling Marabou to verify bounds
+[ 30.5492 ]: Merge group size:  1
+[ 30.5497 ]: Verifying bounds for merge group size:  1
+[ 30.5497 ]: Using Marabou
+[ 30.5498 ]: Calling Marabou to verify bounds
+[ 30.5499 ]: Merge group size:  1
+[ 30.5503 ]: Verifying bounds for merge group size:  1
+[ 30.5504 ]: Using Marabou
+[ 30.5505 ]: Calling Marabou to verify bounds
+[ 30.5505 ]: Merge group size:  1
+[ 30.5509 ]: Verifying bounds for merge group size:  1
+[ 30.5509 ]: Using Marabou
+[ 30.5510 ]: Calling Marabou to verify bounds
+[ 30.5510 ]: Merge group size:  1
+[ 30.5516 ]: Verifying bounds for merge group size:  1
+[ 30.5516 ]: Using Marabou
+[ 30.5517 ]: Calling Marabou to verify bounds
+[ 30.5517 ]: Merge group size:  1
+[ 30.5520 ]: Verifying bounds for merge group size:  1
+[ 30.5521 ]: Using Marabou
+[ 30.5522 ]: Calling Marabou to verify bounds
+[ 30.5522 ]: Merge group size:  1
+[ 30.5526 ]: Verifying bounds for merge group size:  1
+[ 30.5526 ]: Using Marabou
+[ 30.5527 ]: Calling Marabou to verify bounds
+[ 30.5527 ]: Merge group size:  1
+[ 30.5531 ]: Min c:  -1.1022824080480904
+[ 30.5532 ]: Max c:  0.5208861736962977
+[ 30.5532 ]: b:  0.3203926744419404
+[ 30.5533 ]: Score with adjusted b and c too big, not merging
+[ 30.5544 ]: Verifying bounds for merge group size:  1
+[ 30.5544 ]: Using Marabou
+[ 30.5545 ]: Calling Marabou to verify bounds
+[ 30.5545 ]: Merge group size:  1
+[ 30.5549 ]: Min c:  0.0
+[ 30.5550 ]: Max c:  0.0
+[ 30.5550 ]: b:  0.0
+[ 30.6596 ]: Network size is now:  595
+[ 30.8009 ]: Weights percentiles:  [ 0.          0.204752   13.82279968]
+[ 30.8012 ]: Biases percentiles:  [0.        0.402832  2.6540699]
+[ 30.8025 ]: Verifying bounds for merge group size:  1
+[ 30.8026 ]: Using Marabou
+[ 30.8027 ]: Calling Marabou to verify bounds
+[ 30.8027 ]: Merge group size:  1
+[ 30.8031 ]: Min c:  0.0
+[ 30.8032 ]: Max c:  0.0
+[ 30.8032 ]: b:  0.0
+[ 30.9072 ]: Network size is now:  594
+[ 31.0487 ]: Weights percentiles:  [ 0.          0.20290899 13.82279968]
+[ 31.0491 ]: Biases percentiles:  [0.        0.40175   2.6540699]
+[ 31.0599 ]: Verifying bounds for merge group size:  1
+[ 31.0600 ]: Using Marabou
+[ 31.0601 ]: Calling Marabou to verify bounds
+[ 31.0602 ]: Merge group size:  1
+[ 31.0607 ]: Verifying bounds for merge group size:  1
+[ 31.0607 ]: Using Marabou
+[ 31.0608 ]: Calling Marabou to verify bounds
+[ 31.0608 ]: Merge group size:  1
+[ 31.0612 ]: Verifying bounds for merge group size:  1
+[ 31.0612 ]: Using Marabou
+[ 31.0613 ]: Calling Marabou to verify bounds
+[ 31.0614 ]: Merge group size:  1
+[ 31.0618 ]: Verifying bounds for merge group size:  1
+[ 31.0619 ]: Using Marabou
+[ 31.0620 ]: Calling Marabou to verify bounds
+[ 31.0620 ]: Merge group size:  1
+[ 31.0624 ]: Verifying bounds for merge group size:  1
+[ 31.0625 ]: Using Marabou
+[ 31.0626 ]: Calling Marabou to verify bounds
+[ 31.0626 ]: Merge group size:  1
+[ 31.0630 ]: Verifying bounds for merge group size:  1
+[ 31.0631 ]: Using Marabou
+[ 31.0631 ]: Calling Marabou to verify bounds
+[ 31.0632 ]: Merge group size:  1
+[ 31.0636 ]: Verifying bounds for merge group size:  1
+[ 31.0636 ]: Using Marabou
+[ 31.0637 ]: Calling Marabou to verify bounds
+[ 31.0637 ]: Merge group size:  1
+[ 31.0642 ]: Verifying bounds for merge group size:  1
+[ 31.0642 ]: Using Marabou
+[ 31.0643 ]: Calling Marabou to verify bounds
+[ 31.0643 ]: Merge group size:  1
+[ 31.0647 ]: Verifying bounds for merge group size:  1
+[ 31.0648 ]: Using Marabou
+[ 31.0649 ]: Calling Marabou to verify bounds
+[ 31.0649 ]: Merge group size:  1
+[ 31.0654 ]: Min c:  -0.3715905248885644
+[ 31.0654 ]: Max c:  0.646562624866396
+[ 31.0655 ]: b:  -0.3423471131612439
+[ 31.1682 ]: Network size is now:  593
+[ 31.3086 ]: Weights percentiles:  [ 0.          0.20488299 13.82279968]
+[ 31.3089 ]: Biases percentiles:  [0.        0.402832  2.6540699]
+[ 31.3197 ]: Verifying bounds for merge group size:  1
+[ 31.3197 ]: Using Marabou
+[ 31.3198 ]: Calling Marabou to verify bounds
+[ 31.3199 ]: Merge group size:  1
+[ 31.3204 ]: Verifying bounds for merge group size:  1
+[ 31.3204 ]: Using Marabou
+[ 31.3205 ]: Calling Marabou to verify bounds
+[ 31.3206 ]: Merge group size:  1
+[ 31.3209 ]: Verifying bounds for merge group size:  1
+[ 31.3210 ]: Using Marabou
+[ 31.3211 ]: Calling Marabou to verify bounds
+[ 31.3211 ]: Merge group size:  1
+[ 31.3215 ]: Verifying bounds for merge group size:  1
+[ 31.3215 ]: Using Marabou
+[ 31.3216 ]: Calling Marabou to verify bounds
+[ 31.3217 ]: Merge group size:  1
+[ 31.3220 ]: Verifying bounds for merge group size:  1
+[ 31.3221 ]: Using Marabou
+[ 31.3222 ]: Calling Marabou to verify bounds
+[ 31.3222 ]: Merge group size:  1
+[ 31.3227 ]: Verifying bounds for merge group size:  1
+[ 31.3227 ]: Using Marabou
+[ 31.3228 ]: Calling Marabou to verify bounds
+[ 31.3229 ]: Merge group size:  1
+[ 31.3233 ]: Verifying bounds for merge group size:  1
+[ 31.3234 ]: Using Marabou
+[ 31.3235 ]: Calling Marabou to verify bounds
+[ 31.3235 ]: Merge group size:  1
+[ 31.3240 ]: Verifying bounds for merge group size:  1
+[ 31.3241 ]: Using Marabou
+[ 31.3242 ]: Calling Marabou to verify bounds
+[ 31.3243 ]: Merge group size:  1
+[ 31.3247 ]: Verifying bounds for merge group size:  1
+[ 31.3248 ]: Using Marabou
+[ 31.3249 ]: Calling Marabou to verify bounds
+[ 31.3249 ]: Merge group size:  1
+[ 31.3255 ]: Verifying bounds for merge group size:  1
+[ 31.3256 ]: Using Marabou
+[ 31.3257 ]: Calling Marabou to verify bounds
+[ 31.3257 ]: Merge group size:  1
+[ 31.3264 ]: Min c:  -0.3715905248885644
+[ 31.3264 ]: Max c:  0.646562624866396
+[ 31.3265 ]: b:  -0.034415831261581195
+[ 31.5391 ]: Network size is now:  592
+[ 31.6817 ]: Weights percentiles:  [6.97791984e-06 2.06934005e-01 1.38227997e+01]
+[ 31.6820 ]: Biases percentiles:  [0.        0.40175   2.6540699]
+[ 31.6833 ]: Verifying bounds for merge group size:  1
+[ 31.6833 ]: Using Marabou
+[ 31.6835 ]: Calling Marabou to verify bounds
+[ 31.6835 ]: Merge group size:  1
+[ 31.6841 ]: Min c:  0.0
+[ 31.6842 ]: Max c:  0.0
+[ 31.6842 ]: b:  0.0
+[ 31.7875 ]: Network size is now:  591
+[ 31.9282 ]: Weights percentiles:  [6.97791984e-06 2.06808500e-01 1.38227997e+01]
+[ 31.9286 ]: Biases percentiles:  [0.        0.402832  2.6540699]
+[ 31.9299 ]: Verifying bounds for merge group size:  1
+[ 31.9300 ]: Using Marabou
+[ 31.9301 ]: Calling Marabou to verify bounds
+[ 31.9301 ]: Merge group size:  1
+[ 31.9306 ]: Min c:  0.0
+[ 31.9306 ]: Max c:  0.0
+[ 31.9306 ]: b:  0.0
+[ 32.0335 ]: Network size is now:  590
+[ 32.1739 ]: Weights percentiles:  [6.97791984e-06 2.06750005e-01 1.38227997e+01]
+[ 32.1743 ]: Biases percentiles:  [0.        0.403914  2.6540699]
+[ 32.1756 ]: Verifying bounds for merge group size:  1
+[ 32.1756 ]: Using Marabou
+[ 32.1757 ]: Calling Marabou to verify bounds
+[ 32.1758 ]: Merge group size:  1
+[ 32.1763 ]: Min c:  0.0
+[ 32.1763 ]: Max c:  0.0
+[ 32.1763 ]: b:  0.0
+[ 32.2784 ]: Network size is now:  589
+[ 32.4185 ]: Weights percentiles:  [6.97791984e-06 2.06584506e-01 1.38227997e+01]
+[ 32.4188 ]: Biases percentiles:  [0.        0.402832  2.6540699]
+[ 32.4201 ]: Verifying bounds for merge group size:  1
+[ 32.4202 ]: Using Marabou
+[ 32.4203 ]: Calling Marabou to verify bounds
+[ 32.4203 ]: Merge group size:  1
+[ 32.4207 ]: Min c:  0.0
+[ 32.4208 ]: Max c:  0.0
+[ 32.4208 ]: b:  0.0
+[ 32.5225 ]: Network size is now:  588
+[ 32.6623 ]: Weights percentiles:  [6.97791984e-06 2.06309006e-01 1.38227997e+01]
+[ 32.6626 ]: Biases percentiles:  [0.        0.40175   2.6540699]
+[ 32.6658 ]: Verifying bounds for merge group size:  1
+[ 32.6658 ]: Using Marabou
+[ 32.6659 ]: Calling Marabou to verify bounds
+[ 32.6660 ]: Merge group size:  1
+[ 32.6665 ]: Min c:  -0.9868609905242863
+[ 32.6665 ]: Max c:  0.4192860126495383
+[ 32.6666 ]: b:  -0.044919300824400765
+[ 32.7685 ]: Network size is now:  587
+[ 32.9081 ]: Weights percentiles:  [6.97791984e-06 2.06365004e-01 1.38227997e+01]
+[ 32.9084 ]: Biases percentiles:  [0.        0.402832  2.6540699]
+[ 32.9207 ]: Verifying bounds for merge group size:  1
+[ 32.9208 ]: Using Marabou
+[ 32.9210 ]: Calling Marabou to verify bounds
+[ 32.9210 ]: Merge group size:  1
+[ 32.9219 ]: Min c:  -0.9868609905242863
+[ 32.9220 ]: Max c:  0.4192860126495383
+[ 32.9221 ]: b:  -0.044919300824400765
+[ 33.0267 ]: Network size is now:  586
+[ 33.1656 ]: Weights percentiles:  [6.97791984e-06 2.06309006e-01 1.38227997e+01]
+[ 33.1659 ]: Biases percentiles:  [0.        0.403914  2.6540699]
+[ 33.1691 ]: Verifying bounds for merge group size:  1
+[ 33.1691 ]: Using Marabou
+[ 33.1693 ]: Calling Marabou to verify bounds
+[ 33.1693 ]: Merge group size:  1
+[ 33.1699 ]: Min c:  -0.5635589957234085
+[ 33.1700 ]: Max c:  0.0026040899101565326
+[ 33.1700 ]: b:  0.39823099970834963
+[ 33.2711 ]: Network size is now:  585
+[ 33.4109 ]: Weights percentiles:  [6.97791984e-06 2.06098497e-01 1.38227997e+01]
+[ 33.4112 ]: Biases percentiles:  [0.         0.44192651 2.6540699 ]
+[ 33.4145 ]: Verifying bounds for merge group size:  1
+[ 33.4146 ]: Using Marabou
+[ 33.4147 ]: Calling Marabou to verify bounds
+[ 33.4147 ]: Merge group size:  1
+[ 33.4152 ]: Min c:  -0.5635589957234085
+[ 33.4153 ]: Max c:  0.0026040899101565326
+[ 33.4153 ]: b:  0.39823099970834963
+[ 33.5166 ]: Network size is now:  584
+[ 33.6547 ]: Weights percentiles:  [6.97791984e-06 2.05941007e-01 1.38227997e+01]
+[ 33.6551 ]: Biases percentiles:  [0.         0.44793499 2.76127193]
+[ 33.6619 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 33.6685 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 33.6747 ]: Verifying bounds for merge group size:  1
+[ 33.6747 ]: Using Marabou
+[ 33.6749 ]: Calling Marabou to verify bounds
+[ 33.6749 ]: Merge group size:  1
+[ 33.6754 ]: Verifying bounds for merge group size:  1
+[ 33.6755 ]: Using Marabou
+[ 33.6755 ]: Calling Marabou to verify bounds
+[ 33.6756 ]: Merge group size:  1
+[ 33.6759 ]: Verifying bounds for merge group size:  1
+[ 33.6760 ]: Using Marabou
+[ 33.6761 ]: Calling Marabou to verify bounds
+[ 33.6761 ]: Merge group size:  1
+[ 33.6765 ]: Verifying bounds for merge group size:  1
+[ 33.6766 ]: Using Marabou
+[ 33.6767 ]: Calling Marabou to verify bounds
+[ 33.6767 ]: Merge group size:  1
+[ 33.6771 ]: Verifying bounds for merge group size:  1
+[ 33.6772 ]: Using Marabou
+[ 33.6773 ]: Calling Marabou to verify bounds
+[ 33.6773 ]: Merge group size:  1
+[ 33.6778 ]: Verifying bounds for merge group size:  1
+[ 33.6778 ]: Using Marabou
+[ 33.6780 ]: Calling Marabou to verify bounds
+[ 33.6780 ]: Merge group size:  1
+[ 33.6785 ]: Verifying bounds for merge group size:  1
+[ 33.6785 ]: Using Marabou
+[ 33.6786 ]: Calling Marabou to verify bounds
+[ 33.6786 ]: Merge group size:  1
+[ 33.6791 ]: Verifying bounds for merge group size:  1
+[ 33.6792 ]: Using Marabou
+[ 33.6793 ]: Calling Marabou to verify bounds
+[ 33.6793 ]: Merge group size:  1
+[ 33.6798 ]: Verifying bounds for merge group size:  1
+[ 33.6798 ]: Using Marabou
+[ 33.6799 ]: Calling Marabou to verify bounds
+[ 33.6800 ]: Merge group size:  1
+[ 33.6804 ]: Verifying bounds for merge group size:  1
+[ 33.6805 ]: Using Marabou
+[ 33.6806 ]: Calling Marabou to verify bounds
+[ 33.6806 ]: Merge group size:  1
+[ 33.6811 ]: Min c:  -0.24188974772815983
+[ 33.6812 ]: Max c:  0.9647119819863937
+[ 33.6812 ]: b:  -0.10710239422541422
+[ 33.6813 ]: Score with adjusted b and c too big, not merging
+[ 33.6873 ]: Verifying bounds for merge group size:  1
+[ 33.6874 ]: Using Marabou
+[ 33.6875 ]: Calling Marabou to verify bounds
+[ 33.6875 ]: Merge group size:  1
+[ 33.6880 ]: Verifying bounds for merge group size:  1
+[ 33.6881 ]: Using Marabou
+[ 33.6881 ]: Calling Marabou to verify bounds
+[ 33.6882 ]: Merge group size:  1
+[ 33.6886 ]: Verifying bounds for merge group size:  1
+[ 33.6886 ]: Using Marabou
+[ 33.6887 ]: Calling Marabou to verify bounds
+[ 33.6887 ]: Merge group size:  1
+[ 33.6891 ]: Verifying bounds for merge group size:  1
+[ 33.6891 ]: Using Marabou
+[ 33.6892 ]: Calling Marabou to verify bounds
+[ 33.6892 ]: Merge group size:  1
+[ 33.6896 ]: Verifying bounds for merge group size:  1
+[ 33.6896 ]: Using Marabou
+[ 33.6898 ]: Calling Marabou to verify bounds
+[ 33.6898 ]: Merge group size:  1
+[ 33.6903 ]: Verifying bounds for merge group size:  1
+[ 33.6903 ]: Using Marabou
+[ 33.6904 ]: Calling Marabou to verify bounds
+[ 33.6904 ]: Merge group size:  1
+[ 33.6911 ]: Verifying bounds for merge group size:  1
+[ 33.6912 ]: Using Marabou
+[ 33.6912 ]: Calling Marabou to verify bounds
+[ 33.6913 ]: Merge group size:  1
+[ 33.6920 ]: Verifying bounds for merge group size:  1
+[ 33.6920 ]: Using Marabou
+[ 33.6921 ]: Calling Marabou to verify bounds
+[ 33.6922 ]: Merge group size:  1
+[ 33.6927 ]: Verifying bounds for merge group size:  1
+[ 33.6927 ]: Using Marabou
+[ 33.6928 ]: Calling Marabou to verify bounds
+[ 33.6928 ]: Merge group size:  1
+[ 33.6935 ]: Min c:  -0.24188974772815983
+[ 33.6936 ]: Max c:  0.9647119819863937
+[ 33.6936 ]: b:  0.47819989539714175
+[ 33.6937 ]: Score with adjusted b and c too big, not merging
+[ 33.6948 ]: Verifying bounds for merge group size:  1
+[ 33.6949 ]: Using Marabou
+[ 33.6949 ]: Calling Marabou to verify bounds
+[ 33.6950 ]: Merge group size:  1
+[ 33.6954 ]: Min c:  0.0
+[ 33.6954 ]: Max c:  0.0
+[ 33.6954 ]: b:  0.0
+[ 33.7975 ]: Network size is now:  583
+[ 33.9352 ]: Weights percentiles:  [6.97791984e-06 2.06467003e-01 1.38227997e+01]
+[ 33.9356 ]: Biases percentiles:  [0.         0.44870194 2.76127193]
+[ 33.9369 ]: Verifying bounds for merge group size:  1
+[ 33.9369 ]: Using Marabou
+[ 33.9370 ]: Calling Marabou to verify bounds
+[ 33.9371 ]: Merge group size:  1
+[ 33.9375 ]: Min c:  0.0
+[ 33.9376 ]: Max c:  0.0
+[ 33.9376 ]: b:  0.0
+[ 34.0378 ]: Network size is now:  582
+[ 34.1763 ]: Weights percentiles:  [6.97791984e-06 2.06781998e-01 1.38227997e+01]
+[ 34.1766 ]: Biases percentiles:  [0.         0.4494689  2.76127193]
+[ 34.1797 ]: Verifying bounds for merge group size:  1
+[ 34.1798 ]: Using Marabou
+[ 34.1799 ]: Calling Marabou to verify bounds
+[ 34.1799 ]: Merge group size:  1
+[ 34.1804 ]: Min c:  -1.2170000076221574
+[ 34.1805 ]: Max c:  0.9291610121660696
+[ 34.1805 ]: b:  0.01728899963897812
+[ 34.2800 ]: Network size is now:  581
+[ 34.4168 ]: Weights percentiles:  [6.97791984e-06 2.06783995e-01 1.38227997e+01]
+[ 34.4172 ]: Biases percentiles:  [0.         0.44793499 2.75307166]
+[ 34.4203 ]: Verifying bounds for merge group size:  1
+[ 34.4203 ]: Using Marabou
+[ 34.4204 ]: Calling Marabou to verify bounds
+[ 34.4205 ]: Merge group size:  1
+[ 34.4210 ]: Min c:  -1.2170000076221574
+[ 34.4210 ]: Max c:  0.9291610121660696
+[ 34.4211 ]: b:  0.01728899963897812
+[ 34.5200 ]: Network size is now:  580
+[ 34.6563 ]: Weights percentiles:  [6.97791984e-06 2.06750005e-01 1.38227997e+01]
+[ 34.6567 ]: Biases percentiles:  [0.         0.44793499 2.75307166]
+[ 34.6632 ]: Verifying bounds for merge group size:  1
+[ 34.6633 ]: Using Marabou
+[ 34.6634 ]: Calling Marabou to verify bounds
+[ 34.6634 ]: Merge group size:  1
+[ 34.6640 ]: Verifying bounds for merge group size:  1
+[ 34.6640 ]: Using Marabou
+[ 34.6641 ]: Calling Marabou to verify bounds
+[ 34.6641 ]: Merge group size:  1
+[ 34.6645 ]: Verifying bounds for merge group size:  1
+[ 34.6645 ]: Using Marabou
+[ 34.6646 ]: Calling Marabou to verify bounds
+[ 34.6646 ]: Merge group size:  1
+[ 34.6650 ]: Verifying bounds for merge group size:  1
+[ 34.6651 ]: Using Marabou
+[ 34.6652 ]: Calling Marabou to verify bounds
+[ 34.6652 ]: Merge group size:  1
+[ 34.6657 ]: Verifying bounds for merge group size:  1
+[ 34.6657 ]: Using Marabou
+[ 34.6658 ]: Calling Marabou to verify bounds
+[ 34.6659 ]: Merge group size:  1
+[ 34.6663 ]: Verifying bounds for merge group size:  1
+[ 34.6664 ]: Using Marabou
+[ 34.6665 ]: Calling Marabou to verify bounds
+[ 34.6665 ]: Merge group size:  1
+[ 34.6670 ]: Verifying bounds for merge group size:  1
+[ 34.6670 ]: Using Marabou
+[ 34.6671 ]: Calling Marabou to verify bounds
+[ 34.6671 ]: Merge group size:  1
+[ 34.6676 ]: Verifying bounds for merge group size:  1
+[ 34.6677 ]: Using Marabou
+[ 34.6678 ]: Calling Marabou to verify bounds
+[ 34.6678 ]: Merge group size:  1
+[ 34.6683 ]: Verifying bounds for merge group size:  1
+[ 34.6683 ]: Using Marabou
+[ 34.6684 ]: Calling Marabou to verify bounds
+[ 34.6684 ]: Merge group size:  1
+[ 34.6689 ]: Verifying bounds for merge group size:  1
+[ 34.6690 ]: Using Marabou
+[ 34.6691 ]: Calling Marabou to verify bounds
+[ 34.6691 ]: Merge group size:  1
+[ 34.6696 ]: Min c:  -0.5007115208588605
+[ 34.6696 ]: Max c:  1.1946222259946404
+[ 34.6697 ]: b:  -0.46772428819089007
+[ 34.7685 ]: Network size is now:  579
+[ 34.9054 ]: Weights percentiles:  [6.97791984e-06 2.07352497e-01 1.38227997e+01]
+[ 34.9057 ]: Biases percentiles:  [0.         0.456202   2.75307166]
+[ 34.9123 ]: Verifying bounds for merge group size:  1
+[ 34.9124 ]: Using Marabou
+[ 34.9125 ]: Calling Marabou to verify bounds
+[ 34.9125 ]: Merge group size:  1
+[ 34.9130 ]: Verifying bounds for merge group size:  1
+[ 34.9130 ]: Using Marabou
+[ 34.9131 ]: Calling Marabou to verify bounds
+[ 34.9132 ]: Merge group size:  1
+[ 34.9136 ]: Verifying bounds for merge group size:  1
+[ 34.9136 ]: Using Marabou
+[ 34.9137 ]: Calling Marabou to verify bounds
+[ 34.9137 ]: Merge group size:  1
+[ 34.9141 ]: Verifying bounds for merge group size:  1
+[ 34.9141 ]: Using Marabou
+[ 34.9142 ]: Calling Marabou to verify bounds
+[ 34.9143 ]: Merge group size:  1
+[ 34.9146 ]: Verifying bounds for merge group size:  1
+[ 34.9147 ]: Using Marabou
+[ 34.9148 ]: Calling Marabou to verify bounds
+[ 34.9148 ]: Merge group size:  1
+[ 34.9152 ]: Verifying bounds for merge group size:  1
+[ 34.9152 ]: Using Marabou
+[ 34.9153 ]: Calling Marabou to verify bounds
+[ 34.9153 ]: Merge group size:  1
+[ 34.9158 ]: Verifying bounds for merge group size:  1
+[ 34.9158 ]: Using Marabou
+[ 34.9159 ]: Calling Marabou to verify bounds
+[ 34.9160 ]: Merge group size:  1
+[ 34.9165 ]: Verifying bounds for merge group size:  1
+[ 34.9165 ]: Using Marabou
+[ 34.9166 ]: Calling Marabou to verify bounds
+[ 34.9166 ]: Merge group size:  1
+[ 34.9171 ]: Verifying bounds for merge group size:  1
+[ 34.9171 ]: Using Marabou
+[ 34.9172 ]: Calling Marabou to verify bounds
+[ 34.9172 ]: Merge group size:  1
+[ 34.9177 ]: Verifying bounds for merge group size:  1
+[ 34.9178 ]: Using Marabou
+[ 34.9178 ]: Calling Marabou to verify bounds
+[ 34.9179 ]: Merge group size:  1
+[ 34.9183 ]: Verifying bounds for merge group size:  1
+[ 34.9184 ]: Using Marabou
+[ 34.9185 ]: Calling Marabou to verify bounds
+[ 34.9185 ]: Merge group size:  1
+[ 34.9190 ]: Min c:  -0.5007115208588605
+[ 34.9190 ]: Max c:  1.1946222259946404
+[ 34.9191 ]: b:  0.031745443332975604
+[ 35.0181 ]: Network size is now:  578
+[ 35.1540 ]: Weights percentiles:  [6.97791984e-06 2.08511993e-01 1.38227997e+01]
+[ 35.1544 ]: Biases percentiles:  [0.         0.45207404 2.75402746]
+[ 35.1557 ]: Verifying bounds for merge group size:  1
+[ 35.1557 ]: Using Marabou
+[ 35.1558 ]: Calling Marabou to verify bounds
+[ 35.1559 ]: Merge group size:  1
+[ 35.1563 ]: Min c:  0.0
+[ 35.1564 ]: Max c:  0.0
+[ 35.1564 ]: b:  0.0
+[ 35.2554 ]: Network size is now:  577
+[ 35.3915 ]: Weights percentiles:  [6.97791984e-06 2.08511993e-01 1.38227997e+01]
+[ 35.3919 ]: Biases percentiles:  [0.         0.45310573 2.75402746]
+[ 35.3932 ]: Verifying bounds for merge group size:  1
+[ 35.3932 ]: Using Marabou
+[ 35.3933 ]: Calling Marabou to verify bounds
+[ 35.3934 ]: Merge group size:  1
+[ 35.3938 ]: Min c:  0.0
+[ 35.3938 ]: Max c:  0.0
+[ 35.3939 ]: b:  0.0
+[ 35.4920 ]: Network size is now:  576
+[ 35.6278 ]: Weights percentiles:  [6.97791984e-06 2.08511993e-01 1.38227997e+01]
+[ 35.6281 ]: Biases percentiles:  [0.         0.45413741 2.75402746]
+[ 35.6312 ]: Verifying bounds for merge group size:  1
+[ 35.6313 ]: Using Marabou
+[ 35.6314 ]: Calling Marabou to verify bounds
+[ 35.6314 ]: Merge group size:  1
+[ 35.6320 ]: Min c:  -0.6032519936561572
+[ 35.6320 ]: Max c:  0.12858200073242707
+[ 35.6320 ]: b:  0.16216200590134217
+[ 35.7301 ]: Network size is now:  575
+[ 35.8663 ]: Weights percentiles:  [6.97791984e-06 2.08471000e-01 1.38227997e+01]
+[ 35.8666 ]: Biases percentiles:  [0.         0.456202   2.70986231]
+[ 35.8698 ]: Verifying bounds for merge group size:  1
+[ 35.8698 ]: Using Marabou
+[ 35.8699 ]: Calling Marabou to verify bounds
+[ 35.8700 ]: Merge group size:  1
+[ 35.8705 ]: Min c:  -0.6032519936561572
+[ 35.8705 ]: Max c:  0.12858200073242707
+[ 35.8706 ]: b:  0.16216200590134217
+[ 35.9688 ]: Network size is now:  574
+[ 36.1050 ]: Weights percentiles:  [6.97791984e-06 2.07571000e-01 1.38227997e+01]
+[ 36.1054 ]: Biases percentiles:  [0.         0.46073201 2.70986231]
+[ 36.1125 ]: Verifying bounds for merge group size:  1
+[ 36.1126 ]: Using Marabou
+[ 36.1127 ]: Calling Marabou to verify bounds
+[ 36.1128 ]: Merge group size:  1
+[ 36.1133 ]: Verifying bounds for merge group size:  1
+[ 36.1133 ]: Using Marabou
+[ 36.1134 ]: Calling Marabou to verify bounds
+[ 36.1135 ]: Merge group size:  1
+[ 36.1138 ]: Verifying bounds for merge group size:  1
+[ 36.1139 ]: Using Marabou
+[ 36.1140 ]: Calling Marabou to verify bounds
+[ 36.1140 ]: Merge group size:  1
+[ 36.1144 ]: Verifying bounds for merge group size:  1
+[ 36.1145 ]: Using Marabou
+[ 36.1146 ]: Calling Marabou to verify bounds
+[ 36.1146 ]: Merge group size:  1
+[ 36.1151 ]: Verifying bounds for merge group size:  1
+[ 36.1151 ]: Using Marabou
+[ 36.1152 ]: Calling Marabou to verify bounds
+[ 36.1152 ]: Merge group size:  1
+[ 36.1157 ]: Verifying bounds for merge group size:  1
+[ 36.1157 ]: Using Marabou
+[ 36.1158 ]: Calling Marabou to verify bounds
+[ 36.1158 ]: Merge group size:  1
+[ 36.1163 ]: Min c:  -0.3422452654102048
+[ 36.1163 ]: Max c:  -0.0017414290291492974
+[ 36.1163 ]: b:  0.031471011283608616
+[ 36.2145 ]: Network size is now:  573
+[ 36.3494 ]: Weights percentiles:  [6.97791984e-06 2.07558006e-01 1.38227997e+01]
+[ 36.3497 ]: Biases percentiles:  [0.         0.46177399 2.69746962]
+[ 36.3568 ]: Verifying bounds for merge group size:  1
+[ 36.3569 ]: Using Marabou
+[ 36.3570 ]: Calling Marabou to verify bounds
+[ 36.3570 ]: Merge group size:  1
+[ 36.3576 ]: Verifying bounds for merge group size:  1
+[ 36.3576 ]: Using Marabou
+[ 36.3577 ]: Calling Marabou to verify bounds
+[ 36.3577 ]: Merge group size:  1
+[ 36.3581 ]: Verifying bounds for merge group size:  1
+[ 36.3582 ]: Using Marabou
+[ 36.3583 ]: Calling Marabou to verify bounds
+[ 36.3583 ]: Merge group size:  1
+[ 36.3587 ]: Verifying bounds for merge group size:  1
+[ 36.3587 ]: Using Marabou
+[ 36.3588 ]: Calling Marabou to verify bounds
+[ 36.3588 ]: Merge group size:  1
+[ 36.3593 ]: Verifying bounds for merge group size:  1
+[ 36.3593 ]: Using Marabou
+[ 36.3594 ]: Calling Marabou to verify bounds
+[ 36.3594 ]: Merge group size:  1
+[ 36.3599 ]: Verifying bounds for merge group size:  1
+[ 36.3599 ]: Using Marabou
+[ 36.3600 ]: Calling Marabou to verify bounds
+[ 36.3600 ]: Merge group size:  1
+[ 36.3604 ]: Verifying bounds for merge group size:  1
+[ 36.3605 ]: Using Marabou
+[ 36.3606 ]: Calling Marabou to verify bounds
+[ 36.3606 ]: Merge group size:  1
+[ 36.3610 ]: Min c:  -0.3422452654102048
+[ 36.3611 ]: Max c:  -0.0017414290291492974
+[ 36.3611 ]: b:  0.06933575977445613
+[ 36.4595 ]: Network size is now:  572
+[ 36.5946 ]: Weights percentiles:  [6.97791984e-06 2.07352996e-01 1.38227997e+01]
+[ 36.5950 ]: Biases percentiles:  [0.         0.46101292 2.69746962]
+[ 36.5963 ]: Verifying bounds for merge group size:  1
+[ 36.5964 ]: Using Marabou
+[ 36.5965 ]: Calling Marabou to verify bounds
+[ 36.5965 ]: Merge group size:  1
+[ 36.5970 ]: Min c:  0.0
+[ 36.5970 ]: Max c:  0.0
+[ 36.5971 ]: b:  0.0
+[ 36.6946 ]: Network size is now:  571
+[ 36.8295 ]: Weights percentiles:  [6.97791984e-06 2.07351997e-01 1.38227997e+01]
+[ 36.8298 ]: Biases percentiles:  [0.         0.46087247 2.69746962]
+[ 36.8311 ]: Verifying bounds for merge group size:  1
+[ 36.8311 ]: Using Marabou
+[ 36.8312 ]: Calling Marabou to verify bounds
+[ 36.8313 ]: Merge group size:  1
+[ 36.8317 ]: Min c:  0.0
+[ 36.8318 ]: Max c:  0.0
+[ 36.8318 ]: b:  0.0
+[ 36.9292 ]: Network size is now:  570
+[ 37.0647 ]: Weights percentiles:  [6.97791984e-06 2.07317993e-01 1.38227997e+01]
+[ 37.0650 ]: Biases percentiles:  [0.         0.46073201 2.69746962]
+[ 37.0663 ]: Verifying bounds for merge group size:  1
+[ 37.0664 ]: Using Marabou
+[ 37.0665 ]: Calling Marabou to verify bounds
+[ 37.0665 ]: Merge group size:  1
+[ 37.0669 ]: Min c:  0.0
+[ 37.0670 ]: Max c:  0.0
+[ 37.0670 ]: b:  0.0
+[ 37.1639 ]: Network size is now:  569
+[ 37.2979 ]: Weights percentiles:  [6.97791984e-06 2.07294002e-01 1.38227997e+01]
+[ 37.2982 ]: Biases percentiles:  [0.         0.46087247 2.69746962]
+[ 37.2995 ]: Verifying bounds for merge group size:  1
+[ 37.2995 ]: Using Marabou
+[ 37.2996 ]: Calling Marabou to verify bounds
+[ 37.2997 ]: Merge group size:  1
+[ 37.3002 ]: Min c:  0.0
+[ 37.3002 ]: Max c:  0.0
+[ 37.3003 ]: b:  0.0
+[ 37.3972 ]: Network size is now:  568
+[ 37.5310 ]: Weights percentiles:  [6.97791984e-06 2.07257003e-01 1.38227997e+01]
+[ 37.5314 ]: Biases percentiles:  [0.         0.46101292 2.69746962]
+[ 37.5326 ]: Verifying bounds for merge group size:  1
+[ 37.5327 ]: Using Marabou
+[ 37.5328 ]: Calling Marabou to verify bounds
+[ 37.5328 ]: Merge group size:  1
+[ 37.5333 ]: Min c:  0.0
+[ 37.5333 ]: Max c:  0.0
+[ 37.5334 ]: b:  0.0
+[ 37.6295 ]: Network size is now:  567
+[ 37.7625 ]: Weights percentiles:  [6.97791984e-06 2.07122497e-01 1.38227997e+01]
+[ 37.7629 ]: Biases percentiles:  [0.         0.46139346 2.69746962]
+[ 37.7641 ]: Verifying bounds for merge group size:  1
+[ 37.7642 ]: Using Marabou
+[ 37.7643 ]: Calling Marabou to verify bounds
+[ 37.7643 ]: Merge group size:  1
+[ 37.7648 ]: Min c:  0.0
+[ 37.7648 ]: Max c:  0.0
+[ 37.7649 ]: b:  0.0
+[ 37.8629 ]: Network size is now:  566
+[ 37.9964 ]: Weights percentiles:  [6.97791984e-06 2.06879005e-01 1.38227997e+01]
+[ 37.9968 ]: Biases percentiles:  [0.         0.46177399 2.69746962]
+[ 38.0026 ]: Verifying bounds for merge group size:  1
+[ 38.0026 ]: Using Marabou
+[ 38.0027 ]: Calling Marabou to verify bounds
+[ 38.0028 ]: Merge group size:  1
+[ 38.0033 ]: Verifying bounds for merge group size:  1
+[ 38.0034 ]: Using Marabou
+[ 38.0034 ]: Calling Marabou to verify bounds
+[ 38.0035 ]: Merge group size:  1
+[ 38.0039 ]: Verifying bounds for merge group size:  1
+[ 38.0039 ]: Using Marabou
+[ 38.0040 ]: Calling Marabou to verify bounds
+[ 38.0040 ]: Merge group size:  1
+[ 38.0045 ]: Verifying bounds for merge group size:  1
+[ 38.0045 ]: Using Marabou
+[ 38.0046 ]: Calling Marabou to verify bounds
+[ 38.0047 ]: Merge group size:  1
+[ 38.0051 ]: Verifying bounds for merge group size:  1
+[ 38.0052 ]: Using Marabou
+[ 38.0053 ]: Calling Marabou to verify bounds
+[ 38.0053 ]: Merge group size:  1
+[ 38.0058 ]: Verifying bounds for merge group size:  1
+[ 38.0058 ]: Using Marabou
+[ 38.0059 ]: Calling Marabou to verify bounds
+[ 38.0059 ]: Merge group size:  1
+[ 38.0065 ]: Verifying bounds for merge group size:  1
+[ 38.0066 ]: Using Marabou
+[ 38.0067 ]: Calling Marabou to verify bounds
+[ 38.0068 ]: Merge group size:  1
+[ 38.0072 ]: Verifying bounds for merge group size:  1
+[ 38.0073 ]: Using Marabou
+[ 38.0073 ]: Calling Marabou to verify bounds
+[ 38.0074 ]: Merge group size:  1
+[ 38.0078 ]: Verifying bounds for merge group size:  1
+[ 38.0079 ]: Using Marabou
+[ 38.0080 ]: Calling Marabou to verify bounds
+[ 38.0080 ]: Merge group size:  1
+[ 38.0085 ]: Min c:  -0.40360107409640095
+[ 38.0085 ]: Max c:  0.35197821977871857
+[ 38.0085 ]: b:  0.17974743983945188
+[ 38.1058 ]: Network size is now:  565
+[ 38.2405 ]: Weights percentiles:  [6.97791984e-06 2.06833005e-01 1.38227997e+01]
+[ 38.2408 ]: Biases percentiles:  [0.         0.46073201 2.6540699 ]
+[ 38.2448 ]: Verifying bounds for merge group size:  1
+[ 38.2449 ]: Using Marabou
+[ 38.2450 ]: Calling Marabou to verify bounds
+[ 38.2451 ]: Merge group size:  1
+[ 38.2456 ]: Verifying bounds for merge group size:  1
+[ 38.2456 ]: Using Marabou
+[ 38.2457 ]: Calling Marabou to verify bounds
+[ 38.2457 ]: Merge group size:  1
+[ 38.2461 ]: Verifying bounds for merge group size:  1
+[ 38.2462 ]: Using Marabou
+[ 38.2462 ]: Calling Marabou to verify bounds
+[ 38.2463 ]: Merge group size:  1
+[ 38.2466 ]: Verifying bounds for merge group size:  1
+[ 38.2467 ]: Using Marabou
+[ 38.2468 ]: Calling Marabou to verify bounds
+[ 38.2468 ]: Merge group size:  1
+[ 38.2472 ]: Verifying bounds for merge group size:  1
+[ 38.2472 ]: Using Marabou
+[ 38.2473 ]: Calling Marabou to verify bounds
+[ 38.2474 ]: Merge group size:  1
+[ 38.2478 ]: Verifying bounds for merge group size:  1
+[ 38.2478 ]: Using Marabou
+[ 38.2479 ]: Calling Marabou to verify bounds
+[ 38.2479 ]: Merge group size:  1
+[ 38.2483 ]: Verifying bounds for merge group size:  1
+[ 38.2484 ]: Using Marabou
+[ 38.2484 ]: Calling Marabou to verify bounds
+[ 38.2485 ]: Merge group size:  1
+[ 38.2489 ]: Verifying bounds for merge group size:  1
+[ 38.2490 ]: Using Marabou
+[ 38.2491 ]: Calling Marabou to verify bounds
+[ 38.2491 ]: Merge group size:  1
+[ 38.2496 ]: Verifying bounds for merge group size:  1
+[ 38.2496 ]: Using Marabou
+[ 38.2497 ]: Calling Marabou to verify bounds
+[ 38.2497 ]: Merge group size:  1
+[ 38.2502 ]: Verifying bounds for merge group size:  1
+[ 38.2502 ]: Using Marabou
+[ 38.2503 ]: Calling Marabou to verify bounds
+[ 38.2503 ]: Merge group size:  1
+[ 38.2508 ]: Min c:  -0.40360107409640095
+[ 38.2508 ]: Max c:  0.35197821977871857
+[ 38.2509 ]: b:  0.45122493107917977
+[ 38.3486 ]: Network size is now:  564
+[ 38.4827 ]: Weights percentiles:  [6.97791984e-06 2.06734002e-01 1.38227997e+01]
+[ 38.4830 ]: Biases percentiles:  [0.        0.472491  2.6540699]
+[ 38.4882 ]: Verifying bounds for merge group size:  1
+[ 38.4882 ]: Using Marabou
+[ 38.4883 ]: Calling Marabou to verify bounds
+[ 38.4884 ]: Merge group size:  1
+[ 38.4889 ]: Verifying bounds for merge group size:  1
+[ 38.4889 ]: Using Marabou
+[ 38.4890 ]: Calling Marabou to verify bounds
+[ 38.4891 ]: Merge group size:  1
+[ 38.4894 ]: Verifying bounds for merge group size:  1
+[ 38.4895 ]: Using Marabou
+[ 38.4896 ]: Calling Marabou to verify bounds
+[ 38.4896 ]: Merge group size:  1
+[ 38.4903 ]: Verifying bounds for merge group size:  1
+[ 38.4903 ]: Using Marabou
+[ 38.4904 ]: Calling Marabou to verify bounds
+[ 38.4904 ]: Merge group size:  1
+[ 38.4908 ]: Verifying bounds for merge group size:  1
+[ 38.4909 ]: Using Marabou
+[ 38.4909 ]: Calling Marabou to verify bounds
+[ 38.4910 ]: Merge group size:  1
+[ 38.4914 ]: Verifying bounds for merge group size:  1
+[ 38.4915 ]: Using Marabou
+[ 38.4916 ]: Calling Marabou to verify bounds
+[ 38.4916 ]: Merge group size:  1
+[ 38.4920 ]: Verifying bounds for merge group size:  1
+[ 38.4921 ]: Using Marabou
+[ 38.4921 ]: Calling Marabou to verify bounds
+[ 38.4922 ]: Merge group size:  1
+[ 38.4926 ]: Verifying bounds for merge group size:  1
+[ 38.4927 ]: Using Marabou
+[ 38.4927 ]: Calling Marabou to verify bounds
+[ 38.4928 ]: Merge group size:  1
+[ 38.4932 ]: Verifying bounds for merge group size:  1
+[ 38.4933 ]: Using Marabou
+[ 38.4934 ]: Calling Marabou to verify bounds
+[ 38.4934 ]: Merge group size:  1
+[ 38.4939 ]: Min c:  -0.44092156234699875
+[ 38.4939 ]: Max c:  0.7388209613906449
+[ 38.4940 ]: b:  -0.8415820762617702
+[ 38.5984 ]: Network size is now:  563
+[ 38.7308 ]: Weights percentiles:  [6.97791984e-06 2.06690423e-01 1.38227997e+01]
+[ 38.7312 ]: Biases percentiles:  [0.         0.480462   2.94672405]
+[ 38.7363 ]: Verifying bounds for merge group size:  1
+[ 38.7364 ]: Using Marabou
+[ 38.7365 ]: Calling Marabou to verify bounds
+[ 38.7365 ]: Merge group size:  1
+[ 38.7371 ]: Verifying bounds for merge group size:  1
+[ 38.7371 ]: Using Marabou
+[ 38.7372 ]: Calling Marabou to verify bounds
+[ 38.7373 ]: Merge group size:  1
+[ 38.7376 ]: Verifying bounds for merge group size:  1
+[ 38.7377 ]: Using Marabou
+[ 38.7378 ]: Calling Marabou to verify bounds
+[ 38.7378 ]: Merge group size:  1
+[ 38.7382 ]: Verifying bounds for merge group size:  1
+[ 38.7382 ]: Using Marabou
+[ 38.7383 ]: Calling Marabou to verify bounds
+[ 38.7383 ]: Merge group size:  1
+[ 38.7387 ]: Verifying bounds for merge group size:  1
+[ 38.7387 ]: Using Marabou
+[ 38.7388 ]: Calling Marabou to verify bounds
+[ 38.7388 ]: Merge group size:  1
+[ 38.7396 ]: Verifying bounds for merge group size:  1
+[ 38.7396 ]: Using Marabou
+[ 38.7397 ]: Calling Marabou to verify bounds
+[ 38.7397 ]: Merge group size:  1
+[ 38.7403 ]: Verifying bounds for merge group size:  1
+[ 38.7403 ]: Using Marabou
+[ 38.7404 ]: Calling Marabou to verify bounds
+[ 38.7404 ]: Merge group size:  1
+[ 38.7409 ]: Verifying bounds for merge group size:  1
+[ 38.7409 ]: Using Marabou
+[ 38.7410 ]: Calling Marabou to verify bounds
+[ 38.7411 ]: Merge group size:  1
+[ 38.7416 ]: Verifying bounds for merge group size:  1
+[ 38.7417 ]: Using Marabou
+[ 38.7417 ]: Calling Marabou to verify bounds
+[ 38.7418 ]: Merge group size:  1
+[ 38.7423 ]: Min c:  -0.44092156234699875
+[ 38.7424 ]: Max c:  0.7388209613906449
+[ 38.7424 ]: b:  -0.38672569269298546
+[ 38.8378 ]: Network size is now:  562
+[ 38.9696 ]: Weights percentiles:  [6.97791984e-06 2.06669003e-01 1.38227997e+01]
+[ 38.9699 ]: Biases percentiles:  [0.         0.48103201 2.94672405]
+[ 38.9794 ]: Verifying bounds for merge group size:  1
+[ 38.9795 ]: Using Marabou
+[ 38.9796 ]: Calling Marabou to verify bounds
+[ 38.9796 ]: Merge group size:  1
+[ 38.9802 ]: Verifying bounds for merge group size:  1
+[ 38.9802 ]: Using Marabou
+[ 38.9803 ]: Calling Marabou to verify bounds
+[ 38.9803 ]: Merge group size:  1
+[ 38.9807 ]: Verifying bounds for merge group size:  1
+[ 38.9807 ]: Using Marabou
+[ 38.9808 ]: Calling Marabou to verify bounds
+[ 38.9809 ]: Merge group size:  1
+[ 38.9813 ]: Verifying bounds for merge group size:  1
+[ 38.9813 ]: Using Marabou
+[ 38.9814 ]: Calling Marabou to verify bounds
+[ 38.9814 ]: Merge group size:  1
+[ 38.9819 ]: Verifying bounds for merge group size:  1
+[ 38.9819 ]: Using Marabou
+[ 38.9820 ]: Calling Marabou to verify bounds
+[ 38.9820 ]: Merge group size:  1
+[ 38.9825 ]: Verifying bounds for merge group size:  1
+[ 38.9825 ]: Using Marabou
+[ 38.9826 ]: Calling Marabou to verify bounds
+[ 38.9826 ]: Merge group size:  1
+[ 38.9831 ]: Verifying bounds for merge group size:  1
+[ 38.9831 ]: Using Marabou
+[ 38.9832 ]: Calling Marabou to verify bounds
+[ 38.9833 ]: Merge group size:  1
+[ 38.9837 ]: Verifying bounds for merge group size:  1
+[ 38.9838 ]: Using Marabou
+[ 38.9838 ]: Calling Marabou to verify bounds
+[ 38.9839 ]: Merge group size:  1
+[ 38.9843 ]: Verifying bounds for merge group size:  1
+[ 38.9844 ]: Using Marabou
+[ 38.9845 ]: Calling Marabou to verify bounds
+[ 38.9845 ]: Merge group size:  1
+[ 38.9849 ]: Verifying bounds for merge group size:  1
+[ 38.9850 ]: Using Marabou
+[ 38.9851 ]: Calling Marabou to verify bounds
+[ 38.9851 ]: Merge group size:  1
+[ 38.9856 ]: Min c:  -0.4457876133491648
+[ 38.9857 ]: Max c:  0.823554460483803
+[ 38.9857 ]: b:  0.02857559016489285
+[ 39.0806 ]: Network size is now:  561
+[ 39.2131 ]: Weights percentiles:  [6.97791984e-06 2.06622458e-01 1.38227997e+01]
+[ 39.2135 ]: Biases percentiles:  [0.         0.48103201 2.93287199]
+[ 39.2230 ]: Verifying bounds for merge group size:  1
+[ 39.2230 ]: Using Marabou
+[ 39.2231 ]: Calling Marabou to verify bounds
+[ 39.2232 ]: Merge group size:  1
+[ 39.2238 ]: Verifying bounds for merge group size:  1
+[ 39.2238 ]: Using Marabou
+[ 39.2239 ]: Calling Marabou to verify bounds
+[ 39.2239 ]: Merge group size:  1
+[ 39.2243 ]: Verifying bounds for merge group size:  1
+[ 39.2244 ]: Using Marabou
+[ 39.2245 ]: Calling Marabou to verify bounds
+[ 39.2245 ]: Merge group size:  1
+[ 39.2249 ]: Verifying bounds for merge group size:  1
+[ 39.2249 ]: Using Marabou
+[ 39.2250 ]: Calling Marabou to verify bounds
+[ 39.2251 ]: Merge group size:  1
+[ 39.2254 ]: Verifying bounds for merge group size:  1
+[ 39.2255 ]: Using Marabou
+[ 39.2256 ]: Calling Marabou to verify bounds
+[ 39.2256 ]: Merge group size:  1
+[ 39.2261 ]: Verifying bounds for merge group size:  1
+[ 39.2262 ]: Using Marabou
+[ 39.2263 ]: Calling Marabou to verify bounds
+[ 39.2263 ]: Merge group size:  1
+[ 39.2267 ]: Verifying bounds for merge group size:  1
+[ 39.2268 ]: Using Marabou
+[ 39.2269 ]: Calling Marabou to verify bounds
+[ 39.2269 ]: Merge group size:  1
+[ 39.2273 ]: Verifying bounds for merge group size:  1
+[ 39.2274 ]: Using Marabou
+[ 39.2275 ]: Calling Marabou to verify bounds
+[ 39.2275 ]: Merge group size:  1
+[ 39.2279 ]: Verifying bounds for merge group size:  1
+[ 39.2280 ]: Using Marabou
+[ 39.2281 ]: Calling Marabou to verify bounds
+[ 39.2281 ]: Merge group size:  1
+[ 39.2285 ]: Verifying bounds for merge group size:  1
+[ 39.2286 ]: Using Marabou
+[ 39.2286 ]: Calling Marabou to verify bounds
+[ 39.2287 ]: Merge group size:  1
+[ 39.2291 ]: Min c:  -0.4457876133491648
+[ 39.2292 ]: Max c:  0.823554460483803
+[ 39.2292 ]: b:  0.3562689029479435
+[ 39.3237 ]: Network size is now:  560
+[ 39.4544 ]: Weights percentiles:  [6.97791984e-06 2.06467003e-01 1.38227997e+01]
+[ 39.4547 ]: Biases percentiles:  [0.         0.48103201 2.93287199]
+[ 39.4560 ]: Verifying bounds for merge group size:  1
+[ 39.4561 ]: Using Marabou
+[ 39.4562 ]: Calling Marabou to verify bounds
+[ 39.4562 ]: Merge group size:  1
+[ 39.4567 ]: Min c:  0.0
+[ 39.4568 ]: Max c:  0.0
+[ 39.4568 ]: b:  0.0
+[ 39.5518 ]: Network size is now:  559
+[ 39.6826 ]: Weights percentiles:  [6.97791984e-06 2.06236505e-01 1.38227997e+01]
+[ 39.6829 ]: Biases percentiles:  [0.         0.48103951 2.93287199]
+[ 39.6842 ]: Verifying bounds for merge group size:  1
+[ 39.6843 ]: Using Marabou
+[ 39.6844 ]: Calling Marabou to verify bounds
+[ 39.6844 ]: Merge group size:  1
+[ 39.6849 ]: Min c:  0.0
+[ 39.6849 ]: Max c:  0.0
+[ 39.6850 ]: b:  0.0
+[ 39.7799 ]: Network size is now:  558
+[ 39.9111 ]: Weights percentiles:  [6.97791984e-06 2.06000999e-01 1.38227997e+01]
+[ 39.9114 ]: Biases percentiles:  [0.         0.481047   2.93287199]
+[ 39.9127 ]: Verifying bounds for merge group size:  1
+[ 39.9128 ]: Using Marabou
+[ 39.9129 ]: Calling Marabou to verify bounds
+[ 39.9129 ]: Merge group size:  1
+[ 39.9134 ]: Min c:  0.0
+[ 39.9134 ]: Max c:  0.0
+[ 39.9135 ]: b:  0.0
+[ 40.0082 ]: Network size is now:  557
+[ 40.1379 ]: Weights percentiles:  [6.97791984e-06 2.06098497e-01 1.38227997e+01]
+[ 40.1382 ]: Biases percentiles:  [0.         0.481047   2.93287199]
+[ 40.1395 ]: Verifying bounds for merge group size:  1
+[ 40.1396 ]: Using Marabou
+[ 40.1397 ]: Calling Marabou to verify bounds
+[ 40.1397 ]: Merge group size:  1
+[ 40.1402 ]: Min c:  0.0
+[ 40.1403 ]: Max c:  0.0
+[ 40.1403 ]: b:  0.0
+[ 40.2337 ]: Network size is now:  556
+[ 40.3634 ]: Weights percentiles:  [6.97791984e-06 2.06212997e-01 1.38227997e+01]
+[ 40.3638 ]: Biases percentiles:  [0.         0.481047   2.93287199]
+[ 40.3700 ]: Verifying bounds for merge group size:  1
+[ 40.3700 ]: Using Marabou
+[ 40.3702 ]: Calling Marabou to verify bounds
+[ 40.3702 ]: Merge group size:  1
+[ 40.3707 ]: Verifying bounds for merge group size:  1
+[ 40.3708 ]: Using Marabou
+[ 40.3709 ]: Calling Marabou to verify bounds
+[ 40.3709 ]: Merge group size:  1
+[ 40.3713 ]: Verifying bounds for merge group size:  1
+[ 40.3713 ]: Using Marabou
+[ 40.3714 ]: Calling Marabou to verify bounds
+[ 40.3714 ]: Merge group size:  1
+[ 40.3719 ]: Verifying bounds for merge group size:  1
+[ 40.3720 ]: Using Marabou
+[ 40.3721 ]: Calling Marabou to verify bounds
+[ 40.3721 ]: Merge group size:  1
+[ 40.3725 ]: Verifying bounds for merge group size:  1
+[ 40.3725 ]: Using Marabou
+[ 40.3726 ]: Calling Marabou to verify bounds
+[ 40.3726 ]: Merge group size:  1
+[ 40.3731 ]: Verifying bounds for merge group size:  1
+[ 40.3732 ]: Using Marabou
+[ 40.3733 ]: Calling Marabou to verify bounds
+[ 40.3733 ]: Merge group size:  1
+[ 40.3737 ]: Verifying bounds for merge group size:  1
+[ 40.3737 ]: Using Marabou
+[ 40.3738 ]: Calling Marabou to verify bounds
+[ 40.3738 ]: Merge group size:  1
+[ 40.3742 ]: Min c:  -0.12253499548969984
+[ 40.3743 ]: Max c:  0.03721805376599899
+[ 40.3743 ]: b:  -0.0018689831528122406
+[ 40.4674 ]: Network size is now:  555
+[ 40.5969 ]: Weights percentiles:  [6.97791984e-06 2.06033997e-01 1.38227997e+01]
+[ 40.5972 ]: Biases percentiles:  [0.         0.48694099 2.93287199]
+[ 40.6034 ]: Verifying bounds for merge group size:  1
+[ 40.6035 ]: Using Marabou
+[ 40.6036 ]: Calling Marabou to verify bounds
+[ 40.6036 ]: Merge group size:  1
+[ 40.6041 ]: Verifying bounds for merge group size:  1
+[ 40.6042 ]: Using Marabou
+[ 40.6043 ]: Calling Marabou to verify bounds
+[ 40.6043 ]: Merge group size:  1
+[ 40.6047 ]: Verifying bounds for merge group size:  1
+[ 40.6048 ]: Using Marabou
+[ 40.6048 ]: Calling Marabou to verify bounds
+[ 40.6049 ]: Merge group size:  1
+[ 40.6053 ]: Verifying bounds for merge group size:  1
+[ 40.6053 ]: Using Marabou
+[ 40.6054 ]: Calling Marabou to verify bounds
+[ 40.6054 ]: Merge group size:  1
+[ 40.6058 ]: Verifying bounds for merge group size:  1
+[ 40.6058 ]: Using Marabou
+[ 40.6059 ]: Calling Marabou to verify bounds
+[ 40.6059 ]: Merge group size:  1
+[ 40.6063 ]: Verifying bounds for merge group size:  1
+[ 40.6063 ]: Using Marabou
+[ 40.6064 ]: Calling Marabou to verify bounds
+[ 40.6065 ]: Merge group size:  1
+[ 40.6069 ]: Verifying bounds for merge group size:  1
+[ 40.6070 ]: Using Marabou
+[ 40.6071 ]: Calling Marabou to verify bounds
+[ 40.6071 ]: Merge group size:  1
+[ 40.6075 ]: Min c:  -0.12253499548969984
+[ 40.6076 ]: Max c:  0.03721805376599899
+[ 40.6076 ]: b:  0.11869114153132014
+[ 40.7010 ]: Network size is now:  554
+[ 40.8303 ]: Weights percentiles:  [6.97791984e-06 2.05751002e-01 1.38227997e+01]
+[ 40.8306 ]: Biases percentiles:  [0.         0.49283499 2.99643323]
+[ 40.8355 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 40.8401 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 40.8430 ]: Verifying bounds for merge group size:  1
+[ 40.8431 ]: Using Marabou
+[ 40.8432 ]: Calling Marabou to verify bounds
+[ 40.8432 ]: Merge group size:  1
+[ 40.8438 ]: Min c:  -0.7870640158582382
+[ 40.8438 ]: Max c:  0.6918590068806325
+[ 40.8438 ]: b:  0.19347800314847236
+[ 40.9364 ]: Network size is now:  553
+[ 41.0652 ]: Weights percentiles:  [6.97791984e-06 2.05739006e-01 1.38227997e+01]
+[ 41.0656 ]: Biases percentiles:  [0.         0.49270584 2.99378955]
+[ 41.0687 ]: Verifying bounds for merge group size:  1
+[ 41.0688 ]: Using Marabou
+[ 41.0689 ]: Calling Marabou to verify bounds
+[ 41.0689 ]: Merge group size:  1
+[ 41.0695 ]: Min c:  -0.7870640158582382
+[ 41.0695 ]: Max c:  0.6918590068806325
+[ 41.0696 ]: b:  0.19347800314847236
+[ 41.1628 ]: Network size is now:  552
+[ 41.2925 ]: Weights percentiles:  [6.97791984e-06 2.05721006e-01 1.38227997e+01]
+[ 41.2928 ]: Biases percentiles:  [0.         0.49575499 3.00496057]
+[ 41.2942 ]: Verifying bounds for merge group size:  1
+[ 41.2942 ]: Using Marabou
+[ 41.2943 ]: Calling Marabou to verify bounds
+[ 41.2944 ]: Merge group size:  1
+[ 41.2948 ]: Min c:  0.0
+[ 41.2949 ]: Max c:  0.0
+[ 41.2949 ]: b:  0.0
+[ 41.3870 ]: Network size is now:  551
+[ 41.5157 ]: Weights percentiles:  [6.97791984e-06 2.05282003e-01 1.38227997e+01]
+[ 41.5160 ]: Biases percentiles:  [0.         0.49429499 3.00496057]
+[ 41.5613 ]: Verifying bounds for merge group size:  1
+[ 41.5615 ]: Using Marabou
+[ 41.5618 ]: Calling Marabou to verify bounds
+[ 41.5619 ]: Merge group size:  1
+[ 41.5827 ]: Min c:  0.0
+[ 41.5830 ]: Max c:  0.0
+[ 41.5831 ]: b:  0.0
+[ 41.7024 ]: Network size is now:  550
+[ 41.8325 ]: Weights percentiles:  [6.97791984e-06 2.04870000e-01 1.38227997e+01]
+[ 41.8328 ]: Biases percentiles:  [0.         0.49283499 3.00496057]
+[ 41.8369 ]: Verifying bounds for merge group size:  1
+[ 41.8369 ]: Using Marabou
+[ 41.8371 ]: Calling Marabou to verify bounds
+[ 41.8371 ]: Merge group size:  1
+[ 41.8378 ]: Verifying bounds for merge group size:  1
+[ 41.8378 ]: Using Marabou
+[ 41.8379 ]: Calling Marabou to verify bounds
+[ 41.8380 ]: Merge group size:  1
+[ 41.8385 ]: Verifying bounds for merge group size:  1
+[ 41.8386 ]: Using Marabou
+[ 41.8387 ]: Calling Marabou to verify bounds
+[ 41.8387 ]: Merge group size:  1
+[ 41.8392 ]: Verifying bounds for merge group size:  1
+[ 41.8392 ]: Using Marabou
+[ 41.8393 ]: Calling Marabou to verify bounds
+[ 41.8394 ]: Merge group size:  1
+[ 41.8399 ]: Verifying bounds for merge group size:  1
+[ 41.8399 ]: Using Marabou
+[ 41.8400 ]: Calling Marabou to verify bounds
+[ 41.8401 ]: Merge group size:  1
+[ 41.8405 ]: Verifying bounds for merge group size:  1
+[ 41.8406 ]: Using Marabou
+[ 41.8407 ]: Calling Marabou to verify bounds
+[ 41.8407 ]: Merge group size:  1
+[ 41.8413 ]: Verifying bounds for merge group size:  1
+[ 41.8414 ]: Using Marabou
+[ 41.8414 ]: Calling Marabou to verify bounds
+[ 41.8415 ]: Merge group size:  1
+[ 41.8420 ]: Verifying bounds for merge group size:  1
+[ 41.8420 ]: Using Marabou
+[ 41.8421 ]: Calling Marabou to verify bounds
+[ 41.8422 ]: Merge group size:  1
+[ 41.8426 ]: Min c:  -0.18261174400814761
+[ 41.8426 ]: Max c:  0.9095483501703431
+[ 41.8427 ]: b:  -0.45211830214744636
+[ 41.9356 ]: Network size is now:  549
+[ 42.0631 ]: Weights percentiles:  [6.97791984e-06 2.04830498e-01 1.38227997e+01]
+[ 42.0635 ]: Biases percentiles:  [0.         0.49575499 4.2598429 ]
+[ 42.0676 ]: Verifying bounds for merge group size:  1
+[ 42.0676 ]: Using Marabou
+[ 42.0677 ]: Calling Marabou to verify bounds
+[ 42.0678 ]: Merge group size:  1
+[ 42.0683 ]: Verifying bounds for merge group size:  1
+[ 42.0684 ]: Using Marabou
+[ 42.0684 ]: Calling Marabou to verify bounds
+[ 42.0685 ]: Merge group size:  1
+[ 42.0689 ]: Verifying bounds for merge group size:  1
+[ 42.0689 ]: Using Marabou
+[ 42.0690 ]: Calling Marabou to verify bounds
+[ 42.0690 ]: Merge group size:  1
+[ 42.0696 ]: Verifying bounds for merge group size:  1
+[ 42.0696 ]: Using Marabou
+[ 42.0697 ]: Calling Marabou to verify bounds
+[ 42.0697 ]: Merge group size:  1
+[ 42.0702 ]: Verifying bounds for merge group size:  1
+[ 42.0702 ]: Using Marabou
+[ 42.0703 ]: Calling Marabou to verify bounds
+[ 42.0703 ]: Merge group size:  1
+[ 42.0707 ]: Verifying bounds for merge group size:  1
+[ 42.0707 ]: Using Marabou
+[ 42.0708 ]: Calling Marabou to verify bounds
+[ 42.0708 ]: Merge group size:  1
+[ 42.0712 ]: Verifying bounds for merge group size:  1
+[ 42.0713 ]: Using Marabou
+[ 42.0714 ]: Calling Marabou to verify bounds
+[ 42.0714 ]: Merge group size:  1
+[ 42.0719 ]: Verifying bounds for merge group size:  1
+[ 42.0719 ]: Using Marabou
+[ 42.0720 ]: Calling Marabou to verify bounds
+[ 42.0721 ]: Merge group size:  1
+[ 42.0725 ]: Verifying bounds for merge group size:  1
+[ 42.0725 ]: Using Marabou
+[ 42.0726 ]: Calling Marabou to verify bounds
+[ 42.0727 ]: Merge group size:  1
+[ 42.0734 ]: Verifying bounds for merge group size:  1
+[ 42.0735 ]: Using Marabou
+[ 42.0735 ]: Calling Marabou to verify bounds
+[ 42.0736 ]: Merge group size:  1
+[ 42.0742 ]: Min c:  -0.18261174400814761
+[ 42.0742 ]: Max c:  0.9095483501703431
+[ 42.0742 ]: b:  0.06427859871926227
+[ 42.1664 ]: Network size is now:  548
+[ 42.2950 ]: Weights percentiles:  [6.97791984e-06 2.05170006e-01 1.38227997e+01]
+[ 42.2953 ]: Biases percentiles:  [0.         0.49575499 4.2598429 ]
+[ 42.2966 ]: Verifying bounds for merge group size:  1
+[ 42.2967 ]: Using Marabou
+[ 42.2968 ]: Calling Marabou to verify bounds
+[ 42.2968 ]: Merge group size:  1
+[ 42.2973 ]: Min c:  0.0
+[ 42.2973 ]: Max c:  0.0
+[ 42.2974 ]: b:  0.0
+[ 42.3902 ]: Network size is now:  547
+[ 42.5182 ]: Weights percentiles:  [6.97791984e-06 2.05370501e-01 1.38227997e+01]
+[ 42.5186 ]: Biases percentiles:  [0.         0.49616699 4.2598429 ]
+[ 42.5199 ]: Verifying bounds for merge group size:  1
+[ 42.5199 ]: Using Marabou
+[ 42.5201 ]: Calling Marabou to verify bounds
+[ 42.5201 ]: Merge group size:  1
+[ 42.5205 ]: Min c:  0.0
+[ 42.5206 ]: Max c:  0.0
+[ 42.5206 ]: b:  0.0
+[ 42.6138 ]: Network size is now:  546
+[ 42.7400 ]: Weights percentiles:  [6.97791984e-06 2.05603004e-01 1.38227997e+01]
+[ 42.7404 ]: Biases percentiles:  [0.         0.49657899 4.2598429 ]
+[ 42.7417 ]: Verifying bounds for merge group size:  1
+[ 42.7417 ]: Using Marabou
+[ 42.7418 ]: Calling Marabou to verify bounds
+[ 42.7419 ]: Merge group size:  1
+[ 42.7423 ]: Min c:  0.0
+[ 42.7424 ]: Max c:  0.0
+[ 42.7424 ]: b:  0.0
+[ 42.8347 ]: Network size is now:  545
+[ 42.9605 ]: Weights percentiles:  [6.97791984e-06 2.05045000e-01 1.38227997e+01]
+[ 42.9609 ]: Biases percentiles:  [0.         0.49616699 4.2598429 ]
+[ 42.9622 ]: Verifying bounds for merge group size:  1
+[ 42.9622 ]: Using Marabou
+[ 42.9623 ]: Calling Marabou to verify bounds
+[ 42.9624 ]: Merge group size:  1
+[ 42.9628 ]: Min c:  0.0
+[ 42.9629 ]: Max c:  0.0
+[ 42.9629 ]: b:  0.0
+[ 43.0548 ]: Network size is now:  544
+[ 43.1808 ]: Weights percentiles:  [6.97791984e-06 2.04625994e-01 1.38227997e+01]
+[ 43.1812 ]: Biases percentiles:  [0.         0.49575499 4.2598429 ]
+[ 43.1903 ]: Verifying bounds for merge group size:  1
+[ 43.1904 ]: Using Marabou
+[ 43.1905 ]: Calling Marabou to verify bounds
+[ 43.1906 ]: Merge group size:  1
+[ 43.1911 ]: Verifying bounds for merge group size:  1
+[ 43.1911 ]: Using Marabou
+[ 43.1912 ]: Calling Marabou to verify bounds
+[ 43.1913 ]: Merge group size:  1
+[ 43.1917 ]: Verifying bounds for merge group size:  1
+[ 43.1917 ]: Using Marabou
+[ 43.1918 ]: Calling Marabou to verify bounds
+[ 43.1918 ]: Merge group size:  1
+[ 43.1923 ]: Verifying bounds for merge group size:  1
+[ 43.1924 ]: Using Marabou
+[ 43.1924 ]: Calling Marabou to verify bounds
+[ 43.1925 ]: Merge group size:  1
+[ 43.1929 ]: Verifying bounds for merge group size:  1
+[ 43.1929 ]: Using Marabou
+[ 43.1930 ]: Calling Marabou to verify bounds
+[ 43.1930 ]: Merge group size:  1
+[ 43.1935 ]: Verifying bounds for merge group size:  1
+[ 43.1936 ]: Using Marabou
+[ 43.1937 ]: Calling Marabou to verify bounds
+[ 43.1937 ]: Merge group size:  1
+[ 43.1942 ]: Verifying bounds for merge group size:  1
+[ 43.1942 ]: Using Marabou
+[ 43.1943 ]: Calling Marabou to verify bounds
+[ 43.1943 ]: Merge group size:  1
+[ 43.1948 ]: Verifying bounds for merge group size:  1
+[ 43.1949 ]: Using Marabou
+[ 43.1949 ]: Calling Marabou to verify bounds
+[ 43.1950 ]: Merge group size:  1
+[ 43.1955 ]: Min c:  -0.11157572021226027
+[ 43.1956 ]: Max c:  0.18234590948972168
+[ 43.1956 ]: b:  0.02618645450375192
+[ 43.2870 ]: Network size is now:  543
+[ 43.4132 ]: Weights percentiles:  [6.97791984e-06 2.04582006e-01 1.38227997e+01]
+[ 43.4136 ]: Biases percentiles:  [0.         0.49616699 4.2598429 ]
+[ 43.4227 ]: Verifying bounds for merge group size:  1
+[ 43.4227 ]: Using Marabou
+[ 43.4229 ]: Calling Marabou to verify bounds
+[ 43.4229 ]: Merge group size:  1
+[ 43.4235 ]: Verifying bounds for merge group size:  1
+[ 43.4236 ]: Using Marabou
+[ 43.4237 ]: Calling Marabou to verify bounds
+[ 43.4237 ]: Merge group size:  1
+[ 43.4242 ]: Verifying bounds for merge group size:  1
+[ 43.4243 ]: Using Marabou
+[ 43.4243 ]: Calling Marabou to verify bounds
+[ 43.4244 ]: Merge group size:  1
+[ 43.4248 ]: Verifying bounds for merge group size:  1
+[ 43.4248 ]: Using Marabou
+[ 43.4249 ]: Calling Marabou to verify bounds
+[ 43.4249 ]: Merge group size:  1
+[ 43.4253 ]: Verifying bounds for merge group size:  1
+[ 43.4253 ]: Using Marabou
+[ 43.4254 ]: Calling Marabou to verify bounds
+[ 43.4255 ]: Merge group size:  1
+[ 43.4258 ]: Verifying bounds for merge group size:  1
+[ 43.4259 ]: Using Marabou
+[ 43.4260 ]: Calling Marabou to verify bounds
+[ 43.4260 ]: Merge group size:  1
+[ 43.4267 ]: Verifying bounds for merge group size:  1
+[ 43.4267 ]: Using Marabou
+[ 43.4268 ]: Calling Marabou to verify bounds
+[ 43.4268 ]: Merge group size:  1
+[ 43.4272 ]: Verifying bounds for merge group size:  1
+[ 43.4272 ]: Using Marabou
+[ 43.4273 ]: Calling Marabou to verify bounds
+[ 43.4274 ]: Merge group size:  1
+[ 43.4278 ]: Min c:  -0.11157572021226027
+[ 43.4278 ]: Max c:  0.18234590948972168
+[ 43.4279 ]: b:  0.1839628482970854
+[ 43.5190 ]: Network size is now:  542
+[ 43.6458 ]: Weights percentiles:  [6.97791984e-06 2.04410002e-01 1.38227997e+01]
+[ 43.6462 ]: Biases percentiles:  [0.         0.49970701 4.3121268 ]
+[ 43.6552 ]: Verifying bounds for merge group size:  1
+[ 43.6552 ]: Using Marabou
+[ 43.6553 ]: Calling Marabou to verify bounds
+[ 43.6554 ]: Merge group size:  1
+[ 43.6559 ]: Verifying bounds for merge group size:  1
+[ 43.6559 ]: Using Marabou
+[ 43.6560 ]: Calling Marabou to verify bounds
+[ 43.6561 ]: Merge group size:  1
+[ 43.6565 ]: Verifying bounds for merge group size:  1
+[ 43.6566 ]: Using Marabou
+[ 43.6567 ]: Calling Marabou to verify bounds
+[ 43.6567 ]: Merge group size:  1
+[ 43.6571 ]: Verifying bounds for merge group size:  1
+[ 43.6571 ]: Using Marabou
+[ 43.6572 ]: Calling Marabou to verify bounds
+[ 43.6573 ]: Merge group size:  1
+[ 43.6578 ]: Verifying bounds for merge group size:  1
+[ 43.6578 ]: Using Marabou
+[ 43.6579 ]: Calling Marabou to verify bounds
+[ 43.6579 ]: Merge group size:  1
+[ 43.6584 ]: Verifying bounds for merge group size:  1
+[ 43.6584 ]: Using Marabou
+[ 43.6585 ]: Calling Marabou to verify bounds
+[ 43.6585 ]: Merge group size:  1
+[ 43.6590 ]: Verifying bounds for merge group size:  1
+[ 43.6591 ]: Using Marabou
+[ 43.6592 ]: Calling Marabou to verify bounds
+[ 43.6592 ]: Merge group size:  1
+[ 43.6597 ]: Verifying bounds for merge group size:  1
+[ 43.6597 ]: Using Marabou
+[ 43.6598 ]: Calling Marabou to verify bounds
+[ 43.6598 ]: Merge group size:  1
+[ 43.6603 ]: Verifying bounds for merge group size:  1
+[ 43.6603 ]: Using Marabou
+[ 43.6604 ]: Calling Marabou to verify bounds
+[ 43.6605 ]: Merge group size:  1
+[ 43.6609 ]: Verifying bounds for merge group size:  1
+[ 43.6610 ]: Using Marabou
+[ 43.6611 ]: Calling Marabou to verify bounds
+[ 43.6611 ]: Merge group size:  1
+[ 43.6616 ]: Min c:  -0.7520748211559241
+[ 43.6617 ]: Max c:  0.7457968402202522
+[ 43.6617 ]: b:  0.24032345426583498
+[ 43.7519 ]: Network size is now:  541
+[ 43.8771 ]: Weights percentiles:  [6.97791984e-06 2.04355501e-01 1.38227997e+01]
+[ 43.8774 ]: Biases percentiles:  [0.         0.50073884 4.3121268 ]
+[ 43.8867 ]: Verifying bounds for merge group size:  1
+[ 43.8868 ]: Using Marabou
+[ 43.8869 ]: Calling Marabou to verify bounds
+[ 43.8869 ]: Merge group size:  1
+[ 43.8875 ]: Verifying bounds for merge group size:  1
+[ 43.8875 ]: Using Marabou
+[ 43.8876 ]: Calling Marabou to verify bounds
+[ 43.8876 ]: Merge group size:  1
+[ 43.8881 ]: Verifying bounds for merge group size:  1
+[ 43.8881 ]: Using Marabou
+[ 43.8882 ]: Calling Marabou to verify bounds
+[ 43.8882 ]: Merge group size:  1
+[ 43.8886 ]: Verifying bounds for merge group size:  1
+[ 43.8886 ]: Using Marabou
+[ 43.8887 ]: Calling Marabou to verify bounds
+[ 43.8888 ]: Merge group size:  1
+[ 43.8893 ]: Verifying bounds for merge group size:  1
+[ 43.8893 ]: Using Marabou
+[ 43.8894 ]: Calling Marabou to verify bounds
+[ 43.8894 ]: Merge group size:  1
+[ 43.8899 ]: Verifying bounds for merge group size:  1
+[ 43.8900 ]: Using Marabou
+[ 43.8900 ]: Calling Marabou to verify bounds
+[ 43.8901 ]: Merge group size:  1
+[ 43.8906 ]: Verifying bounds for merge group size:  1
+[ 43.8906 ]: Using Marabou
+[ 43.8907 ]: Calling Marabou to verify bounds
+[ 43.8907 ]: Merge group size:  1
+[ 43.8912 ]: Verifying bounds for merge group size:  1
+[ 43.8912 ]: Using Marabou
+[ 43.8913 ]: Calling Marabou to verify bounds
+[ 43.8913 ]: Merge group size:  1
+[ 43.8918 ]: Verifying bounds for merge group size:  1
+[ 43.8919 ]: Using Marabou
+[ 43.8920 ]: Calling Marabou to verify bounds
+[ 43.8920 ]: Merge group size:  1
+[ 43.8925 ]: Verifying bounds for merge group size:  1
+[ 43.8925 ]: Using Marabou
+[ 43.8926 ]: Calling Marabou to verify bounds
+[ 43.8926 ]: Merge group size:  1
+[ 43.8932 ]: Verifying bounds for merge group size:  1
+[ 43.8932 ]: Using Marabou
+[ 43.8933 ]: Calling Marabou to verify bounds
+[ 43.8933 ]: Merge group size:  1
+[ 43.8938 ]: Min c:  -0.7520748211559241
+[ 43.8938 ]: Max c:  0.7457968402202522
+[ 43.8939 ]: b:  0.6324716039288649
+[ 43.9844 ]: Network size is now:  540
+[ 44.1102 ]: Weights percentiles:  [6.97791984e-06 2.04301998e-01 1.38227997e+01]
+[ 44.1106 ]: Biases percentiles:  [0.         0.49970701 4.35346603]
+[ 44.1119 ]: Verifying bounds for merge group size:  1
+[ 44.1119 ]: Using Marabou
+[ 44.1121 ]: Calling Marabou to verify bounds
+[ 44.1121 ]: Merge group size:  1
+[ 44.1125 ]: Min c:  0.0
+[ 44.1126 ]: Max c:  0.0
+[ 44.1126 ]: b:  0.0
+[ 44.2038 ]: Network size is now:  539
+[ 44.3285 ]: Weights percentiles:  [6.97791984e-06 2.04324998e-01 1.38227997e+01]
+[ 44.3289 ]: Biases percentiles:  [0.         0.5059505  4.35346603]
+[ 44.3302 ]: Verifying bounds for merge group size:  1
+[ 44.3302 ]: Using Marabou
+[ 44.3304 ]: Calling Marabou to verify bounds
+[ 44.3304 ]: Merge group size:  1
+[ 44.3309 ]: Min c:  0.0
+[ 44.3309 ]: Max c:  0.0
+[ 44.3310 ]: b:  0.0
+[ 44.5307 ]: Network size is now:  538
+[ 44.6568 ]: Weights percentiles:  [6.97791984e-06 2.04347998e-01 1.38227997e+01]
+[ 44.6571 ]: Biases percentiles:  [0.         0.51219398 4.35346603]
+[ 44.6584 ]: Verifying bounds for merge group size:  1
+[ 44.6585 ]: Using Marabou
+[ 44.6586 ]: Calling Marabou to verify bounds
+[ 44.6586 ]: Merge group size:  1
+[ 44.6591 ]: Min c:  0.0
+[ 44.6592 ]: Max c:  0.0
+[ 44.6592 ]: b:  0.0
+[ 44.7487 ]: Network size is now:  537
+[ 44.8734 ]: Weights percentiles:  [6.97791984e-06 2.03895842e-01 1.38227997e+01]
+[ 44.8739 ]: Biases percentiles:  [0.         0.5059505  4.35346603]
+[ 44.8753 ]: Verifying bounds for merge group size:  1
+[ 44.8753 ]: Using Marabou
+[ 44.8754 ]: Calling Marabou to verify bounds
+[ 44.8755 ]: Merge group size:  1
+[ 44.8760 ]: Min c:  0.0
+[ 44.8760 ]: Max c:  0.0
+[ 44.8761 ]: b:  0.0
+[ 44.9664 ]: Network size is now:  536
+[ 45.0897 ]: Weights percentiles:  [6.97791984e-06 2.03664005e-01 1.38227997e+01]
+[ 45.0900 ]: Biases percentiles:  [0.         0.49970701 4.35346603]
+[ 45.0913 ]: Verifying bounds for merge group size:  1
+[ 45.0914 ]: Using Marabou
+[ 45.0915 ]: Calling Marabou to verify bounds
+[ 45.0915 ]: Merge group size:  1
+[ 45.0920 ]: Min c:  0.0
+[ 45.0921 ]: Max c:  0.0
+[ 45.0921 ]: b:  0.0
+[ 45.1819 ]: Network size is now:  535
+[ 45.3044 ]: Weights percentiles:  [6.97791984e-06 2.03242004e-01 1.38227997e+01]
+[ 45.3047 ]: Biases percentiles:  [0.         0.49970701 4.35346603]
+[ 45.3061 ]: Verifying bounds for merge group size:  1
+[ 45.3061 ]: Using Marabou
+[ 45.3063 ]: Calling Marabou to verify bounds
+[ 45.3064 ]: Merge group size:  1
+[ 45.3068 ]: Min c:  0.0
+[ 45.3069 ]: Max c:  0.0
+[ 45.3069 ]: b:  0.0
+[ 45.3961 ]: Network size is now:  534
+[ 45.5193 ]: Weights percentiles:  [6.97791984e-06 2.02883005e-01 1.38227997e+01]
+[ 45.5196 ]: Biases percentiles:  [0.         0.49970701 4.35346603]
+[ 45.5238 ]: Verifying bounds for merge group size:  1
+[ 45.5239 ]: Using Marabou
+[ 45.5240 ]: Calling Marabou to verify bounds
+[ 45.5240 ]: Merge group size:  1
+[ 45.5246 ]: Verifying bounds for merge group size:  1
+[ 45.5246 ]: Using Marabou
+[ 45.5247 ]: Calling Marabou to verify bounds
+[ 45.5248 ]: Merge group size:  1
+[ 45.5252 ]: Verifying bounds for merge group size:  1
+[ 45.5252 ]: Using Marabou
+[ 45.5253 ]: Calling Marabou to verify bounds
+[ 45.5254 ]: Merge group size:  1
+[ 45.5259 ]: Verifying bounds for merge group size:  1
+[ 45.5259 ]: Using Marabou
+[ 45.5260 ]: Calling Marabou to verify bounds
+[ 45.5260 ]: Merge group size:  1
+[ 45.5265 ]: Verifying bounds for merge group size:  1
+[ 45.5265 ]: Using Marabou
+[ 45.5266 ]: Calling Marabou to verify bounds
+[ 45.5266 ]: Merge group size:  1
+[ 45.5271 ]: Verifying bounds for merge group size:  1
+[ 45.5272 ]: Using Marabou
+[ 45.5272 ]: Calling Marabou to verify bounds
+[ 45.5273 ]: Merge group size:  1
+[ 45.5278 ]: Verifying bounds for merge group size:  1
+[ 45.5278 ]: Using Marabou
+[ 45.5279 ]: Calling Marabou to verify bounds
+[ 45.5279 ]: Merge group size:  1
+[ 45.5284 ]: Verifying bounds for merge group size:  1
+[ 45.5285 ]: Using Marabou
+[ 45.5285 ]: Calling Marabou to verify bounds
+[ 45.5286 ]: Merge group size:  1
+[ 45.5291 ]: Verifying bounds for merge group size:  1
+[ 45.5292 ]: Using Marabou
+[ 45.5292 ]: Calling Marabou to verify bounds
+[ 45.5293 ]: Merge group size:  1
+[ 45.5298 ]: Verifying bounds for merge group size:  1
+[ 45.5299 ]: Using Marabou
+[ 45.5300 ]: Calling Marabou to verify bounds
+[ 45.5300 ]: Merge group size:  1
+[ 45.5305 ]: Verifying bounds for merge group size:  1
+[ 45.5305 ]: Using Marabou
+[ 45.5306 ]: Calling Marabou to verify bounds
+[ 45.5306 ]: Merge group size:  1
+[ 45.5311 ]: Min c:  -0.7959011893320765
+[ 45.5312 ]: Max c:  1.0007062566096905
+[ 45.5312 ]: b:  0.8196120340880471
+[ 45.6199 ]: Network size is now:  533
+[ 45.7421 ]: Weights percentiles:  [6.97791984e-06 2.02644005e-01 1.38227997e+01]
+[ 45.7425 ]: Biases percentiles:  [0.         0.49645266 4.35346603]
+[ 45.7465 ]: Verifying bounds for merge group size:  1
+[ 45.7466 ]: Using Marabou
+[ 45.7467 ]: Calling Marabou to verify bounds
+[ 45.7467 ]: Merge group size:  1
+[ 45.7473 ]: Verifying bounds for merge group size:  1
+[ 45.7473 ]: Using Marabou
+[ 45.7474 ]: Calling Marabou to verify bounds
+[ 45.7475 ]: Merge group size:  1
+[ 45.7479 ]: Verifying bounds for merge group size:  1
+[ 45.7479 ]: Using Marabou
+[ 45.7480 ]: Calling Marabou to verify bounds
+[ 45.7480 ]: Merge group size:  1
+[ 45.7484 ]: Verifying bounds for merge group size:  1
+[ 45.7485 ]: Using Marabou
+[ 45.7486 ]: Calling Marabou to verify bounds
+[ 45.7486 ]: Merge group size:  1
+[ 45.7491 ]: Verifying bounds for merge group size:  1
+[ 45.7491 ]: Using Marabou
+[ 45.7492 ]: Calling Marabou to verify bounds
+[ 45.7493 ]: Merge group size:  1
+[ 45.7497 ]: Verifying bounds for merge group size:  1
+[ 45.7498 ]: Using Marabou
+[ 45.7499 ]: Calling Marabou to verify bounds
+[ 45.7499 ]: Merge group size:  1
+[ 45.7504 ]: Verifying bounds for merge group size:  1
+[ 45.7504 ]: Using Marabou
+[ 45.7505 ]: Calling Marabou to verify bounds
+[ 45.7505 ]: Merge group size:  1
+[ 45.7510 ]: Verifying bounds for merge group size:  1
+[ 45.7510 ]: Using Marabou
+[ 45.7511 ]: Calling Marabou to verify bounds
+[ 45.7511 ]: Merge group size:  1
+[ 45.7516 ]: Verifying bounds for merge group size:  1
+[ 45.7517 ]: Using Marabou
+[ 45.7517 ]: Calling Marabou to verify bounds
+[ 45.7518 ]: Merge group size:  1
+[ 45.7523 ]: Verifying bounds for merge group size:  1
+[ 45.7523 ]: Using Marabou
+[ 45.7524 ]: Calling Marabou to verify bounds
+[ 45.7524 ]: Merge group size:  1
+[ 45.7529 ]: Verifying bounds for merge group size:  1
+[ 45.7529 ]: Using Marabou
+[ 45.7530 ]: Calling Marabou to verify bounds
+[ 45.7530 ]: Merge group size:  1
+[ 45.7535 ]: Min c:  -0.7959011893320765
+[ 45.7536 ]: Max c:  1.0007062566096905
+[ 45.7536 ]: b:  1.2721501550345087
+[ 45.8423 ]: Network size is now:  532
+[ 45.9650 ]: Weights percentiles:  [6.97791984e-06 2.02585995e-01 1.38227997e+01]
+[ 45.9654 ]: Biases percentiles:  [0.         0.51219398 4.61369833]
+[ 45.9752 ]: Verifying bounds for merge group size:  1
+[ 45.9752 ]: Using Marabou
+[ 45.9753 ]: Calling Marabou to verify bounds
+[ 45.9754 ]: Merge group size:  1
+[ 45.9759 ]: Verifying bounds for merge group size:  1
+[ 45.9760 ]: Using Marabou
+[ 45.9761 ]: Calling Marabou to verify bounds
+[ 45.9761 ]: Merge group size:  1
+[ 45.9765 ]: Verifying bounds for merge group size:  1
+[ 45.9765 ]: Using Marabou
+[ 45.9766 ]: Calling Marabou to verify bounds
+[ 45.9767 ]: Merge group size:  1
+[ 45.9771 ]: Verifying bounds for merge group size:  1
+[ 45.9772 ]: Using Marabou
+[ 45.9772 ]: Calling Marabou to verify bounds
+[ 45.9773 ]: Merge group size:  1
+[ 45.9778 ]: Verifying bounds for merge group size:  1
+[ 45.9779 ]: Using Marabou
+[ 45.9780 ]: Calling Marabou to verify bounds
+[ 45.9780 ]: Merge group size:  1
+[ 45.9785 ]: Verifying bounds for merge group size:  1
+[ 45.9786 ]: Using Marabou
+[ 45.9786 ]: Calling Marabou to verify bounds
+[ 45.9787 ]: Merge group size:  1
+[ 45.9792 ]: Verifying bounds for merge group size:  1
+[ 45.9792 ]: Using Marabou
+[ 45.9793 ]: Calling Marabou to verify bounds
+[ 45.9794 ]: Merge group size:  1
+[ 45.9799 ]: Verifying bounds for merge group size:  1
+[ 45.9799 ]: Using Marabou
+[ 45.9800 ]: Calling Marabou to verify bounds
+[ 45.9800 ]: Merge group size:  1
+[ 45.9805 ]: Verifying bounds for merge group size:  1
+[ 45.9806 ]: Using Marabou
+[ 45.9806 ]: Calling Marabou to verify bounds
+[ 45.9807 ]: Merge group size:  1
+[ 45.9812 ]: Min c:  -0.25352677503157484
+[ 45.9813 ]: Max c:  0.5709879807842159
+[ 45.9813 ]: b:  -0.5474969280370253
+[ 46.0687 ]: Network size is now:  531
+[ 46.1903 ]: Weights percentiles:  [6.97791984e-06 2.02242002e-01 1.38227997e+01]
+[ 46.1906 ]: Biases percentiles:  [0.         0.52972698 4.61369833]
+[ 46.2003 ]: Verifying bounds for merge group size:  1
+[ 46.2004 ]: Using Marabou
+[ 46.2005 ]: Calling Marabou to verify bounds
+[ 46.2005 ]: Merge group size:  1
+[ 46.2011 ]: Verifying bounds for merge group size:  1
+[ 46.2012 ]: Using Marabou
+[ 46.2012 ]: Calling Marabou to verify bounds
+[ 46.2013 ]: Merge group size:  1
+[ 46.2017 ]: Verifying bounds for merge group size:  1
+[ 46.2017 ]: Using Marabou
+[ 46.2018 ]: Calling Marabou to verify bounds
+[ 46.2019 ]: Merge group size:  1
+[ 46.2023 ]: Verifying bounds for merge group size:  1
+[ 46.2023 ]: Using Marabou
+[ 46.2024 ]: Calling Marabou to verify bounds
+[ 46.2024 ]: Merge group size:  1
+[ 46.2029 ]: Verifying bounds for merge group size:  1
+[ 46.2029 ]: Using Marabou
+[ 46.2030 ]: Calling Marabou to verify bounds
+[ 46.2030 ]: Merge group size:  1
+[ 46.2034 ]: Verifying bounds for merge group size:  1
+[ 46.2035 ]: Using Marabou
+[ 46.2036 ]: Calling Marabou to verify bounds
+[ 46.2036 ]: Merge group size:  1
+[ 46.2041 ]: Verifying bounds for merge group size:  1
+[ 46.2042 ]: Using Marabou
+[ 46.2042 ]: Calling Marabou to verify bounds
+[ 46.2043 ]: Merge group size:  1
+[ 46.2048 ]: Verifying bounds for merge group size:  1
+[ 46.2048 ]: Using Marabou
+[ 46.2049 ]: Calling Marabou to verify bounds
+[ 46.2050 ]: Merge group size:  1
+[ 46.2055 ]: Verifying bounds for merge group size:  1
+[ 46.2055 ]: Using Marabou
+[ 46.2056 ]: Calling Marabou to verify bounds
+[ 46.2056 ]: Merge group size:  1
+[ 46.2062 ]: Verifying bounds for merge group size:  1
+[ 46.2063 ]: Using Marabou
+[ 46.2063 ]: Calling Marabou to verify bounds
+[ 46.2064 ]: Merge group size:  1
+[ 46.2069 ]: Min c:  -0.25352677503157484
+[ 46.2070 ]: Max c:  0.5709879807842159
+[ 46.2070 ]: b:  -0.1734685654174997
+[ 46.2949 ]: Network size is now:  530
+[ 46.4173 ]: Weights percentiles:  [6.97791984e-06 2.02059001e-01 1.38227997e+01]
+[ 46.4177 ]: Biases percentiles:  [0.         0.52972698 4.48350931]
+[ 46.4190 ]: Verifying bounds for merge group size:  1
+[ 46.4190 ]: Using Marabou
+[ 46.4192 ]: Calling Marabou to verify bounds
+[ 46.4192 ]: Merge group size:  1
+[ 46.4197 ]: Min c:  0.0
+[ 46.4197 ]: Max c:  0.0
+[ 46.4198 ]: b:  0.0
+[ 46.5079 ]: Network size is now:  529
+[ 46.6293 ]: Weights percentiles:  [6.97791984e-06 2.02241004e-01 1.38227997e+01]
+[ 46.6296 ]: Biases percentiles:  [0.         0.52972698 4.48350931]
+[ 46.6401 ]: Verifying bounds for merge group size:  1
+[ 46.6401 ]: Using Marabou
+[ 46.6403 ]: Calling Marabou to verify bounds
+[ 46.6403 ]: Merge group size:  1
+[ 46.6837 ]: Min c:  0.0
+[ 46.6838 ]: Max c:  0.0
+[ 46.6839 ]: b:  0.0
+[ 46.7891 ]: Network size is now:  528
+[ 46.9101 ]: Weights percentiles:  [6.97791984e-06 2.02242002e-01 1.38227997e+01]
+[ 46.9104 ]: Biases percentiles:  [0.         0.52972698 4.48350931]
+[ 46.9143 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 46.9180 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 46.9236 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 46.9291 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 46.9303 ]: Verifying bounds for merge group size:  1
+[ 46.9303 ]: Using Marabou
+[ 46.9304 ]: Calling Marabou to verify bounds
+[ 46.9304 ]: Merge group size:  1
+[ 46.9311 ]: Min c:  0.0
+[ 46.9311 ]: Max c:  0.0
+[ 46.9311 ]: b:  0.0
+[ 47.0182 ]: Network size is now:  527
+[ 47.1387 ]: Weights percentiles:  [6.97791984e-06 2.02279001e-01 1.38227997e+01]
+[ 47.1391 ]: Biases percentiles:  [0.         0.53051549 4.48350931]
+[ 47.1406 ]: Verifying bounds for merge group size:  1
+[ 47.1407 ]: Using Marabou
+[ 47.1408 ]: Calling Marabou to verify bounds
+[ 47.1408 ]: Merge group size:  1
+[ 47.1415 ]: Min c:  0.0
+[ 47.1416 ]: Max c:  0.0
+[ 47.1416 ]: b:  0.0
+[ 47.2298 ]: Network size is now:  526
+[ 47.3518 ]: Weights percentiles:  [6.97791984e-06 2.02304006e-01 1.38227997e+01]
+[ 47.3521 ]: Biases percentiles:  [0.         0.531304   4.48350931]
+[ 47.3563 ]: Verifying bounds for merge group size:  1
+[ 47.3563 ]: Using Marabou
+[ 47.3564 ]: Calling Marabou to verify bounds
+[ 47.3565 ]: Merge group size:  1
+[ 47.3571 ]: Verifying bounds for merge group size:  1
+[ 47.3571 ]: Using Marabou
+[ 47.3572 ]: Calling Marabou to verify bounds
+[ 47.3572 ]: Merge group size:  1
+[ 47.3577 ]: Verifying bounds for merge group size:  1
+[ 47.3578 ]: Using Marabou
+[ 47.3579 ]: Calling Marabou to verify bounds
+[ 47.3579 ]: Merge group size:  1
+[ 47.3585 ]: Verifying bounds for merge group size:  1
+[ 47.3585 ]: Using Marabou
+[ 47.3586 ]: Calling Marabou to verify bounds
+[ 47.3586 ]: Merge group size:  1
+[ 47.3592 ]: Verifying bounds for merge group size:  1
+[ 47.3593 ]: Using Marabou
+[ 47.3594 ]: Calling Marabou to verify bounds
+[ 47.3594 ]: Merge group size:  1
+[ 47.3600 ]: Verifying bounds for merge group size:  1
+[ 47.3600 ]: Using Marabou
+[ 47.3601 ]: Calling Marabou to verify bounds
+[ 47.3602 ]: Merge group size:  1
+[ 47.3607 ]: Verifying bounds for merge group size:  1
+[ 47.3608 ]: Using Marabou
+[ 47.3609 ]: Calling Marabou to verify bounds
+[ 47.3609 ]: Merge group size:  1
+[ 47.3614 ]: Verifying bounds for merge group size:  1
+[ 47.3615 ]: Using Marabou
+[ 47.3615 ]: Calling Marabou to verify bounds
+[ 47.3616 ]: Merge group size:  1
+[ 47.3620 ]: Verifying bounds for merge group size:  1
+[ 47.3621 ]: Using Marabou
+[ 47.3622 ]: Calling Marabou to verify bounds
+[ 47.3622 ]: Merge group size:  1
+[ 47.3627 ]: Verifying bounds for merge group size:  1
+[ 47.3627 ]: Using Marabou
+[ 47.3628 ]: Calling Marabou to verify bounds
+[ 47.3629 ]: Merge group size:  1
+[ 47.3633 ]: Min c:  -0.5706880512616058
+[ 47.3634 ]: Max c:  0.5303397798645242
+[ 47.3634 ]: b:  0.4173709960217075
+[ 47.4506 ]: Network size is now:  525
+[ 47.5769 ]: Weights percentiles:  [6.97791984e-06 2.02150002e-01 1.38227997e+01]
+[ 47.5773 ]: Biases percentiles:  [0.         0.53051549 4.48350931]
+[ 47.5814 ]: Verifying bounds for merge group size:  1
+[ 47.5814 ]: Using Marabou
+[ 47.5815 ]: Calling Marabou to verify bounds
+[ 47.5816 ]: Merge group size:  1
+[ 47.5821 ]: Verifying bounds for merge group size:  1
+[ 47.5822 ]: Using Marabou
+[ 47.5823 ]: Calling Marabou to verify bounds
+[ 47.5823 ]: Merge group size:  1
+[ 47.5827 ]: Verifying bounds for merge group size:  1
+[ 47.5828 ]: Using Marabou
+[ 47.5828 ]: Calling Marabou to verify bounds
+[ 47.5829 ]: Merge group size:  1
+[ 47.5833 ]: Verifying bounds for merge group size:  1
+[ 47.5833 ]: Using Marabou
+[ 47.5834 ]: Calling Marabou to verify bounds
+[ 47.5835 ]: Merge group size:  1
+[ 47.5839 ]: Verifying bounds for merge group size:  1
+[ 47.5840 ]: Using Marabou
+[ 47.5841 ]: Calling Marabou to verify bounds
+[ 47.5841 ]: Merge group size:  1
+[ 47.5846 ]: Verifying bounds for merge group size:  1
+[ 47.5846 ]: Using Marabou
+[ 47.5847 ]: Calling Marabou to verify bounds
+[ 47.5847 ]: Merge group size:  1
+[ 47.5852 ]: Verifying bounds for merge group size:  1
+[ 47.5852 ]: Using Marabou
+[ 47.5853 ]: Calling Marabou to verify bounds
+[ 47.5854 ]: Merge group size:  1
+[ 47.5859 ]: Verifying bounds for merge group size:  1
+[ 47.5859 ]: Using Marabou
+[ 47.5860 ]: Calling Marabou to verify bounds
+[ 47.5860 ]: Merge group size:  1
+[ 47.5865 ]: Verifying bounds for merge group size:  1
+[ 47.5865 ]: Using Marabou
+[ 47.5866 ]: Calling Marabou to verify bounds
+[ 47.5866 ]: Merge group size:  1
+[ 47.5871 ]: Verifying bounds for merge group size:  1
+[ 47.5872 ]: Using Marabou
+[ 47.5872 ]: Calling Marabou to verify bounds
+[ 47.5873 ]: Merge group size:  1
+[ 47.5877 ]: Verifying bounds for merge group size:  1
+[ 47.5878 ]: Using Marabou
+[ 47.5879 ]: Calling Marabou to verify bounds
+[ 47.5879 ]: Merge group size:  1
+[ 47.5884 ]: Min c:  -0.5706880512616058
+[ 47.5884 ]: Max c:  0.5303397798645242
+[ 47.5885 ]: b:  0.8079241882746525
+[ 47.6762 ]: Network size is now:  524
+[ 47.7964 ]: Weights percentiles:  [6.97791984e-06 2.01715007e-01 1.38227997e+01]
+[ 47.7967 ]: Biases percentiles:  [0.         0.53329003 4.8300385 ]
+[ 47.8018 ]: Verifying bounds for merge group size:  1
+[ 47.8018 ]: Using Marabou
+[ 47.8020 ]: Calling Marabou to verify bounds
+[ 47.8020 ]: Merge group size:  1
+[ 47.8026 ]: Verifying bounds for merge group size:  1
+[ 47.8026 ]: Using Marabou
+[ 47.8027 ]: Calling Marabou to verify bounds
+[ 47.8027 ]: Merge group size:  1
+[ 47.8031 ]: Verifying bounds for merge group size:  1
+[ 47.8032 ]: Using Marabou
+[ 47.8032 ]: Calling Marabou to verify bounds
+[ 47.8033 ]: Merge group size:  1
+[ 47.8038 ]: Verifying bounds for merge group size:  1
+[ 47.8038 ]: Using Marabou
+[ 47.8039 ]: Calling Marabou to verify bounds
+[ 47.8039 ]: Merge group size:  1
+[ 47.8044 ]: Verifying bounds for merge group size:  1
+[ 47.8045 ]: Using Marabou
+[ 47.8046 ]: Calling Marabou to verify bounds
+[ 47.8046 ]: Merge group size:  1
+[ 47.8051 ]: Verifying bounds for merge group size:  1
+[ 47.8052 ]: Using Marabou
+[ 47.8053 ]: Calling Marabou to verify bounds
+[ 47.8053 ]: Merge group size:  1
+[ 47.8057 ]: Verifying bounds for merge group size:  1
+[ 47.8057 ]: Using Marabou
+[ 47.8058 ]: Calling Marabou to verify bounds
+[ 47.8058 ]: Merge group size:  1
+[ 47.8063 ]: Min c:  -0.08071933521860705
+[ 47.8063 ]: Max c:  0.1441361819103047
+[ 47.8063 ]: b:  -0.03345088263673262
+[ 47.8940 ]: Network size is now:  523
+[ 48.0134 ]: Weights percentiles:  [6.97791984e-06 2.01422006e-01 1.38227997e+01]
+[ 48.0137 ]: Biases percentiles:  [0.         0.53806001 4.8300385 ]
+[ 48.0188 ]: Verifying bounds for merge group size:  1
+[ 48.0188 ]: Using Marabou
+[ 48.0190 ]: Calling Marabou to verify bounds
+[ 48.0190 ]: Merge group size:  1
+[ 48.0196 ]: Verifying bounds for merge group size:  1
+[ 48.0196 ]: Using Marabou
+[ 48.0197 ]: Calling Marabou to verify bounds
+[ 48.0197 ]: Merge group size:  1
+[ 48.0202 ]: Verifying bounds for merge group size:  1
+[ 48.0202 ]: Using Marabou
+[ 48.0203 ]: Calling Marabou to verify bounds
+[ 48.0203 ]: Merge group size:  1
+[ 48.0208 ]: Verifying bounds for merge group size:  1
+[ 48.0208 ]: Using Marabou
+[ 48.0209 ]: Calling Marabou to verify bounds
+[ 48.0209 ]: Merge group size:  1
+[ 48.0215 ]: Verifying bounds for merge group size:  1
+[ 48.0215 ]: Using Marabou
+[ 48.0216 ]: Calling Marabou to verify bounds
+[ 48.0216 ]: Merge group size:  1
+[ 48.0221 ]: Verifying bounds for merge group size:  1
+[ 48.0221 ]: Using Marabou
+[ 48.0222 ]: Calling Marabou to verify bounds
+[ 48.0222 ]: Merge group size:  1
+[ 48.0227 ]: Verifying bounds for merge group size:  1
+[ 48.0227 ]: Using Marabou
+[ 48.0228 ]: Calling Marabou to verify bounds
+[ 48.0228 ]: Merge group size:  1
+[ 48.0233 ]: Verifying bounds for merge group size:  1
+[ 48.0234 ]: Using Marabou
+[ 48.0235 ]: Calling Marabou to verify bounds
+[ 48.0235 ]: Merge group size:  1
+[ 48.0239 ]: Min c:  -0.08071933521860705
+[ 48.0240 ]: Max c:  0.1441361819103047
+[ 48.0240 ]: b:  0.20031737194574892
+[ 48.1100 ]: Network size is now:  522
+[ 48.2502 ]: Weights percentiles:  [6.97791984e-06 2.01221004e-01 1.38227997e+01]
+[ 48.2505 ]: Biases percentiles:  [0.         0.55114698 4.93692925]
+[ 48.2557 ]: Verifying bounds for merge group size:  1
+[ 48.2557 ]: Using Marabou
+[ 48.2559 ]: Calling Marabou to verify bounds
+[ 48.2559 ]: Merge group size:  1
+[ 48.2565 ]: Verifying bounds for merge group size:  1
+[ 48.2565 ]: Using Marabou
+[ 48.2566 ]: Calling Marabou to verify bounds
+[ 48.2567 ]: Merge group size:  1
+[ 48.2571 ]: Verifying bounds for merge group size:  1
+[ 48.2572 ]: Using Marabou
+[ 48.2572 ]: Calling Marabou to verify bounds
+[ 48.2573 ]: Merge group size:  1
+[ 48.2579 ]: Verifying bounds for merge group size:  1
+[ 48.2580 ]: Using Marabou
+[ 48.2581 ]: Calling Marabou to verify bounds
+[ 48.2581 ]: Merge group size:  1
+[ 48.2588 ]: Verifying bounds for merge group size:  1
+[ 48.2588 ]: Using Marabou
+[ 48.2589 ]: Calling Marabou to verify bounds
+[ 48.2590 ]: Merge group size:  1
+[ 48.2595 ]: Verifying bounds for merge group size:  1
+[ 48.2596 ]: Using Marabou
+[ 48.2597 ]: Calling Marabou to verify bounds
+[ 48.2597 ]: Merge group size:  1
+[ 48.2603 ]: Verifying bounds for merge group size:  1
+[ 48.2603 ]: Using Marabou
+[ 48.2604 ]: Calling Marabou to verify bounds
+[ 48.2604 ]: Merge group size:  1
+[ 48.2610 ]: Verifying bounds for merge group size:  1
+[ 48.2610 ]: Using Marabou
+[ 48.2611 ]: Calling Marabou to verify bounds
+[ 48.2611 ]: Merge group size:  1
+[ 48.2616 ]: Min c:  -0.1515330849131991
+[ 48.2617 ]: Max c:  0.19055526119370603
+[ 48.2617 ]: b:  -0.31432774020794946
+[ 48.3476 ]: Network size is now:  521
+[ 48.4664 ]: Weights percentiles:  [6.97791984e-06 2.01235995e-01 1.38227997e+01]
+[ 48.4668 ]: Biases percentiles:  [0.         0.56454998 5.22918143]
+[ 48.4718 ]: Verifying bounds for merge group size:  1
+[ 48.4719 ]: Using Marabou
+[ 48.4720 ]: Calling Marabou to verify bounds
+[ 48.4721 ]: Merge group size:  1
+[ 48.4727 ]: Verifying bounds for merge group size:  1
+[ 48.4727 ]: Using Marabou
+[ 48.4728 ]: Calling Marabou to verify bounds
+[ 48.4728 ]: Merge group size:  1
+[ 48.4733 ]: Verifying bounds for merge group size:  1
+[ 48.4734 ]: Using Marabou
+[ 48.4735 ]: Calling Marabou to verify bounds
+[ 48.4735 ]: Merge group size:  1
+[ 48.4740 ]: Verifying bounds for merge group size:  1
+[ 48.4741 ]: Using Marabou
+[ 48.4742 ]: Calling Marabou to verify bounds
+[ 48.4742 ]: Merge group size:  1
+[ 48.4746 ]: Verifying bounds for merge group size:  1
+[ 48.4747 ]: Using Marabou
+[ 48.4748 ]: Calling Marabou to verify bounds
+[ 48.4748 ]: Merge group size:  1
+[ 48.4754 ]: Verifying bounds for merge group size:  1
+[ 48.4754 ]: Using Marabou
+[ 48.4755 ]: Calling Marabou to verify bounds
+[ 48.4756 ]: Merge group size:  1
+[ 48.4760 ]: Verifying bounds for merge group size:  1
+[ 48.4760 ]: Using Marabou
+[ 48.4761 ]: Calling Marabou to verify bounds
+[ 48.4762 ]: Merge group size:  1
+[ 48.4766 ]: Min c:  -0.1515330849131991
+[ 48.4767 ]: Max c:  0.19055526119370603
+[ 48.4767 ]: b:  -0.09398439149683055
+[ 48.5630 ]: Network size is now:  520
+[ 48.6832 ]: Weights percentiles:  [6.97791984e-06 2.01235995e-01 1.38227997e+01]
+[ 48.6835 ]: Biases percentiles:  [0.         0.56454998 5.22918143]
+[ 48.6914 ]: Verifying bounds for merge group size:  1
+[ 48.6915 ]: Using Marabou
+[ 48.6916 ]: Calling Marabou to verify bounds
+[ 48.6917 ]: Merge group size:  1
+[ 48.6922 ]: Verifying bounds for merge group size:  1
+[ 48.6923 ]: Using Marabou
+[ 48.6924 ]: Calling Marabou to verify bounds
+[ 48.6924 ]: Merge group size:  1
+[ 48.6929 ]: Verifying bounds for merge group size:  1
+[ 48.6930 ]: Using Marabou
+[ 48.6931 ]: Calling Marabou to verify bounds
+[ 48.6931 ]: Merge group size:  1
+[ 48.6938 ]: Verifying bounds for merge group size:  1
+[ 48.6938 ]: Using Marabou
+[ 48.6940 ]: Calling Marabou to verify bounds
+[ 48.6940 ]: Merge group size:  1
+[ 48.6945 ]: Verifying bounds for merge group size:  1
+[ 48.6946 ]: Using Marabou
+[ 48.6947 ]: Calling Marabou to verify bounds
+[ 48.6947 ]: Merge group size:  1
+[ 48.6952 ]: Verifying bounds for merge group size:  1
+[ 48.6953 ]: Using Marabou
+[ 48.6954 ]: Calling Marabou to verify bounds
+[ 48.6954 ]: Merge group size:  1
+[ 48.6960 ]: Verifying bounds for merge group size:  1
+[ 48.6960 ]: Using Marabou
+[ 48.6961 ]: Calling Marabou to verify bounds
+[ 48.6962 ]: Merge group size:  1
+[ 48.6967 ]: Verifying bounds for merge group size:  1
+[ 48.6967 ]: Using Marabou
+[ 48.6969 ]: Calling Marabou to verify bounds
+[ 48.6969 ]: Merge group size:  1
+[ 48.6975 ]: Verifying bounds for merge group size:  1
+[ 48.6976 ]: Using Marabou
+[ 48.6976 ]: Calling Marabou to verify bounds
+[ 48.6977 ]: Merge group size:  1
+[ 48.6982 ]: Min c:  -0.5385109161827589
+[ 48.6983 ]: Max c:  0.5251279411967639
+[ 48.6983 ]: b:  -0.22222740922113335
+[ 48.7844 ]: Network size is now:  519
+[ 48.9027 ]: Weights percentiles:  [6.97791984e-06 2.01148003e-01 1.38227997e+01]
+[ 48.9030 ]: Biases percentiles:  [0.         0.56454998 5.35964136]
+[ 48.9109 ]: Verifying bounds for merge group size:  1
+[ 48.9109 ]: Using Marabou
+[ 48.9111 ]: Calling Marabou to verify bounds
+[ 48.9111 ]: Merge group size:  1
+[ 48.9117 ]: Verifying bounds for merge group size:  1
+[ 48.9117 ]: Using Marabou
+[ 48.9118 ]: Calling Marabou to verify bounds
+[ 48.9119 ]: Merge group size:  1
+[ 48.9123 ]: Verifying bounds for merge group size:  1
+[ 48.9123 ]: Using Marabou
+[ 48.9124 ]: Calling Marabou to verify bounds
+[ 48.9125 ]: Merge group size:  1
+[ 48.9129 ]: Verifying bounds for merge group size:  1
+[ 48.9129 ]: Using Marabou
+[ 48.9130 ]: Calling Marabou to verify bounds
+[ 48.9130 ]: Merge group size:  1
+[ 48.9135 ]: Verifying bounds for merge group size:  1
+[ 48.9135 ]: Using Marabou
+[ 48.9136 ]: Calling Marabou to verify bounds
+[ 48.9136 ]: Merge group size:  1
+[ 48.9140 ]: Verifying bounds for merge group size:  1
+[ 48.9141 ]: Using Marabou
+[ 48.9142 ]: Calling Marabou to verify bounds
+[ 48.9142 ]: Merge group size:  1
+[ 48.9146 ]: Verifying bounds for merge group size:  1
+[ 48.9146 ]: Using Marabou
+[ 48.9147 ]: Calling Marabou to verify bounds
+[ 48.9148 ]: Merge group size:  1
+[ 48.9152 ]: Verifying bounds for merge group size:  1
+[ 48.9152 ]: Using Marabou
+[ 48.9153 ]: Calling Marabou to verify bounds
+[ 48.9153 ]: Merge group size:  1
+[ 48.9159 ]: Verifying bounds for merge group size:  1
+[ 48.9159 ]: Using Marabou
+[ 48.9160 ]: Calling Marabou to verify bounds
+[ 48.9160 ]: Merge group size:  1
+[ 48.9165 ]: Min c:  -0.5385109161827589
+[ 48.9166 ]: Max c:  0.5251279411967639
+[ 48.9166 ]: b:  0.09829770931276474
+[ 49.0015 ]: Network size is now:  518
+[ 49.1206 ]: Weights percentiles:  [6.97791984e-06 2.01185003e-01 1.38227997e+01]
+[ 49.1209 ]: Biases percentiles:  [0.         0.56971502 5.35964136]
+[ 49.1285 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 49.1357 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 49.1385 ]: Verifying bounds for merge group size:  1
+[ 49.1386 ]: Using Marabou
+[ 49.1387 ]: Calling Marabou to verify bounds
+[ 49.1388 ]: Merge group size:  1
+[ 49.1394 ]: Min c:  -0.7063040137269887
+[ 49.1395 ]: Max c:  0.01252570003269865
+[ 49.1395 ]: b:  0.4465110003953305
+[ 49.2245 ]: Network size is now:  517
+[ 49.3414 ]: Weights percentiles:  [6.97791984e-06 2.01003999e-01 1.38227997e+01]
+[ 49.3418 ]: Biases percentiles:  [0.         0.55114698 4.96329587]
+[ 49.3450 ]: Verifying bounds for merge group size:  1
+[ 49.3450 ]: Using Marabou
+[ 49.3452 ]: Calling Marabou to verify bounds
+[ 49.3452 ]: Merge group size:  1
+[ 49.3458 ]: Min c:  -0.7063040137269887
+[ 49.3458 ]: Max c:  0.01252570003269865
+[ 49.3459 ]: b:  0.4465110003953305
+[ 49.4310 ]: Network size is now:  516
+[ 49.5491 ]: Weights percentiles:  [6.97791984e-06 2.00763002e-01 1.38227997e+01]
+[ 49.5494 ]: Biases percentiles:  [0.         0.56454998 4.96329587]
+[ 49.5535 ]: Verifying bounds for merge group size:  1
+[ 49.5535 ]: Using Marabou
+[ 49.5536 ]: Calling Marabou to verify bounds
+[ 49.5537 ]: Merge group size:  1
+[ 49.5542 ]: Verifying bounds for merge group size:  1
+[ 49.5543 ]: Using Marabou
+[ 49.5544 ]: Calling Marabou to verify bounds
+[ 49.5544 ]: Merge group size:  1
+[ 49.5548 ]: Verifying bounds for merge group size:  1
+[ 49.5549 ]: Using Marabou
+[ 49.5550 ]: Calling Marabou to verify bounds
+[ 49.5550 ]: Merge group size:  1
+[ 49.5555 ]: Verifying bounds for merge group size:  1
+[ 49.5556 ]: Using Marabou
+[ 49.5557 ]: Calling Marabou to verify bounds
+[ 49.5557 ]: Merge group size:  1
+[ 49.5562 ]: Verifying bounds for merge group size:  1
+[ 49.5562 ]: Using Marabou
+[ 49.5563 ]: Calling Marabou to verify bounds
+[ 49.5564 ]: Merge group size:  1
+[ 49.5570 ]: Verifying bounds for merge group size:  1
+[ 49.5570 ]: Using Marabou
+[ 49.5572 ]: Calling Marabou to verify bounds
+[ 49.5572 ]: Merge group size:  1
+[ 49.5577 ]: Min c:  -0.3814045390036364
+[ 49.5577 ]: Max c:  0.8313452092381948
+[ 49.5578 ]: b:  0.27674233084897004
+[ 49.5579 ]: Score with adjusted b and c too big, not merging
+[ 49.5617 ]: Verifying bounds for merge group size:  1
+[ 49.5618 ]: Using Marabou
+[ 49.5619 ]: Calling Marabou to verify bounds
+[ 49.5620 ]: Merge group size:  1
+[ 49.5625 ]: Verifying bounds for merge group size:  1
+[ 49.5625 ]: Using Marabou
+[ 49.5626 ]: Calling Marabou to verify bounds
+[ 49.5627 ]: Merge group size:  1
+[ 49.5631 ]: Verifying bounds for merge group size:  1
+[ 49.5632 ]: Using Marabou
+[ 49.5632 ]: Calling Marabou to verify bounds
+[ 49.5633 ]: Merge group size:  1
+[ 49.5637 ]: Verifying bounds for merge group size:  1
+[ 49.5637 ]: Using Marabou
+[ 49.5638 ]: Calling Marabou to verify bounds
+[ 49.5639 ]: Merge group size:  1
+[ 49.5643 ]: Verifying bounds for merge group size:  1
+[ 49.5643 ]: Using Marabou
+[ 49.5644 ]: Calling Marabou to verify bounds
+[ 49.5645 ]: Merge group size:  1
+[ 49.5650 ]: Verifying bounds for merge group size:  1
+[ 49.5651 ]: Using Marabou
+[ 49.5651 ]: Calling Marabou to verify bounds
+[ 49.5652 ]: Merge group size:  1
+[ 49.5656 ]: Verifying bounds for merge group size:  1
+[ 49.5657 ]: Using Marabou
+[ 49.5657 ]: Calling Marabou to verify bounds
+[ 49.5658 ]: Merge group size:  1
+[ 49.5662 ]: Verifying bounds for merge group size:  1
+[ 49.5662 ]: Using Marabou
+[ 49.5664 ]: Calling Marabou to verify bounds
+[ 49.5664 ]: Merge group size:  1
+[ 49.5669 ]: Verifying bounds for merge group size:  1
+[ 49.5670 ]: Using Marabou
+[ 49.5671 ]: Calling Marabou to verify bounds
+[ 49.5671 ]: Merge group size:  1
+[ 49.5676 ]: Verifying bounds for merge group size:  1
+[ 49.5677 ]: Using Marabou
+[ 49.5678 ]: Calling Marabou to verify bounds
+[ 49.5678 ]: Merge group size:  1
+[ 49.5683 ]: Min c:  -0.3814045390036364
+[ 49.5684 ]: Max c:  0.8313452092381948
+[ 49.5684 ]: b:  1.0162276627640605
+[ 49.5685 ]: Score with adjusted b and c too big, not merging
+[ 49.5734 ]: Verifying bounds for merge group size:  1
+[ 49.5734 ]: Using Marabou
+[ 49.5735 ]: Calling Marabou to verify bounds
+[ 49.5736 ]: Merge group size:  1
+[ 49.5741 ]: Verifying bounds for merge group size:  1
+[ 49.5742 ]: Using Marabou
+[ 49.5743 ]: Calling Marabou to verify bounds
+[ 49.5743 ]: Merge group size:  1
+[ 49.5748 ]: Verifying bounds for merge group size:  1
+[ 49.5748 ]: Using Marabou
+[ 49.5749 ]: Calling Marabou to verify bounds
+[ 49.5749 ]: Merge group size:  1
+[ 49.5753 ]: Verifying bounds for merge group size:  1
+[ 49.5754 ]: Using Marabou
+[ 49.5755 ]: Calling Marabou to verify bounds
+[ 49.5755 ]: Merge group size:  1
+[ 49.5760 ]: Verifying bounds for merge group size:  1
+[ 49.5761 ]: Using Marabou
+[ 49.5762 ]: Calling Marabou to verify bounds
+[ 49.5762 ]: Merge group size:  1
+[ 49.5766 ]: Verifying bounds for merge group size:  1
+[ 49.5767 ]: Using Marabou
+[ 49.5768 ]: Calling Marabou to verify bounds
+[ 49.5768 ]: Merge group size:  1
+[ 49.5775 ]: Verifying bounds for merge group size:  1
+[ 49.5775 ]: Using Marabou
+[ 49.5776 ]: Calling Marabou to verify bounds
+[ 49.5777 ]: Merge group size:  1
+[ 49.5783 ]: Verifying bounds for merge group size:  1
+[ 49.5783 ]: Using Marabou
+[ 49.5784 ]: Calling Marabou to verify bounds
+[ 49.5785 ]: Merge group size:  1
+[ 49.5790 ]: Min c:  -0.30353201820422043
+[ 49.5791 ]: Max c:  0.25344862214886066
+[ 49.5791 ]: b:  -0.0620528748364717
+[ 49.6639 ]: Network size is now:  515
+[ 49.7810 ]: Weights percentiles:  [6.97791984e-06 2.00483993e-01 1.38227997e+01]
+[ 49.7814 ]: Biases percentiles:  [0.         0.56454998 4.9688168 ]
+[ 49.7863 ]: Verifying bounds for merge group size:  1
+[ 49.7863 ]: Using Marabou
+[ 49.7864 ]: Calling Marabou to verify bounds
+[ 49.7865 ]: Merge group size:  1
+[ 49.7871 ]: Verifying bounds for merge group size:  1
+[ 49.7871 ]: Using Marabou
+[ 49.7872 ]: Calling Marabou to verify bounds
+[ 49.7873 ]: Merge group size:  1
+[ 49.7877 ]: Verifying bounds for merge group size:  1
+[ 49.7877 ]: Using Marabou
+[ 49.7878 ]: Calling Marabou to verify bounds
+[ 49.7879 ]: Merge group size:  1
+[ 49.7884 ]: Verifying bounds for merge group size:  1
+[ 49.7884 ]: Using Marabou
+[ 49.7885 ]: Calling Marabou to verify bounds
+[ 49.7886 ]: Merge group size:  1
+[ 49.7891 ]: Verifying bounds for merge group size:  1
+[ 49.7892 ]: Using Marabou
+[ 49.7893 ]: Calling Marabou to verify bounds
+[ 49.7893 ]: Merge group size:  1
+[ 49.7899 ]: Verifying bounds for merge group size:  1
+[ 49.7900 ]: Using Marabou
+[ 49.7901 ]: Calling Marabou to verify bounds
+[ 49.7901 ]: Merge group size:  1
+[ 49.7906 ]: Verifying bounds for merge group size:  1
+[ 49.7906 ]: Using Marabou
+[ 49.7907 ]: Calling Marabou to verify bounds
+[ 49.7908 ]: Merge group size:  1
+[ 49.7912 ]: Verifying bounds for merge group size:  1
+[ 49.7913 ]: Using Marabou
+[ 49.7914 ]: Calling Marabou to verify bounds
+[ 49.7914 ]: Merge group size:  1
+[ 49.7918 ]: Verifying bounds for merge group size:  1
+[ 49.7919 ]: Using Marabou
+[ 49.7920 ]: Calling Marabou to verify bounds
+[ 49.7920 ]: Merge group size:  1
+[ 49.7925 ]: Min c:  -0.30353201820422043
+[ 49.7926 ]: Max c:  0.25344862214886066
+[ 49.7926 ]: b:  0.25995257399821003
+[ 49.8775 ]: Network size is now:  514
+[ 49.9942 ]: Weights percentiles:  [6.97791984e-06 2.00313002e-01 1.38227997e+01]
+[ 49.9945 ]: Biases percentiles:  [0.         0.57684499 4.9688168 ]
+[ 49.9959 ]: Verifying bounds for merge group size:  1
+[ 49.9959 ]: Using Marabou
+[ 49.9961 ]: Calling Marabou to verify bounds
+[ 49.9961 ]: Merge group size:  1
+[ 49.9966 ]: Min c:  0.0
+[ 49.9966 ]: Max c:  0.0
+[ 49.9967 ]: b:  0.0
+[ 50.0805 ]: Network size is now:  513
+[ 50.1961 ]: Weights percentiles:  [6.97791984e-06 2.00120394e-01 1.38227997e+01]
+[ 50.1965 ]: Biases percentiles:  [0.        0.5766211 4.9688168]
+[ 50.1978 ]: Verifying bounds for merge group size:  1
+[ 50.1979 ]: Using Marabou
+[ 50.1980 ]: Calling Marabou to verify bounds
+[ 50.1980 ]: Merge group size:  1
+[ 50.1985 ]: Min c:  0.0
+[ 50.1985 ]: Max c:  0.0
+[ 50.1986 ]: b:  0.0
+[ 50.2825 ]: Network size is now:  512
+[ 50.3996 ]: Weights percentiles:  [6.97791984e-06 1.99815005e-01 1.38227997e+01]
+[ 50.3999 ]: Biases percentiles:  [0.         0.57639721 4.9688168 ]
+[ 50.4080 ]: Warning: Unboundedness detected
+[ 50.4084 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.4167 ]: Warning: Unboundedness detected
+[ 50.4170 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.4199 ]: Warning: Unboundedness detected
+[ 50.4202 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.4232 ]: Warning: Unboundedness detected
+[ 50.4235 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.4252 ]: Verifying bounds for merge group size:  1
+[ 50.4253 ]: Using Marabou
+[ 50.4254 ]: Calling Marabou to verify bounds
+[ 50.4254 ]: Merge group size:  1
+[ 50.4259 ]: Min c:  0.0
+[ 50.4259 ]: Max c:  0.0
+[ 50.4260 ]: b:  0.0
+[ 50.5129 ]: Network size is now:  511
+[ 50.6314 ]: Weights percentiles:  [ 0.          0.187849   13.82279968]
+[ 50.6317 ]: Biases percentiles:  [0.         0.57599333 4.9688168 ]
+[ 50.6336 ]: Verifying bounds for merge group size:  1
+[ 50.6336 ]: Using Marabou
+[ 50.6338 ]: Calling Marabou to verify bounds
+[ 50.6338 ]: Merge group size:  1
+[ 50.6344 ]: Verifying bounds for merge group size:  1
+[ 50.6344 ]: Using Marabou
+[ 50.6346 ]: Calling Marabou to verify bounds
+[ 50.6346 ]: Merge group size:  1
+[ 50.6350 ]: Verifying bounds for merge group size:  1
+[ 50.6351 ]: Using Marabou
+[ 50.6352 ]: Calling Marabou to verify bounds
+[ 50.6353 ]: Merge group size:  1
+[ 50.6358 ]: Verifying bounds for merge group size:  1
+[ 50.6359 ]: Using Marabou
+[ 50.6360 ]: Calling Marabou to verify bounds
+[ 50.6360 ]: Merge group size:  1
+[ 50.6365 ]: Verifying bounds for merge group size:  1
+[ 50.6366 ]: Using Marabou
+[ 50.6368 ]: Calling Marabou to verify bounds
+[ 50.6368 ]: Merge group size:  1
+[ 50.6374 ]: Verifying bounds for merge group size:  1
+[ 50.6375 ]: Using Marabou
+[ 50.6376 ]: Calling Marabou to verify bounds
+[ 50.6376 ]: Merge group size:  1
+[ 50.6382 ]: Verifying bounds for merge group size:  1
+[ 50.6382 ]: Using Marabou
+[ 50.6384 ]: Calling Marabou to verify bounds
+[ 50.6384 ]: Merge group size:  1
+[ 50.6389 ]: Verifying bounds for merge group size:  1
+[ 50.6390 ]: Using Marabou
+[ 50.6391 ]: Calling Marabou to verify bounds
+[ 50.6391 ]: Merge group size:  1
+[ 50.6399 ]: Verifying bounds for merge group size:  1
+[ 50.6399 ]: Using Marabou
+[ 50.6401 ]: Calling Marabou to verify bounds
+[ 50.6401 ]: Merge group size:  1
+[ 50.6408 ]: Verifying bounds for merge group size:  1
+[ 50.6409 ]: Using Marabou
+[ 50.6410 ]: Calling Marabou to verify bounds
+[ 50.6411 ]: Merge group size:  1
+[ 50.6416 ]: Verifying bounds for merge group size:  1
+[ 50.6417 ]: Using Marabou
+[ 50.6418 ]: Calling Marabou to verify bounds
+[ 50.6418 ]: Merge group size:  1
+[ 50.6425 ]: Verifying bounds for merge group size:  1
+[ 50.6425 ]: Using Marabou
+[ 50.6427 ]: Calling Marabou to verify bounds
+[ 50.6427 ]: Merge group size:  1
+[ 50.6432 ]: Min c:  0.0
+[ 50.6433 ]: Max c:  0.0
+[ 50.6433 ]: b:  4.073125659717097
+[ 50.6434 ]: Score with adjusted b and c too big, not merging
+[ 50.6486 ]: Warning: Unboundedness detected
+[ 50.6489 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.6553 ]: Warning: Unboundedness detected
+[ 50.6558 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.6610 ]: Warning: Unboundedness detected
+[ 50.6613 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.6770 ]: Warning: Unboundedness detected
+[ 50.6774 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.6916 ]: Warning: Unboundedness detected
+[ 50.6920 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7138 ]: Warning: Lambda too small, potentially unbounded, clamping
+[ 50.7143 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7186 ]: Warning: Unboundedness detected
+[ 50.7189 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7218 ]: Warning: Unboundedness detected
+[ 50.7222 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7350 ]: Warning: Lambda too small, potentially unbounded, clamping
+[ 50.7354 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7430 ]: Warning: Unboundedness detected
+[ 50.7434 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.7451 ]: Verifying bounds for merge group size:  1
+[ 50.7452 ]: Using Marabou
+[ 50.7453 ]: Calling Marabou to verify bounds
+[ 50.7453 ]: Merge group size:  1
+[ 50.7458 ]: Min c:  0.0
+[ 50.7459 ]: Max c:  0.0
+[ 50.7459 ]: b:  0.0
+[ 50.8339 ]: Network size is now:  510
+[ 50.9532 ]: Weights percentiles:  [ 0.          0.180961   13.82279968]
+[ 50.9535 ]: Biases percentiles:  [0.         0.57558945 4.9688168 ]
+[ 50.9555 ]: Verifying bounds for merge group size:  1
+[ 50.9556 ]: Using Marabou
+[ 50.9558 ]: Calling Marabou to verify bounds
+[ 50.9558 ]: Merge group size:  1
+[ 50.9564 ]: Verifying bounds for merge group size:  1
+[ 50.9565 ]: Using Marabou
+[ 50.9566 ]: Calling Marabou to verify bounds
+[ 50.9566 ]: Merge group size:  1
+[ 50.9571 ]: Verifying bounds for merge group size:  1
+[ 50.9571 ]: Using Marabou
+[ 50.9572 ]: Calling Marabou to verify bounds
+[ 50.9573 ]: Merge group size:  1
+[ 50.9578 ]: Verifying bounds for merge group size:  1
+[ 50.9579 ]: Using Marabou
+[ 50.9580 ]: Calling Marabou to verify bounds
+[ 50.9580 ]: Merge group size:  1
+[ 50.9586 ]: Verifying bounds for merge group size:  1
+[ 50.9586 ]: Using Marabou
+[ 50.9587 ]: Calling Marabou to verify bounds
+[ 50.9587 ]: Merge group size:  1
+[ 50.9593 ]: Verifying bounds for merge group size:  1
+[ 50.9593 ]: Using Marabou
+[ 50.9594 ]: Calling Marabou to verify bounds
+[ 50.9595 ]: Merge group size:  1
+[ 50.9600 ]: Verifying bounds for merge group size:  1
+[ 50.9600 ]: Using Marabou
+[ 50.9601 ]: Calling Marabou to verify bounds
+[ 50.9602 ]: Merge group size:  1
+[ 50.9607 ]: Verifying bounds for merge group size:  1
+[ 50.9608 ]: Using Marabou
+[ 50.9609 ]: Calling Marabou to verify bounds
+[ 50.9609 ]: Merge group size:  1
+[ 50.9615 ]: Verifying bounds for merge group size:  1
+[ 50.9615 ]: Using Marabou
+[ 50.9616 ]: Calling Marabou to verify bounds
+[ 50.9617 ]: Merge group size:  1
+[ 50.9622 ]: Verifying bounds for merge group size:  1
+[ 50.9622 ]: Using Marabou
+[ 50.9623 ]: Calling Marabou to verify bounds
+[ 50.9624 ]: Merge group size:  1
+[ 50.9629 ]: Verifying bounds for merge group size:  1
+[ 50.9630 ]: Using Marabou
+[ 50.9631 ]: Calling Marabou to verify bounds
+[ 50.9631 ]: Merge group size:  1
+[ 50.9635 ]: Min c:  0.0
+[ 50.9636 ]: Max c:  0.0
+[ 50.9636 ]: b:  1.817286164409564
+[ 50.9637 ]: Score with adjusted b and c too big, not merging
+[ 50.9690 ]: Warning: Unboundedness detected
+[ 50.9693 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.9732 ]: Warning: Unboundedness detected
+[ 50.9735 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.9799 ]: Warning: Unboundedness detected
+[ 50.9802 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.9855 ]: Warning: Unboundedness detected
+[ 50.9858 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 50.9874 ]: Verifying bounds for merge group size:  1
+[ 50.9874 ]: Using Marabou
+[ 50.9876 ]: Calling Marabou to verify bounds
+[ 50.9876 ]: Merge group size:  1
+[ 50.9881 ]: Min c:  0.0
+[ 50.9882 ]: Max c:  0.0
+[ 50.9882 ]: b:  0.0
+[ 51.0773 ]: Network size is now:  509
+[ 51.1958 ]: Weights percentiles:  [ 0.          0.176658   13.82279968]
+[ 51.1961 ]: Biases percentiles:  [0.         0.57599333 4.9688168 ]
+[ 51.1981 ]: Verifying bounds for merge group size:  1
+[ 51.1981 ]: Using Marabou
+[ 51.1983 ]: Calling Marabou to verify bounds
+[ 51.1983 ]: Merge group size:  1
+[ 51.1989 ]: Verifying bounds for merge group size:  1
+[ 51.1990 ]: Using Marabou
+[ 51.1991 ]: Calling Marabou to verify bounds
+[ 51.1991 ]: Merge group size:  1
+[ 51.1996 ]: Verifying bounds for merge group size:  1
+[ 51.1996 ]: Using Marabou
+[ 51.1997 ]: Calling Marabou to verify bounds
+[ 51.1997 ]: Merge group size:  1
+[ 51.2003 ]: Verifying bounds for merge group size:  1
+[ 51.2003 ]: Using Marabou
+[ 51.2004 ]: Calling Marabou to verify bounds
+[ 51.2005 ]: Merge group size:  1
+[ 51.2010 ]: Verifying bounds for merge group size:  1
+[ 51.2011 ]: Using Marabou
+[ 51.2012 ]: Calling Marabou to verify bounds
+[ 51.2012 ]: Merge group size:  1
+[ 51.2017 ]: Verifying bounds for merge group size:  1
+[ 51.2018 ]: Using Marabou
+[ 51.2019 ]: Calling Marabou to verify bounds
+[ 51.2019 ]: Merge group size:  1
+[ 51.2023 ]: Min c:  0.0
+[ 51.2024 ]: Max c:  0.0
+[ 51.2024 ]: b:  0.04872786464265923
+[ 51.2926 ]: Network size is now:  508
+[ 51.4109 ]: Weights percentiles:  [ 0.          0.17347901 13.82279968]
+[ 51.4113 ]: Biases percentiles:  [0.         0.57639721 4.9688168 ]
+[ 51.4258 ]: Warning: Unboundedness detected
+[ 51.4262 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 51.4424 ]: Warning: Unboundedness detected
+[ 51.4428 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 51.4669 ]: Warning: Unboundedness detected
+[ 51.4673 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 51.4785 ]: Warning: Unboundedness detected
+[ 51.4789 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 51.4828 ]: Warning: Unboundedness detected
+[ 51.4831 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 51.4867 ]: Warning: Unboundedness detected
+[ 51.4872 ]: Verifying bounds for merge group size:  1
+[ 51.4873 ]: Using Marabou
+[ 51.4874 ]: Calling Marabou to verify bounds
+[ 51.4875 ]: Merge group size:  1
+[ 51.4881 ]: Verifying bounds for merge group size:  1
+[ 51.4881 ]: Using Marabou
+[ 51.4882 ]: Calling Marabou to verify bounds
+[ 51.4883 ]: Merge group size:  1
+[ 51.4887 ]: Verifying bounds for merge group size:  1
+[ 51.4888 ]: Using Marabou
+[ 51.4889 ]: Calling Marabou to verify bounds
+[ 51.4890 ]: Merge group size:  1
+[ 51.4896 ]: Verifying bounds for merge group size:  1
+[ 51.4897 ]: Using Marabou
+[ 51.4898 ]: Calling Marabou to verify bounds
+[ 51.4899 ]: Merge group size:  1
+[ 51.4907 ]: Verifying bounds for merge group size:  1
+[ 51.4907 ]: Using Marabou
+[ 51.4909 ]: Calling Marabou to verify bounds
+[ 51.4909 ]: Merge group size:  1
+[ 51.4915 ]: Verifying bounds for merge group size:  1
+[ 51.4916 ]: Using Marabou
+[ 51.4917 ]: Calling Marabou to verify bounds
+[ 51.4918 ]: Merge group size:  1
+[ 51.4923 ]: Verifying bounds for merge group size:  1
+[ 51.4924 ]: Using Marabou
+[ 51.4925 ]: Calling Marabou to verify bounds
+[ 51.4925 ]: Merge group size:  1
+[ 51.4931 ]: Verifying bounds for merge group size:  1
+[ 51.4931 ]: Using Marabou
+[ 51.4933 ]: Calling Marabou to verify bounds
+[ 51.4933 ]: Merge group size:  1
+[ 51.4939 ]: Verifying bounds for merge group size:  1
+[ 51.4940 ]: Using Marabou
+[ 51.4941 ]: Calling Marabou to verify bounds
+[ 51.4941 ]: Merge group size:  1
+[ 51.4949 ]: Verifying bounds for merge group size:  1
+[ 51.4949 ]: Using Marabou
+[ 51.4951 ]: Calling Marabou to verify bounds
+[ 51.4951 ]: Merge group size:  1
+[ 51.4959 ]: Verifying bounds for merge group size:  1
+[ 51.4959 ]: Using Marabou
+[ 51.4961 ]: Calling Marabou to verify bounds
+[ 51.4961 ]: Merge group size:  1
+[ 51.4969 ]: Verifying bounds for merge group size:  1
+[ 51.4969 ]: Using Marabou
+[ 51.4971 ]: Calling Marabou to verify bounds
+[ 51.4971 ]: Merge group size:  1
+[ 51.4977 ]: Min c:  -0.5351588129198761
+[ 51.4978 ]: Max c:  0.10374559313836088
+[ 51.4978 ]: b:  4.302941379308233
+[ 51.4979 ]: Score with adjusted b and c too big, not merging
+[ 51.4996 ]: Verifying bounds for merge group size:  1
+[ 51.4996 ]: Using Marabou
+[ 51.4998 ]: Calling Marabou to verify bounds
+[ 51.4998 ]: Merge group size:  1
+[ 51.5002 ]: Min c:  0.0
+[ 51.5003 ]: Max c:  0.0
+[ 51.5003 ]: b:  0.0
+[ 51.5910 ]: Network size is now:  507
+[ 51.7108 ]: Weights percentiles:  [ 0.          0.173056   13.82279968]
+[ 51.7111 ]: Biases percentiles:  [0.        0.5766211 4.9688168]
+[ 51.7132 ]: Verifying bounds for merge group size:  1
+[ 51.7133 ]: Using Marabou
+[ 51.7134 ]: Calling Marabou to verify bounds
+[ 51.7134 ]: Merge group size:  1
+[ 51.7581 ]: Verifying bounds for merge group size:  1
+[ 51.7582 ]: Using Marabou
+[ 51.7584 ]: Calling Marabou to verify bounds
+[ 51.7585 ]: Merge group size:  1
+[ 51.7593 ]: Verifying bounds for merge group size:  1
+[ 51.7594 ]: Using Marabou
+[ 51.7596 ]: Calling Marabou to verify bounds
+[ 51.7596 ]: Merge group size:  1
+[ 51.7604 ]: Verifying bounds for merge group size:  1
+[ 51.7604 ]: Using Marabou
+[ 51.7606 ]: Calling Marabou to verify bounds
+[ 51.7606 ]: Merge group size:  1
+[ 51.7614 ]: Verifying bounds for merge group size:  1
+[ 51.7615 ]: Using Marabou
+[ 51.7616 ]: Calling Marabou to verify bounds
+[ 51.7617 ]: Merge group size:  1
+[ 51.7626 ]: Verifying bounds for merge group size:  1
+[ 51.7626 ]: Using Marabou
+[ 51.7628 ]: Calling Marabou to verify bounds
+[ 51.7628 ]: Merge group size:  1
+[ 51.7637 ]: Verifying bounds for merge group size:  1
+[ 51.7637 ]: Using Marabou
+[ 51.7639 ]: Calling Marabou to verify bounds
+[ 51.7639 ]: Merge group size:  1
+[ 51.7645 ]: Min c:  0.0
+[ 51.7646 ]: Max c:  0.0
+[ 51.7647 ]: b:  0.11690963729216483
+[ 51.8619 ]: Network size is now:  506
+[ 51.9811 ]: Weights percentiles:  [ 0.          0.17193601 13.82279968]
+[ 51.9814 ]: Biases percentiles:  [0.         0.57684499 4.9688168 ]
+[ 51.9834 ]: Verifying bounds for merge group size:  1
+[ 51.9834 ]: Using Marabou
+[ 51.9836 ]: Calling Marabou to verify bounds
+[ 51.9836 ]: Merge group size:  1
+[ 51.9841 ]: Min c:  0.0
+[ 51.9842 ]: Max c:  0.0
+[ 51.9842 ]: b:  0.0
+[ 52.0751 ]: Network size is now:  505
+[ 52.1947 ]: Weights percentiles:  [ 0.          0.171463   13.82279968]
+[ 52.1950 ]: Biases percentiles:  [0.        0.5766211 4.9688168]
+[ 52.1969 ]: Verifying bounds for merge group size:  1
+[ 52.1969 ]: Using Marabou
+[ 52.1971 ]: Calling Marabou to verify bounds
+[ 52.1971 ]: Merge group size:  1
+[ 52.1978 ]: Verifying bounds for merge group size:  1
+[ 52.1979 ]: Using Marabou
+[ 52.1980 ]: Calling Marabou to verify bounds
+[ 52.1980 ]: Merge group size:  1
+[ 52.1986 ]: Verifying bounds for merge group size:  1
+[ 52.1986 ]: Using Marabou
+[ 52.1987 ]: Calling Marabou to verify bounds
+[ 52.1988 ]: Merge group size:  1
+[ 52.1993 ]: Verifying bounds for merge group size:  1
+[ 52.1993 ]: Using Marabou
+[ 52.1995 ]: Calling Marabou to verify bounds
+[ 52.1995 ]: Merge group size:  1
+[ 52.2000 ]: Verifying bounds for merge group size:  1
+[ 52.2001 ]: Using Marabou
+[ 52.2002 ]: Calling Marabou to verify bounds
+[ 52.2002 ]: Merge group size:  1
+[ 52.2007 ]: Verifying bounds for merge group size:  1
+[ 52.2008 ]: Using Marabou
+[ 52.2009 ]: Calling Marabou to verify bounds
+[ 52.2009 ]: Merge group size:  1
+[ 52.2014 ]: Verifying bounds for merge group size:  1
+[ 52.2015 ]: Using Marabou
+[ 52.2016 ]: Calling Marabou to verify bounds
+[ 52.2016 ]: Merge group size:  1
+[ 52.2021 ]: Verifying bounds for merge group size:  1
+[ 52.2022 ]: Using Marabou
+[ 52.2023 ]: Calling Marabou to verify bounds
+[ 52.2023 ]: Merge group size:  1
+[ 52.2027 ]: Min c:  0.0
+[ 52.2028 ]: Max c:  0.0
+[ 52.2028 ]: b:  0.20371587658389906
+[ 52.2927 ]: Network size is now:  504
+[ 52.4117 ]: Weights percentiles:  [ 0.          0.170362   13.82279968]
+[ 52.4121 ]: Biases percentiles:  [0.         0.57684499 4.9688168 ]
+[ 52.4139 ]: Verifying bounds for merge group size:  1
+[ 52.4140 ]: Using Marabou
+[ 52.4141 ]: Calling Marabou to verify bounds
+[ 52.4142 ]: Merge group size:  1
+[ 52.4146 ]: Min c:  0.0
+[ 52.4147 ]: Max c:  0.0
+[ 52.4147 ]: b:  0.0
+[ 52.5042 ]: Network size is now:  503
+[ 52.6213 ]: Weights percentiles:  [ 0.          0.16955701 13.82279968]
+[ 52.6216 ]: Biases percentiles:  [0.        0.5766211 4.9688168]
+[ 52.6236 ]: Verifying bounds for merge group size:  1
+[ 52.6237 ]: Using Marabou
+[ 52.6238 ]: Calling Marabou to verify bounds
+[ 52.6239 ]: Merge group size:  1
+[ 52.6243 ]: Min c:  0.0
+[ 52.6244 ]: Max c:  0.0
+[ 52.6244 ]: b:  0.0
+[ 52.7147 ]: Network size is now:  502
+[ 52.8315 ]: Weights percentiles:  [ 0.          0.168947   13.82279968]
+[ 52.8319 ]: Biases percentiles:  [0.         0.57639721 4.9688168 ]
+[ 52.8458 ]: Warning: Lambda too small, potentially unbounded, clamping
+[ 52.8463 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.8614 ]: Warning: Unboundedness detected
+[ 52.8618 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.8791 ]: Warning: Unboundedness detected
+[ 52.8794 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9029 ]: Warning: Unboundedness detected
+[ 52.9033 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9078 ]: Warning: Unboundedness detected
+[ 52.9082 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9181 ]: Warning: Unboundedness detected
+[ 52.9184 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9253 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9325 ]: Warning: Unboundedness detected
+[ 52.9328 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 52.9345 ]: Verifying bounds for merge group size:  1
+[ 52.9346 ]: Using Marabou
+[ 52.9348 ]: Calling Marabou to verify bounds
+[ 52.9348 ]: Merge group size:  1
+[ 52.9353 ]: Min c:  0.0
+[ 52.9353 ]: Max c:  0.0
+[ 52.9353 ]: b:  0.0
+[ 53.0250 ]: Network size is now:  501
+[ 53.1407 ]: Weights percentiles:  [ 0.          0.168422   13.82279968]
+[ 53.1410 ]: Biases percentiles:  [0.         0.57599333 4.9688168 ]
+[ 53.1429 ]: Verifying bounds for merge group size:  1
+[ 53.1430 ]: Using Marabou
+[ 53.1431 ]: Calling Marabou to verify bounds
+[ 53.1432 ]: Merge group size:  1
+[ 53.1437 ]: Verifying bounds for merge group size:  1
+[ 53.1438 ]: Using Marabou
+[ 53.1439 ]: Calling Marabou to verify bounds
+[ 53.1439 ]: Merge group size:  1
+[ 53.1444 ]: Verifying bounds for merge group size:  1
+[ 53.1444 ]: Using Marabou
+[ 53.1445 ]: Calling Marabou to verify bounds
+[ 53.1445 ]: Merge group size:  1
+[ 53.1451 ]: Verifying bounds for merge group size:  1
+[ 53.1451 ]: Using Marabou
+[ 53.1452 ]: Calling Marabou to verify bounds
+[ 53.1453 ]: Merge group size:  1
+[ 53.1458 ]: Verifying bounds for merge group size:  1
+[ 53.1459 ]: Using Marabou
+[ 53.1460 ]: Calling Marabou to verify bounds
+[ 53.1460 ]: Merge group size:  1
+[ 53.1465 ]: Verifying bounds for merge group size:  1
+[ 53.1466 ]: Using Marabou
+[ 53.1467 ]: Calling Marabou to verify bounds
+[ 53.1467 ]: Merge group size:  1
+[ 53.1472 ]: Verifying bounds for merge group size:  1
+[ 53.1473 ]: Using Marabou
+[ 53.1474 ]: Calling Marabou to verify bounds
+[ 53.1474 ]: Merge group size:  1
+[ 53.1480 ]: Verifying bounds for merge group size:  1
+[ 53.1480 ]: Using Marabou
+[ 53.1481 ]: Calling Marabou to verify bounds
+[ 53.1481 ]: Merge group size:  1
+[ 53.1487 ]: Verifying bounds for merge group size:  1
+[ 53.1487 ]: Using Marabou
+[ 53.1488 ]: Calling Marabou to verify bounds
+[ 53.1488 ]: Merge group size:  1
+[ 53.1494 ]: Verifying bounds for merge group size:  1
+[ 53.1494 ]: Using Marabou
+[ 53.1495 ]: Calling Marabou to verify bounds
+[ 53.1496 ]: Merge group size:  1
+[ 53.1501 ]: Verifying bounds for merge group size:  1
+[ 53.1502 ]: Using Marabou
+[ 53.1503 ]: Calling Marabou to verify bounds
+[ 53.1503 ]: Merge group size:  1
+[ 53.1509 ]: Verifying bounds for merge group size:  1
+[ 53.1509 ]: Using Marabou
+[ 53.1510 ]: Calling Marabou to verify bounds
+[ 53.1510 ]: Merge group size:  1
+[ 53.1515 ]: Min c:  0.0
+[ 53.1515 ]: Max c:  0.0
+[ 53.1516 ]: b:  4.340796578372981
+[ 53.1517 ]: Score with adjusted b and c too big, not merging
+[ 53.1533 ]: Verifying bounds for merge group size:  1
+[ 53.1534 ]: Using Marabou
+[ 53.1535 ]: Calling Marabou to verify bounds
+[ 53.1535 ]: Merge group size:  1
+[ 53.1540 ]: Min c:  0.0
+[ 53.1540 ]: Max c:  0.0
+[ 53.1541 ]: b:  0.0
+[ 53.2441 ]: Network size is now:  500
+[ 53.3612 ]: Weights percentiles:  [ 0.          0.16803899 13.82279968]
+[ 53.3615 ]: Biases percentiles:  [0.         0.57558945 4.9688168 ]
+[ 53.3635 ]: Verifying bounds for merge group size:  1
+[ 53.3636 ]: Using Marabou
+[ 53.3637 ]: Calling Marabou to verify bounds
+[ 53.3637 ]: Merge group size:  1
+[ 53.3643 ]: Verifying bounds for merge group size:  1
+[ 53.3644 ]: Using Marabou
+[ 53.3645 ]: Calling Marabou to verify bounds
+[ 53.3645 ]: Merge group size:  1
+[ 53.3650 ]: Verifying bounds for merge group size:  1
+[ 53.3650 ]: Using Marabou
+[ 53.3651 ]: Calling Marabou to verify bounds
+[ 53.3651 ]: Merge group size:  1
+[ 53.3657 ]: Verifying bounds for merge group size:  1
+[ 53.3657 ]: Using Marabou
+[ 53.3658 ]: Calling Marabou to verify bounds
+[ 53.3659 ]: Merge group size:  1
+[ 53.3664 ]: Verifying bounds for merge group size:  1
+[ 53.3665 ]: Using Marabou
+[ 53.3666 ]: Calling Marabou to verify bounds
+[ 53.3666 ]: Merge group size:  1
+[ 53.3672 ]: Verifying bounds for merge group size:  1
+[ 53.3672 ]: Using Marabou
+[ 53.3673 ]: Calling Marabou to verify bounds
+[ 53.3674 ]: Merge group size:  1
+[ 53.3680 ]: Verifying bounds for merge group size:  1
+[ 53.3680 ]: Using Marabou
+[ 53.3681 ]: Calling Marabou to verify bounds
+[ 53.3681 ]: Merge group size:  1
+[ 53.3687 ]: Verifying bounds for merge group size:  1
+[ 53.3688 ]: Using Marabou
+[ 53.3689 ]: Calling Marabou to verify bounds
+[ 53.3689 ]: Merge group size:  1
+[ 53.3694 ]: Verifying bounds for merge group size:  1
+[ 53.3695 ]: Using Marabou
+[ 53.3696 ]: Calling Marabou to verify bounds
+[ 53.3696 ]: Merge group size:  1
+[ 53.3702 ]: Verifying bounds for merge group size:  1
+[ 53.3702 ]: Using Marabou
+[ 53.3703 ]: Calling Marabou to verify bounds
+[ 53.3704 ]: Merge group size:  1
+[ 53.3713 ]: Verifying bounds for merge group size:  1
+[ 53.3714 ]: Using Marabou
+[ 53.3715 ]: Calling Marabou to verify bounds
+[ 53.3715 ]: Merge group size:  1
+[ 53.3721 ]: Verifying bounds for merge group size:  1
+[ 53.3721 ]: Using Marabou
+[ 53.3722 ]: Calling Marabou to verify bounds
+[ 53.3722 ]: Merge group size:  1
+[ 53.3727 ]: Min c:  0.0
+[ 53.3728 ]: Max c:  0.0
+[ 53.3728 ]: b:  3.8271698855033627
+[ 53.3729 ]: Score with adjusted b and c too big, not merging
+[ 53.3747 ]: Verifying bounds for merge group size:  1
+[ 53.3747 ]: Using Marabou
+[ 53.3748 ]: Calling Marabou to verify bounds
+[ 53.3749 ]: Merge group size:  1
+[ 53.3754 ]: Min c:  0.0
+[ 53.3754 ]: Max c:  0.0
+[ 53.3755 ]: b:  0.0
+[ 53.4646 ]: Network size is now:  499
+[ 53.5807 ]: Weights percentiles:  [ 0.          0.167624   13.82279968]
+[ 53.5811 ]: Biases percentiles:  [0.         0.57265224 4.9688168 ]
+[ 53.5830 ]: Verifying bounds for merge group size:  1
+[ 53.5830 ]: Using Marabou
+[ 53.5831 ]: Calling Marabou to verify bounds
+[ 53.5832 ]: Merge group size:  1
+[ 53.5837 ]: Min c:  0.0
+[ 53.5838 ]: Max c:  0.0
+[ 53.5838 ]: b:  0.0
+[ 53.6720 ]: Network size is now:  498
+[ 53.7872 ]: Weights percentiles:  [ 0.          0.167042   13.82279968]
+[ 53.7876 ]: Biases percentiles:  [0.         0.56971502 4.9688168 ]
+[ 53.7896 ]: Verifying bounds for merge group size:  1
+[ 53.7897 ]: Using Marabou
+[ 53.7899 ]: Calling Marabou to verify bounds
+[ 53.7899 ]: Merge group size:  1
+[ 53.7904 ]: Min c:  0.0
+[ 53.7905 ]: Max c:  0.0
+[ 53.7905 ]: b:  0.0
+[ 53.8792 ]: Network size is now:  497
+[ 53.9948 ]: Weights percentiles:  [ 0.          0.166767   13.82279968]
+[ 53.9951 ]: Biases percentiles:  [0.         0.57265224 4.9688168 ]
+[ 53.9971 ]: Verifying bounds for merge group size:  1
+[ 53.9971 ]: Using Marabou
+[ 53.9972 ]: Calling Marabou to verify bounds
+[ 53.9973 ]: Merge group size:  1
+[ 53.9979 ]: Verifying bounds for merge group size:  1
+[ 53.9979 ]: Using Marabou
+[ 53.9980 ]: Calling Marabou to verify bounds
+[ 53.9981 ]: Merge group size:  1
+[ 53.9986 ]: Verifying bounds for merge group size:  1
+[ 53.9986 ]: Using Marabou
+[ 53.9987 ]: Calling Marabou to verify bounds
+[ 53.9987 ]: Merge group size:  1
+[ 53.9993 ]: Verifying bounds for merge group size:  1
+[ 53.9993 ]: Using Marabou
+[ 53.9994 ]: Calling Marabou to verify bounds
+[ 53.9995 ]: Merge group size:  1
+[ 54.0000 ]: Verifying bounds for merge group size:  1
+[ 54.0001 ]: Using Marabou
+[ 54.0002 ]: Calling Marabou to verify bounds
+[ 54.0002 ]: Merge group size:  1
+[ 54.0008 ]: Verifying bounds for merge group size:  1
+[ 54.0008 ]: Using Marabou
+[ 54.0009 ]: Calling Marabou to verify bounds
+[ 54.0010 ]: Merge group size:  1
+[ 54.0015 ]: Verifying bounds for merge group size:  1
+[ 54.0016 ]: Using Marabou
+[ 54.0017 ]: Calling Marabou to verify bounds
+[ 54.0017 ]: Merge group size:  1
+[ 54.0022 ]: Verifying bounds for merge group size:  1
+[ 54.0023 ]: Using Marabou
+[ 54.0024 ]: Calling Marabou to verify bounds
+[ 54.0024 ]: Merge group size:  1
+[ 54.0030 ]: Verifying bounds for merge group size:  1
+[ 54.0030 ]: Using Marabou
+[ 54.0031 ]: Calling Marabou to verify bounds
+[ 54.0031 ]: Merge group size:  1
+[ 54.0037 ]: Verifying bounds for merge group size:  1
+[ 54.0037 ]: Using Marabou
+[ 54.0038 ]: Calling Marabou to verify bounds
+[ 54.0039 ]: Merge group size:  1
+[ 54.0044 ]: Verifying bounds for merge group size:  1
+[ 54.0045 ]: Using Marabou
+[ 54.0046 ]: Calling Marabou to verify bounds
+[ 54.0046 ]: Merge group size:  1
+[ 54.0052 ]: Verifying bounds for merge group size:  1
+[ 54.0053 ]: Using Marabou
+[ 54.0054 ]: Calling Marabou to verify bounds
+[ 54.0054 ]: Merge group size:  1
+[ 54.0059 ]: Min c:  0.0
+[ 54.0060 ]: Max c:  0.0
+[ 54.0060 ]: b:  3.1395009228124167
+[ 54.0061 ]: Score with adjusted b and c too big, not merging
+[ 54.0078 ]: Verifying bounds for merge group size:  1
+[ 54.0079 ]: Using Marabou
+[ 54.0080 ]: Calling Marabou to verify bounds
+[ 54.0080 ]: Merge group size:  1
+[ 54.0085 ]: Min c:  0.0
+[ 54.0085 ]: Max c:  0.0
+[ 54.0086 ]: b:  0.0
+[ 54.0969 ]: Network size is now:  496
+[ 54.2134 ]: Weights percentiles:  [ 0.          0.166457   13.82279968]
+[ 54.2138 ]: Biases percentiles:  [0.         0.57558945 4.9688168 ]
+[ 54.2158 ]: Verifying bounds for merge group size:  1
+[ 54.2158 ]: Using Marabou
+[ 54.2159 ]: Calling Marabou to verify bounds
+[ 54.2160 ]: Merge group size:  1
+[ 54.2165 ]: Min c:  0.0
+[ 54.2165 ]: Max c:  0.0
+[ 54.2166 ]: b:  0.0
+[ 54.3051 ]: Network size is now:  495
+[ 54.4198 ]: Weights percentiles:  [ 0.          0.165962   13.82279968]
+[ 54.4202 ]: Biases percentiles:  [0.         0.57265224 4.9688168 ]
+[ 54.4222 ]: Verifying bounds for merge group size:  1
+[ 54.4223 ]: Using Marabou
+[ 54.4224 ]: Calling Marabou to verify bounds
+[ 54.4225 ]: Merge group size:  1
+[ 54.4232 ]: Min c:  0.0
+[ 54.4232 ]: Max c:  0.0
+[ 54.4233 ]: b:  0.0
+[ 54.5113 ]: Network size is now:  494
+[ 54.6245 ]: Weights percentiles:  [ 0.          0.165851   13.82279968]
+[ 54.6248 ]: Biases percentiles:  [0.         0.57558945 4.9688168 ]
+[ 54.6268 ]: Verifying bounds for merge group size:  1
+[ 54.6268 ]: Using Marabou
+[ 54.6270 ]: Calling Marabou to verify bounds
+[ 54.6270 ]: Merge group size:  1
+[ 54.6276 ]: Verifying bounds for merge group size:  1
+[ 54.6277 ]: Using Marabou
+[ 54.6278 ]: Calling Marabou to verify bounds
+[ 54.6278 ]: Merge group size:  1
+[ 54.6283 ]: Verifying bounds for merge group size:  1
+[ 54.6283 ]: Using Marabou
+[ 54.6284 ]: Calling Marabou to verify bounds
+[ 54.6285 ]: Merge group size:  1
+[ 54.6290 ]: Verifying bounds for merge group size:  1
+[ 54.6291 ]: Using Marabou
+[ 54.6292 ]: Calling Marabou to verify bounds
+[ 54.6292 ]: Merge group size:  1
+[ 54.6298 ]: Verifying bounds for merge group size:  1
+[ 54.6298 ]: Using Marabou
+[ 54.6299 ]: Calling Marabou to verify bounds
+[ 54.6299 ]: Merge group size:  1
+[ 54.6305 ]: Verifying bounds for merge group size:  1
+[ 54.6305 ]: Using Marabou
+[ 54.6306 ]: Calling Marabou to verify bounds
+[ 54.6307 ]: Merge group size:  1
+[ 54.6313 ]: Verifying bounds for merge group size:  1
+[ 54.6313 ]: Using Marabou
+[ 54.6314 ]: Calling Marabou to verify bounds
+[ 54.6314 ]: Merge group size:  1
+[ 54.6320 ]: Verifying bounds for merge group size:  1
+[ 54.6321 ]: Using Marabou
+[ 54.6322 ]: Calling Marabou to verify bounds
+[ 54.6322 ]: Merge group size:  1
+[ 54.6328 ]: Verifying bounds for merge group size:  1
+[ 54.6328 ]: Using Marabou
+[ 54.6329 ]: Calling Marabou to verify bounds
+[ 54.6329 ]: Merge group size:  1
+[ 54.6335 ]: Verifying bounds for merge group size:  1
+[ 54.6335 ]: Using Marabou
+[ 54.6336 ]: Calling Marabou to verify bounds
+[ 54.6337 ]: Merge group size:  1
+[ 54.6341 ]: Min c:  0.0
+[ 54.6342 ]: Max c:  0.0
+[ 54.6342 ]: b:  0.7144367827064398
+[ 54.6343 ]: Score with adjusted b and c too big, not merging
+[ 54.6445 ]: Warning: Unboundedness detected
+[ 54.6449 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 54.6590 ]: Warning: Unboundedness detected
+[ 54.6593 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 54.6706 ]: Warning: Unboundedness detected
+[ 54.6709 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 54.6822 ]: Warning: Unboundedness detected
+[ 54.6826 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 54.6842 ]: Verifying bounds for merge group size:  1
+[ 54.6843 ]: Using Marabou
+[ 54.6844 ]: Calling Marabou to verify bounds
+[ 54.6845 ]: Merge group size:  1
+[ 54.6850 ]: Min c:  0.0
+[ 54.6850 ]: Max c:  0.0
+[ 54.6851 ]: b:  0.0
+[ 54.7723 ]: Network size is now:  493
+[ 54.8866 ]: Weights percentiles:  [ 0.          0.166511   13.82279968]
+[ 54.8870 ]: Biases percentiles:  [0.         0.57599333 4.9688168 ]
+[ 54.8891 ]: Verifying bounds for merge group size:  1
+[ 54.8892 ]: Using Marabou
+[ 54.8893 ]: Calling Marabou to verify bounds
+[ 54.8893 ]: Merge group size:  1
+[ 54.8900 ]: Verifying bounds for merge group size:  1
+[ 54.8900 ]: Using Marabou
+[ 54.8901 ]: Calling Marabou to verify bounds
+[ 54.8902 ]: Merge group size:  1
+[ 54.8907 ]: Verifying bounds for merge group size:  1
+[ 54.8907 ]: Using Marabou
+[ 54.8908 ]: Calling Marabou to verify bounds
+[ 54.8908 ]: Merge group size:  1
+[ 54.8917 ]: Verifying bounds for merge group size:  1
+[ 54.8917 ]: Using Marabou
+[ 54.8918 ]: Calling Marabou to verify bounds
+[ 54.8919 ]: Merge group size:  1
+[ 54.8925 ]: Verifying bounds for merge group size:  1
+[ 54.8925 ]: Using Marabou
+[ 54.8926 ]: Calling Marabou to verify bounds
+[ 54.8926 ]: Merge group size:  1
+[ 54.8932 ]: Verifying bounds for merge group size:  1
+[ 54.8933 ]: Using Marabou
+[ 54.8934 ]: Calling Marabou to verify bounds
+[ 54.8934 ]: Merge group size:  1
+[ 54.8940 ]: Verifying bounds for merge group size:  1
+[ 54.8940 ]: Using Marabou
+[ 54.8941 ]: Calling Marabou to verify bounds
+[ 54.8941 ]: Merge group size:  1
+[ 54.8946 ]: Min c:  0.0
+[ 54.8947 ]: Max c:  0.0
+[ 54.8947 ]: b:  0.11836932958664254
+[ 54.9820 ]: Network size is now:  492
+[ 55.0953 ]: Weights percentiles:  [ 0.          0.167206   13.82279968]
+[ 55.0957 ]: Biases percentiles:  [0.         0.57639721 4.9688168 ]
+[ 55.1015 ]: Warning: Unboundedness detected
+[ 55.1019 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.1164 ]: Warning: Lambda too small, potentially unbounded, clamping
+[ 55.1168 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.1231 ]: Warning: Unboundedness detected
+[ 55.1237 ]: Verifying bounds for merge group size:  1
+[ 55.1237 ]: Using Marabou
+[ 55.1239 ]: Calling Marabou to verify bounds
+[ 55.1239 ]: Merge group size:  1
+[ 55.1245 ]: Verifying bounds for merge group size:  1
+[ 55.1246 ]: Using Marabou
+[ 55.1247 ]: Calling Marabou to verify bounds
+[ 55.1247 ]: Merge group size:  1
+[ 55.1252 ]: Verifying bounds for merge group size:  1
+[ 55.1252 ]: Using Marabou
+[ 55.1254 ]: Calling Marabou to verify bounds
+[ 55.1254 ]: Merge group size:  1
+[ 55.1260 ]: Verifying bounds for merge group size:  1
+[ 55.1260 ]: Using Marabou
+[ 55.1261 ]: Calling Marabou to verify bounds
+[ 55.1262 ]: Merge group size:  1
+[ 55.1268 ]: Verifying bounds for merge group size:  1
+[ 55.1268 ]: Using Marabou
+[ 55.1269 ]: Calling Marabou to verify bounds
+[ 55.1270 ]: Merge group size:  1
+[ 55.1275 ]: Verifying bounds for merge group size:  1
+[ 55.1276 ]: Using Marabou
+[ 55.1277 ]: Calling Marabou to verify bounds
+[ 55.1277 ]: Merge group size:  1
+[ 55.1283 ]: Verifying bounds for merge group size:  1
+[ 55.1283 ]: Using Marabou
+[ 55.1284 ]: Calling Marabou to verify bounds
+[ 55.1285 ]: Merge group size:  1
+[ 55.1291 ]: Verifying bounds for merge group size:  1
+[ 55.1291 ]: Using Marabou
+[ 55.1292 ]: Calling Marabou to verify bounds
+[ 55.1293 ]: Merge group size:  1
+[ 55.1300 ]: Min c:  -0.12961704777827918
+[ 55.1300 ]: Max c:  0.15526864116927025
+[ 55.1301 ]: b:  -0.33785460906310644
+[ 55.2192 ]: Network size is now:  491
+[ 55.3315 ]: Weights percentiles:  [ 0.          0.166995   13.82279968]
+[ 55.3319 ]: Biases percentiles:  [0.         0.57599333 4.9688168 ]
+[ 55.3466 ]: Warning: Unboundedness detected
+[ 55.3470 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.3624 ]: Warning: Unboundedness detected
+[ 55.3628 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.3840 ]: Warning: Unboundedness detected
+[ 55.3844 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.4187 ]: Warning: Lambda too small, potentially unbounded, clamping
+[ 55.4191 ]: Score with adjusted b and c too big, abandoning before tightening b
+[ 55.4248 ]: Unsoundness after pivot
+[ 55.4248 ]: samps:  [[ 0.33454969  0.          0.66410658 ... -0.03059991  0.46076791
+  -0.49371036]
+ [ 0.          0.19034493  0.07417511 ...  0.44856429  0.48202337
+  -0.49216577]
+ [ 0.01828857  0.          0.45437063 ...  0.14640177  0.45259523
+  -0.49302592]
+ ...
+ [ 0.09049146  0.          0.27694569 ...  0.08599941  0.4919474
+  -0.48696335]
+ [ 0.23854301  0.43213308  0.         ... -0.03270192  0.46074976
+  -0.48875024]
+ [ 0.          1.35423378  0.         ...  0.27744611  0.49794022
+  -0.48630354]]
+[ 55.4251 ]: yvals:  [0.97566962 0.         0.38171168 0.82211859 0.91851889 0.56268532
+ 0.50719617 0.29828734 0.59386652 0.46223058 0.61952555 0.83512065
+ 0.14329141 0.         0.         0.         0.         0.57485491
+ 0.58723237 0.88676387 0.         0.         0.         0.552494
+ 0.55777184 0.49928851 0.01409344 0.86326974 0.         0.47404338
+ 0.86323843 0.         0.14799181 0.64893253 0.54546105 0.95560128
+ 0.85199825 0.64827221 0.68653154 0.         0.         0.
+ 0.53431831 0.57656637 1.08060334 0.71240088 0.86808469 0.41567964
+ 0.         0.8393707  0.53405127 0.63796875 0.54961125 0.50231699
+ 0.16974755 0.59112209 0.61468302 0.78230073 0.         0.56717182
+ 0.55608998 0.59193107 0.9293722  0.64957381 0.33151486 0.
+ 0.73827052 0.         0.75261392 0.         0.55803756 0.67509454
+ 0.48386806 0.39512947 0.         0.59154368 0.         0.
+ 0.36870667 0.40560661 0.         0.50479721 1.08099891 0.54909419
+ 0.60100859 0.19351469 0.97578541 0.17636217 1.06491386 0.70192874
+ 0.         0.         0.7476282  0.60547902 0.         0.
+ 1.03328712 0.         0.         0.96306767 0.95225048 0.
+ 0.76277251 0.72597375 0.77103386 0.         0.23446857 0.18354116
+ 0.75880128 0.5343234  0.57838287 0.75615895 0.83659447 0.5638482
+ 0.58534192 0.87713238 1.14642376 0.19228231 0.4417277  0.20848618
+ 0.40968361 0.11028067 0.05165758 0.58210489 0.95085004 0.55383145
+ 0.54059037 0.8685007  0.0648876  0.90150277 0.60798074 0.67832223
+ 0.54977699 0.56765326 0.37097966 0.5260633  0.43268738 0.
+ 0.31596893 0.7215122  0.         1.04472635 0.81988649 0.48347944
+ 0.69464324 0.2025569  0.98788864 0.88501656 0.36229165 0.5219836
+ 0.95355747 0.56283594 0.39749531 0.5086885  0.57177495 0.
+ 0.59717773 0.38792157 0.23632785 0.74948194 0.51594968 0.
+ 0.         0.47862372 0.62689984 0.85481371 0.         0.59520672
+ 0.09841477 0.92704616 0.86451791 0.42915256 0.36330188 0.81684426
+ 0.40787388 0.59281103 0.66814371 0.3457997  0.10237685 0.27913219
+ 0.65729391 0.58388769 0.         0.20150011 0.13700239 0.44375375
+ 0.71331211 0.68304386 0.         0.44192595 0.46140461 0.
+ 0.57279633 0.07294233 0.54402242 0.53852904 0.         0.76357037
+ 0.34500852 0.         0.5691288  0.1791555  0.65517703 0.
+ 0.         0.         0.60910343 0.76016944 0.         0.08606199
+ 0.09889029 0.59942519 0.19410801 0.         0.46920865 0.64271705
+ 0.77008136 0.98885651 0.6646803  0.37589479 0.         0.59101506
+ 0.93614899 0.51377806 0.         0.         0.56673948 0.56852603
+ 0.97514818 0.95999223 0.32424471 0.70807599 0.31777177 0.33033486
+ 1.08692631 0.70830439 0.63276315 0.3420425  0.16639313 0.87816692
+ 0.81676982 0.42504538 0.         0.         0.49560974 0.
+ 0.54747985 0.56351476 0.04136842 0.17059509 0.9836727  0.58633157
+ 1.04319866 0.33641578 0.38258731 0.88868783 0.62406447 0.
+ 0.         0.         0.20966359 0.29708765 0.32542679 0.4414599
+ 0.31394704 0.97168981 0.65951109 1.08223086 0.         0.90208269
+ 0.         0.39954178 0.         0.47441128 0.         0.85792993
+ 0.         0.83286438 0.54412211 0.         0.01572348 0.6032664
+ 0.         0.43850906 0.22360548 0.99396744 0.53403777 0.31848134
+ 0.35275407 0.         0.30226069 0.53598747 0.         0.32405234
+ 0.00426566 0.7144257  0.5677979  0.89363056 0.6895121  0.8322075
+ 1.07010194 0.50664792 0.82076698 0.55344755 0.         0.23885119
+ 0.89941719 0.         0.80200897 0.85188696 0.28155806 0.4626653
+ 0.         0.14683806 0.43314321 0.         0.64105604 0.43032575
+ 0.54660856 0.84026753 0.84556999 0.         0.76310958 0.51019062
+ 0.66661335 0.53272835 0.55726161 0.         0.30372815 0.88707827
+ 0.15267417 0.6251563  0.         0.71514798 0.79774327 0.
+ 0.         0.         0.3992987  0.08953869 0.44970925 0.
+ 0.         0.49975031 0.         0.77031037 0.44016752 0.82319891
+ 0.         0.27010159 0.58909082 0.         0.57969058 0.
+ 0.50502897 0.54733741 0.57942324 0.21085588 0.492145   0.
+ 0.56908849 0.         0.36026579 0.16061579 0.         0.66268584
+ 0.         0.17045054 0.09926057 0.62195776 0.62160411 0.35743318
+ 1.0273646  0.26702415 0.5734322  0.92938584 0.22202336 0.72877218
+ 0.79352396 0.         0.         0.1941554  0.28389589 0.33184785
+ 0.80598179 0.21836782 0.         0.         0.99010039 0.92786428
+ 0.59553201 0.06846438 0.54209357 0.7313244  0.         0.
+ 0.         0.12125946 0.         0.         0.53563118 0.37570201
+ 0.16362558 0.74488759 0.63767761 0.         0.         0.87655099
+ 0.73628554 0.23006176 0.89102252 0.74411896 0.         0.48341022
+ 0.82913535 0.74833184 0.96419861 0.71041855 0.58999136 0.
+ 0.45248233 1.03884013 0.22192421 0.6075872  0.07878117 0.54076548
+ 0.46824983 0.4410854  0.36702508 0.26455768 0.         0.25510537
+ 0.         0.         0.6772986  0.78065073 0.58299345 0.84854287
+ 0.37664978 0.03712884 0.78335431 0.38495983 0.58687155 0.5235393
+ 0.83820032 1.02631354 0.         0.88149529 0.67356055 0.56110267
+ 1.09165373 0.5994022  0.71508433 0.79755307 0.36133274 0.
+ 0.38607323 0.54997413 0.52640042 0.69637599 0.42578154 0.73727794
+ 0.81761494 1.06164664 0.59935632 0.54382826 0.         0.47331741
+ 0.35899017 0.         0.53554784 0.70118267 0.59875875 0.
+ 0.         0.89171777 0.         0.         0.67062756 0.22896284
+ 0.61271975 0.36901515 0.55492657 0.         0.         0.35720382
+ 0.         0.         0.20051915 0.         0.         0.72429955
+ 0.53868942 1.13116378 1.05429016 0.         0.1434207  0.30780684
+ 0.34065743 0.26405027]
+[ 55.4270 ]: touched:  [[ 0.61045096  0.          0.40599157  0.02955466  0.35504351  0.59925221
+   0.          0.          0.60012402  0.10956049 -0.22499204  0.46193954
+  -0.47704309]
+ [ 0.22490204  1.20656092  0.          0.          0.          0.03104454
+   0.38066977  0.          0.67154751 -0.48953857 -0.07048884  0.48341172
+  -0.45373222]
+ [ 0.58209535  0.          0.47105175  0.10607654  0.35928398  0.59336853
+   0.          0.02357436  0.65676096  0.15105205 -0.20131327  0.48199303
+  -0.47789537]
+ [ 0.61769172  0.          0.52974367  0.13757267  0.44462074  0.65147488
+   0.          0.08814322  0.63843698  0.18798078 -0.2182793   0.46915404
+  -0.49169839]
+ [ 0.53354815  0.          0.53982337  0.20795973  0.38987829  0.56494039
+   0.          0.05351911  0.64319158  0.21044523 -0.16474079  0.49037391
+  -0.47064118]
+ [ 1.01483167  0.24238804  0.17822551  0.          0.43578216  0.9067602
+   0.          0.029679    0.60360632 -0.13088873 -0.49613636  0.49602204
+  -0.48690679]
+ [ 0.          1.31073435  0.          0.          0.          0.
+   1.01291081  0.          0.62816822 -0.43818278  0.48665676  0.4816141
+  -0.45168122]
+ [ 0.53305086  0.          0.54468473  0.20828575  0.41062251  0.55284294
+   0.          0.06312591  0.61759199  0.22146095 -0.16438783  0.45742552
+  -0.46854887]
+ [ 0.71691896  0.          0.59134946  0.13681444  0.58261046  0.76534483
+   0.          0.19065937  0.6013537   0.21594683 -0.27395319  0.48409641
+  -0.49693715]
+ [ 0.72632551  0.          0.98021939  0.49184163  0.90306493  0.85435047
+   0.          0.49707256  0.62888394  0.48639406 -0.24416145  0.49625036
+  -0.48788032]
+ [ 1.03113897  0.0173974   0.34599852  0.          0.56838637  0.95332262
+   0.          0.16526172  0.64444514 -0.01993409 -0.49103428  0.49583781
+  -0.48584717]]
+[ 55.4276 ]: plane:  [ 4.09294611e+15 -5.95920196e+01  7.80175206e+15 -1.81973687e+02
+ -7.86754419e+15 -1.38230913e+15  4.52343905e+15  2.40466707e+02
+ -4.27423869e+15 -6.50830696e+14 -3.82573527e+15 -4.03422369e+14
+ -1.72020595e+15] -902953108578479.0
+[ 55.4277 ]: ret:  [-4.87500000e+01 -2.02685658e+15 -1.33169099e+14 -1.96250000e+01
+ -3.45000000e+01 -2.12556168e+14 -1.57862684e+15 -2.06990273e+15
+ -2.11342670e+14 -2.21250000e+01  5.41114782e+14 -3.43750000e+01
+  4.17565362e+13 -2.40895168e+15 -2.62899571e+15 -8.38310486e+14
+ -1.50838447e+15  1.13506506e+15  1.03640107e+15  2.38750000e+01
+ -9.99396331e+14 -2.24026887e+15 -1.40726397e+15  1.99066627e+15
+ -1.37622490e+14 -7.86349483e+14 -1.21330452e+15 -9.25000000e+00
+ -8.24229723e+14  2.81250000e+01 -1.78750000e+01 -1.99048104e+15
+ -1.63070931e+15 -7.22500000e+01  8.41221788e+14 -9.00000000e+00
+ -4.66250000e+01 -1.98750000e+01 -2.21250000e+01 -6.30434488e+14
+ -1.11825080e+15 -1.91280729e+15  4.01606829e+13  2.87500000e+00
+  1.75000000e+00  1.42500000e+01 -1.76250000e+01 -1.44716530e+15
+ -1.11176108e+15 -6.61250000e+01 -3.15542430e+14 -5.85000000e+01
+  1.60830758e+14 -9.87073527e+14  5.42879444e+14 -2.26250000e+01
+ -7.71250000e+01  6.43750000e+01 -1.81575176e+15 -3.32745042e+14
+  8.43814973e+14  9.58915985e+14  4.42500000e+01 -4.72183126e+14
+ -6.73750000e+01 -1.93474215e+15  6.00000000e+01 -6.48072165e+14
+ -3.11250000e+01 -1.68582958e+15 -4.56613751e+14 -5.34295511e+14
+ -1.26485707e+15  2.30659166e+14 -2.09976794e+15 -7.31180123e+14
+ -2.61604423e+15 -2.16555308e+15  3.52310888e+14  2.98429708e+14
+ -1.13502860e+15 -2.32147346e+14 -2.26250000e+01 -4.00000000e+01
+  4.68865984e+14 -1.08153426e+15 -5.50000000e+00 -8.40577064e+14
+ -9.25000000e+00  1.11250000e+01 -1.80294444e+15 -1.84137785e+15
+ -1.27500000e+01  5.30000000e+01 -2.05703144e+15 -1.96962096e+15
+ -1.57500000e+01 -1.56812492e+15 -2.17872327e+15 -1.98750000e+01
+  4.21250000e+01 -1.36388555e+15 -1.40000000e+01 -1.41192734e+14
+ -3.50000000e+01 -2.10787350e+15 -8.59870433e+14 -1.75980690e+15
+ -8.28750000e+01  4.71274275e+14 -5.82854119e+14 -3.16250000e+01
+ -3.07500000e+01  1.06849199e+15  4.39320196e+14 -5.92500000e+01
+  7.50000000e-01 -1.99523784e+15 -1.16124880e+15 -1.30334791e+15
+ -1.54445811e+15 -1.67712367e+15 -4.91353485e+14 -1.87278196e+14
+ -1.16250000e+01  1.07041043e+15 -1.13282407e+15 -6.21250000e+01
+ -1.27510765e+15  4.23750000e+01 -6.57500000e+01 -6.05000000e+01
+ -3.20339246e+14 -5.36250000e+01 -2.00210965e+14 -5.25000000e+00
+ -1.54674945e+15 -2.12332667e+15  1.46636829e+14  5.61250000e+01
+ -1.60868904e+15 -6.12500000e+00 -6.76250000e+01 -1.31408391e+15
+  2.76250000e+01 -1.54012863e+15 -2.42500000e+01 -5.72500000e+01
+ -5.67841058e+14  1.33682968e+14 -6.33750000e+01 -4.30742024e+14
+ -7.83023026e+14 -3.04903348e+14 -8.07591623e+14 -9.98909412e+14
+ -7.12500000e+00 -1.90937742e+15 -2.16966476e+15 -2.20000000e+01
+ -1.57500000e+01 -2.28233142e+15 -2.31038871e+15 -1.23897493e+15
+ -7.00000000e+01  2.17500000e+01 -2.50845150e+15  3.77557821e+14
+ -1.26634355e+15  1.62500000e+00  2.11250000e+01 -2.11250000e+01
+ -3.15379951e+14 -3.75000000e+01 -4.86250000e+01 -1.26250000e+01
+  5.42500000e+01 -1.78153609e+15 -1.23423191e+15  5.24718976e+14
+ -1.20000000e+01 -4.75000000e+00 -2.46692821e+15 -1.35378136e+15
+ -1.80213346e+15 -1.65409289e+15 -5.32500000e+01 -2.70000000e+01
+ -1.90568856e+15 -1.31566674e+15  3.33534152e+14 -1.83343230e+15
+ -6.15000000e+01 -1.73696875e+15 -1.80871570e+14 -1.13763351e+15
+ -2.33683671e+15 -4.27380951e+14 -1.46413438e+15 -2.07445227e+15
+  3.12500000e+01  8.22414031e+14 -5.18005488e+14 -1.06656990e+15
+ -1.06135277e+14 -1.87516625e+15  7.35038511e+14 -6.72500000e+01
+ -1.25220813e+15 -2.98682296e+14 -1.03995029e+15  3.56959057e+14
+ -2.51257241e+15 -1.22385773e+15 -2.82105679e+14 -1.53887637e+14
+  2.00000000e+00  3.75000000e-01 -2.18388413e+14 -1.80192207e+15
+ -1.90738992e+15 -7.18750000e+01 -9.75000000e+00 -5.68256036e+14
+ -1.57346777e+15 -1.53840861e+15 -4.58143918e+14 -1.08620262e+15
+  1.56250000e+01  1.58750000e+01 -1.84164824e+15  6.33750000e+01
+ -3.90000000e+01 -6.67500000e+01 -2.73750000e+01 -3.14267256e+14
+ -6.77500000e+01 -1.33246876e+15 -1.17489029e+15 -2.17500000e+01
+ -1.60000000e+01 -6.09718340e+14 -1.60884514e+15  2.25651211e+14
+  1.41117677e+14 -3.36830917e+14 -4.83721827e+14 -5.10129922e+14
+ -7.66782339e+14 -1.00465655e+15 -5.47500000e+01  9.35800273e+14
+ -4.63750000e+01 -2.16561768e+15 -1.83428142e+15 -2.07500000e+01
+  1.17500000e+01 -3.96668444e+14 -2.55966246e+15 -2.53069838e+15
+  4.12309974e+13 -9.39034338e+14 -1.31072858e+15 -2.21250000e+01
+ -1.06632028e+15 -5.17500000e+01 -5.81250000e+01  6.25000000e-01
+ -8.20634764e+14 -1.00000000e+00 -2.17691608e+15 -1.39857897e+15
+ -1.19958249e+15 -8.76949541e+14 -1.62213794e+15 -2.53750000e+01
+ -7.93097804e+14 -4.96250000e+01 -1.06764905e+15  1.07180143e+13
+ -8.56742124e+14  5.94795690e+14  6.03461285e+13 -1.80575432e+15
+ -2.04074446e+15 -2.50000000e+00  8.09449411e+13  7.60536178e+14
+ -7.13750000e+01  2.12037856e+14 -1.62058802e+15 -6.47854796e+14
+ -1.06035947e+15 -1.32614131e+15  1.04444431e+14 -4.88750000e+01
+ -2.13262163e+14 -6.13750000e+01 -7.78133010e+14 -3.21250000e+01
+ -9.50000000e+00 -7.78374294e+14  3.91250000e+01  4.30983530e+13
+ -1.03895163e+15 -3.08961492e+13  2.80000000e+01 -2.60440136e+15
+ -5.75000000e+00 -1.01250000e+01  6.57154637e+14 -7.32500000e+01
+ -2.37281336e+15 -9.12506964e+14 -1.15113663e+15 -6.21280490e+14
+  2.55000000e+01 -7.67423697e+14 -2.67277374e+14 -3.70578238e+14
+ -3.50000000e+01 -7.59071210e+14  4.25000000e+00 -1.33231246e+15
+  1.12500000e+00 -1.44974525e+15 -1.25612852e+15 -1.95481206e+15
+ -4.66250000e+01 -4.95000000e+01 -8.79788497e+12 -5.31250000e+01
+ -1.04584117e+15 -2.12500000e+01 -2.78750000e+01 -1.67788416e+15
+ -1.28085645e+15 -8.81594981e+14 -6.32500000e+01 -2.11925701e+15
+ -5.20106094e+14 -1.93006089e+15 -1.06114004e+15  6.06283837e+14
+ -2.12199060e+15  4.30856754e+14 -1.53574851e+15  2.92500000e+01
+ -1.24077735e+15 -1.53949108e+15  7.68821150e+13 -1.47410846e+15
+  1.23392968e+15 -1.30182018e+15  6.03571553e+14  1.11662927e+15
+  2.17500000e+01  2.29072095e+14 -9.29785953e+14 -1.73162177e+15
+  7.14595153e+14 -2.61459479e+15 -5.57160084e+14 -1.02950022e+15
+ -1.23728430e+15 -9.38869089e+13 -3.38127067e+13 -2.68061323e+14
+ -2.19581917e+15  1.67500000e+01 -2.72500000e+01 -1.69481030e+15
+ -4.62500000e+00 -2.01279679e+15  6.63144833e+14 -9.37500000e+00
+  5.03381607e+13  2.52500000e+01 -4.51250000e+01 -4.31215118e+14
+ -1.49436572e+15 -2.32968027e+15 -7.28750000e+01 -3.99077574e+14
+  3.40000000e+01 -1.19856975e+15 -1.38925616e+15 -2.46348856e+15
+ -3.41250000e+01  1.67500000e+01  3.13136588e+14 -1.04128393e+14
+  4.90948458e+13  1.92500000e+01 -2.13489268e+15 -2.17783798e+15
+ -3.74817049e+14 -1.81124382e+15  1.14625000e+02 -1.03036701e+15
+ -1.87980377e+14 -1.57534249e+15 -5.05723517e+13  6.78750000e+01
+ -7.16250000e+01 -1.57565755e+15 -8.96885169e+14 -4.08750000e+01
+  5.50000000e+01 -1.08052701e+15  5.00000000e+00  3.12500000e+00
+ -1.64668666e+15 -3.38371303e+14  1.41250000e+01 -6.26250000e+01
+ -2.20000000e+01 -2.32500000e+01  8.94700737e+14 -1.59153272e+15
+ -7.30932791e+14 -1.75000000e+00 -1.22660958e+15 -1.63750000e+01
+ -2.26398923e+14  1.31892301e+14 -7.50000000e+01 -1.00139244e+15
+  5.49448583e+14 -2.23452967e+15 -9.37071547e+14 -2.53267438e+14
+ -4.14068391e+14 -2.26578388e+15  4.66250000e+01 -7.06250000e+01
+ -8.99798647e+14 -5.42500000e+01 -1.98043659e+15 -2.67120079e+15
+  3.62500000e+00 -5.46250000e+01  3.22500000e+01 -9.20349802e+14
+ -8.48750000e+01  3.75000000e-01 -6.63618859e+14 -3.71250000e+01
+ -5.09366582e+14 -7.47898828e+14 -3.15000000e+01 -4.06802097e+14
+ -3.70000000e+01 -4.31250000e+01  7.58981729e+14 -1.41078129e+15
+ -5.70000000e+01  1.07189166e+15 -1.79254509e+14  4.45000000e+01
+ -2.45000000e+01 -4.81250000e+01 -4.52500000e+01 -2.13750000e+01
+ -7.80000000e+01 -4.77373498e+14 -9.20195962e+14 -1.33709333e+15
+ -6.71148271e+14 -3.23207331e+14 -8.06548327e+14 -1.34810629e+14
+  3.86024926e+14 -1.97949251e+15 -2.47726039e+15  2.27500000e+01
+ -2.36022885e+15 -2.47239054e+15  1.72500000e+01 -6.42500000e+01
+ -3.99793881e+14 -1.32555035e+15  1.21430711e+15 -3.01501743e+14
+  6.40655701e+13 -3.40000000e+01 -2.15930124e+15 -2.27050885e+15
+ -2.20531372e+15 -9.64264404e+14 -1.15874856e+15 -1.43750000e+01
+  6.22500000e+01 -9.75000000e+00  4.12500000e+00 -2.76340064e+15
+  5.44810838e+13 -1.05618481e+15 -1.73867163e+15  2.17201569e+14]
+[ 55.4297 ]: diff:  [-4.97256696e+01 -2.02685658e+15 -1.33169099e+14 -2.04471186e+01
+ -3.54185189e+01 -2.12556168e+14 -1.57862684e+15 -2.06990273e+15
+ -2.11342670e+14 -2.25872306e+01  5.41114782e+14 -3.52101207e+01
+  4.17565362e+13 -2.40895168e+15 -2.62899571e+15 -8.38310486e+14
+ -1.50838447e+15  1.13506506e+15  1.03640107e+15  2.29882361e+01
+ -9.99396331e+14 -2.24026887e+15 -1.40726397e+15  1.99066627e+15
+ -1.37622490e+14 -7.86349483e+14 -1.21330452e+15 -1.01132697e+01
+ -8.24229723e+14  2.76509566e+01 -1.87382384e+01 -1.99048104e+15
+ -1.63070931e+15 -7.28989325e+01  8.41221788e+14 -9.95560128e+00
+ -4.74769983e+01 -2.05232722e+01 -2.28115315e+01 -6.30434488e+14
+ -1.11825080e+15 -1.91280729e+15  4.01606829e+13  2.29843363e+00
+  6.69396656e-01  1.35375991e+01 -1.84930847e+01 -1.44716530e+15
+ -1.11176108e+15 -6.69643707e+01 -3.15542430e+14 -5.91379688e+01
+  1.60830758e+14 -9.87073527e+14  5.42879444e+14 -2.32161221e+01
+ -7.77396830e+01  6.35926993e+01 -1.81575176e+15 -3.32745042e+14
+  8.43814973e+14  9.58915985e+14  4.33206278e+01 -4.72183126e+14
+ -6.77065149e+01 -1.93474215e+15  5.92617295e+01 -6.48072165e+14
+ -3.18776139e+01 -1.68582958e+15 -4.56613751e+14 -5.34295511e+14
+ -1.26485707e+15  2.30659166e+14 -2.09976794e+15 -7.31180123e+14
+ -2.61604423e+15 -2.16555308e+15  3.52310888e+14  2.98429708e+14
+ -1.13502860e+15 -2.32147346e+14 -2.37059989e+01 -4.05490942e+01
+  4.68865984e+14 -1.08153426e+15 -6.47578541e+00 -8.40577064e+14
+ -1.03149139e+01  1.04230713e+01 -1.80294444e+15 -1.84137785e+15
+ -1.34976282e+01  5.23945210e+01 -2.05703144e+15 -1.96962096e+15
+ -1.67832871e+01 -1.56812492e+15 -2.17872327e+15 -2.08380677e+01
+  4.11727495e+01 -1.36388555e+15 -1.47627725e+01 -1.41192734e+14
+ -3.57710339e+01 -2.10787350e+15 -8.59870433e+14 -1.75980690e+15
+ -8.36338013e+01  4.71274275e+14 -5.82854119e+14 -3.23811589e+01
+ -3.15865945e+01  1.06849199e+15  4.39320196e+14 -6.01271324e+01
+ -3.96423759e-01 -1.99523784e+15 -1.16124880e+15 -1.30334791e+15
+ -1.54445811e+15 -1.67712367e+15 -4.91353485e+14 -1.87278196e+14
+ -1.25758500e+01  1.07041043e+15 -1.13282407e+15 -6.29935007e+01
+ -1.27510765e+15  4.14734972e+01 -6.63579807e+01 -6.11783222e+01
+ -3.20339246e+14 -5.41926533e+01 -2.00210965e+14 -5.77606330e+00
+ -1.54674945e+15 -2.12332667e+15  1.46636829e+14  5.54034878e+01
+ -1.60868904e+15 -7.16972635e+00 -6.84448865e+01 -1.31408391e+15
+  2.69303568e+01 -1.54012863e+15 -2.52378886e+01 -5.81350166e+01
+ -5.67841058e+14  1.33682968e+14 -6.43285575e+01 -4.30742024e+14
+ -7.83023026e+14 -3.04903348e+14 -8.07591623e+14 -9.98909412e+14
+ -7.72217773e+00 -1.90937742e+15 -2.16966476e+15 -2.27494819e+01
+ -1.62659497e+01 -2.28233142e+15 -2.31038871e+15 -1.23897493e+15
+ -7.06268998e+01  2.08951863e+01 -2.50845150e+15  3.77557821e+14
+ -1.26634355e+15  6.97953840e-01  2.02604821e+01 -2.15541526e+01
+ -3.15379951e+14 -3.83168443e+01 -4.90328739e+01 -1.32178110e+01
+  5.35818563e+01 -1.78153609e+15 -1.23423191e+15  5.24718976e+14
+ -1.26572939e+01 -5.33388769e+00 -2.46692821e+15 -1.35378136e+15
+ -1.80213346e+15 -1.65409289e+15 -5.39633121e+01 -2.76830439e+01
+ -1.90568856e+15 -1.31566674e+15  3.33534152e+14 -1.83343230e+15
+ -6.20727963e+01 -1.73696875e+15 -1.80871570e+14 -1.13763351e+15
+ -2.33683671e+15 -4.27380951e+14 -1.46413438e+15 -2.07445227e+15
+  3.06808712e+01  8.22414031e+14 -5.18005488e+14 -1.06656990e+15
+ -1.06135277e+14 -1.87516625e+15  7.35038511e+14 -6.80101694e+01
+ -1.25220813e+15 -2.98682296e+14 -1.03995029e+15  3.56959057e+14
+ -2.51257241e+15 -1.22385773e+15 -2.82105679e+14 -1.53887637e+14
+  1.22991864e+00 -6.13856513e-01 -2.18388413e+14 -1.80192207e+15
+ -1.90738992e+15 -7.24660151e+01 -1.06861490e+01 -5.68256036e+14
+ -1.57346777e+15 -1.53840861e+15 -4.58143918e+14 -1.08620262e+15
+  1.46498518e+01  1.49150078e+01 -1.84164824e+15  6.26669240e+01
+ -3.93177718e+01 -6.70803349e+01 -2.84619263e+01 -3.14267256e+14
+ -6.83827632e+01 -1.33246876e+15 -1.17489029e+15 -2.26281669e+01
+ -1.68167698e+01 -6.09718340e+14 -1.60884514e+15  2.25651211e+14
+  1.41117677e+14 -3.36830917e+14 -4.83721827e+14 -5.10129922e+14
+ -7.66782339e+14 -1.00465655e+15 -5.57336727e+01  9.35800273e+14
+ -4.74181987e+01 -2.16561768e+15 -1.83428142e+15 -2.16386878e+01
+  1.11259355e+01 -3.96668444e+14 -2.55966246e+15 -2.53069838e+15
+  4.12309974e+13 -9.39034338e+14 -1.31072858e+15 -2.25664599e+01
+ -1.06632028e+15 -5.27216898e+01 -5.87845111e+01 -4.57230858e-01
+ -8.20634764e+14 -1.90208269e+00 -2.17691608e+15 -1.39857897e+15
+ -1.19958249e+15 -8.76949541e+14 -1.62213794e+15 -2.62329299e+01
+ -7.93097804e+14 -5.04578644e+01 -1.06764905e+15  1.07180143e+13
+ -8.56742124e+14  5.94795690e+14  6.03461285e+13 -1.80575432e+15
+ -2.04074446e+15 -3.49396744e+00  8.09449411e+13  7.60536178e+14
+ -7.17277541e+01  2.12037856e+14 -1.62058802e+15 -6.47854796e+14
+ -1.06035947e+15 -1.32614131e+15  1.04444431e+14 -4.95894257e+01
+ -2.13262163e+14 -6.22686306e+01 -7.78133010e+14 -3.29572075e+01
+ -1.05701019e+01 -7.78374294e+14  3.83042330e+01  4.30983530e+13
+ -1.03895163e+15 -3.08961492e+13  2.71005828e+01 -2.60440136e+15
+ -6.55200897e+00 -1.09768870e+01  6.57154637e+14 -7.37126653e+01
+ -2.37281336e+15 -9.12506964e+14 -1.15113663e+15 -6.21280490e+14
+  2.48589440e+01 -7.67423697e+14 -2.67277374e+14 -3.70578238e+14
+ -3.58455700e+01 -7.59071210e+14  3.48689042e+00 -1.33231246e+15
+  4.58386653e-01 -1.44974525e+15 -1.25612852e+15 -1.95481206e+15
+ -4.69287282e+01 -5.03870783e+01 -8.79788497e+12 -5.37501563e+01
+ -1.04584117e+15 -2.19651480e+01 -2.86727433e+01 -1.67788416e+15
+ -1.28085645e+15 -8.81594981e+14 -6.36492987e+01 -2.11925701e+15
+ -5.20106094e+14 -1.93006089e+15 -1.06114004e+15  6.06283837e+14
+ -2.12199060e+15  4.30856754e+14 -1.53574851e+15  2.84268011e+01
+ -1.24077735e+15 -1.53949108e+15  7.68821150e+13 -1.47410846e+15
+  1.23392968e+15 -1.30182018e+15  6.03571553e+14  1.11662927e+15
+  2.11705768e+01  2.29072095e+14 -9.29785953e+14 -1.73162177e+15
+  7.14595153e+14 -2.61459479e+15 -5.57160084e+14 -1.02950022e+15
+ -1.23728430e+15 -9.38869089e+13 -3.38127067e+13 -2.68061323e+14
+ -2.19581917e+15  1.61280422e+01 -2.78716041e+01 -1.69481030e+15
+ -5.65236460e+00 -2.01279679e+15  6.63144833e+14 -1.03043858e+01
+  5.03381607e+13  2.45212278e+01 -4.59185240e+01 -4.31215118e+14
+ -1.49436572e+15 -2.32968027e+15 -7.31588959e+01 -3.99077574e+14
+  3.31940182e+01 -1.19856975e+15 -1.38925616e+15 -2.46348856e+15
+ -3.51151004e+01  1.58221357e+01  3.13136588e+14 -1.04128393e+14
+  4.90948458e+13  1.85186756e+01 -2.13489268e+15 -2.17783798e+15
+ -3.74817049e+14 -1.81124382e+15  1.14625000e+02 -1.03036701e+15
+ -1.87980377e+14 -1.57534249e+15 -5.05723517e+13  6.71301124e+01
+ -7.22626776e+01 -1.57565755e+15 -8.96885169e+14 -4.17515510e+01
+  5.42637145e+01 -1.08052701e+15  4.10897748e+00  2.38088104e+00
+ -1.64668666e+15 -3.38371303e+14  1.32958647e+01 -6.33733318e+01
+ -2.29641986e+01 -2.39604186e+01  8.94700737e+14 -1.59153272e+15
+ -7.30932791e+14 -2.78884013e+00 -1.22660958e+15 -1.69825872e+01
+ -2.26398923e+14  1.31892301e+14 -7.54682498e+01 -1.00139244e+15
+  5.49448583e+14 -2.23452967e+15 -9.37071547e+14 -2.53267438e+14
+ -4.14068391e+14 -2.26578388e+15  4.59477014e+01 -7.14056507e+01
+ -8.99798647e+14 -5.50985429e+01 -1.98043659e+15 -2.67120079e+15
+  2.84164569e+00 -5.50099598e+01  3.16631284e+01 -9.20349802e+14
+ -8.57132003e+01 -6.51313535e-01 -6.63618859e+14 -3.80064953e+01
+ -5.09366582e+14 -7.47898828e+14 -3.25916537e+01 -4.06802097e+14
+ -3.77150843e+01 -4.39225531e+01  7.58981729e+14 -1.41078129e+15
+ -5.73860732e+01  1.07189166e+15 -1.79254509e+14  4.38036240e+01
+ -2.49257815e+01 -4.88622779e+01 -4.60676149e+01 -2.24366466e+01
+ -7.85993563e+01 -4.77373498e+14 -9.20195962e+14 -1.33709333e+15
+ -6.71148271e+14 -3.23207331e+14 -8.06548327e+14 -1.34810629e+14
+  3.86024926e+14 -1.97949251e+15 -2.47726039e+15  2.18582822e+01
+ -2.36022885e+15 -2.47239054e+15  1.65793724e+01 -6.44789628e+01
+ -3.99793881e+14 -1.32555035e+15  1.21430711e+15 -3.01501743e+14
+  6.40655701e+13 -3.43572038e+01 -2.15930124e+15 -2.27050885e+15
+ -2.20531372e+15 -9.64264404e+14 -1.15874856e+15 -1.50992995e+01
+  6.17113106e+01 -1.08811638e+01  3.07070984e+00 -2.76340064e+15
+  5.44810838e+13 -1.05618481e+15 -1.73867163e+15  2.17201569e+14]
+[ 55.4316 ]: min diff:  -2763400644451488.0
+[ 55.4317 ]: failure:  [ True  True  True  True  True  True  True  True  True  True False  True
+ False  True  True  True  True False False False  True  True  True False
+  True  True  True  True  True False  True  True  True  True False  True
+  True  True  True  True  True  True False False False False  True  True
+  True  True  True  True False  True False  True  True False  True  True
+ False False False  True  True  True False  True  True  True  True  True
+  True False  True  True  True  True False False  True  True  True  True
+ False  True  True  True  True False  True  True  True False  True  True
+  True  True  True  True False  True  True  True  True  True  True  True
+  True False  True  True  True False False  True  True  True  True  True
+  True  True  True  True  True False  True  True  True False  True  True
+  True  True  True  True  True  True False False  True  True  True  True
+ False  True  True  True  True False  True  True  True  True  True  True
+  True  True  True  True  True  True  True  True  True False  True False
+  True False False  True  True  True  True  True False  True  True False
+  True  True  True  True  True  True  True  True  True  True False  True
+  True  True  True  True  True  True  True  True False False  True  True
+  True  True False  True  True  True  True False  True  True  True  True
+ False  True  True  True  True  True  True  True  True  True  True  True
+ False False  True False  True  True  True  True  True  True  True  True
+  True  True  True False False  True  True  True  True  True  True False
+  True  True  True  True False  True  True  True False  True  True  True
+  True  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True False  True False False  True  True  True False False
+  True False  True  True  True  True False  True  True  True  True  True
+  True  True False False  True  True False  True  True  True False  True
+  True  True  True  True False  True  True  True  True  True False  True
+ False  True  True  True  True  True  True  True  True  True  True  True
+  True  True  True  True  True  True  True False  True False  True False
+  True  True False  True False  True False False False False  True  True
+ False  True  True  True  True  True  True  True  True False  True  True
+  True  True False  True False False  True  True  True  True  True  True
+ False  True  True  True  True False False  True False False  True  True
+  True  True False  True  True  True  True False  True  True  True  True
+ False  True False False  True  True False  True  True  True False  True
+  True  True  True  True  True False  True  True False  True  True  True
+  True  True False  True  True  True  True  True False  True False  True
+  True  True  True  True  True  True  True  True  True  True False  True
+  True False  True False  True  True  True  True  True  True  True  True
+  True  True  True  True False  True  True False  True  True False  True
+  True  True False  True False  True  True  True  True  True  True  True
+ False  True False  True False  True  True False]
+[ 55.4323 ]: Voilating point:  [0.3345496922678149, 0.0, 0.6641065755984643, 0.45611478326410504, 0.3550783297561115, 0.44561102117623586, 0.0, 0.039389010509269795, 0.6555116644260088, 0.3328395868484516, -0.030599911131801272, 0.46076790581699295, -0.49371035773441085]
+[ 55.4324 ]: Lambdas: [-5.44282018e+02 -1.48888107e+03 -3.28767909e+02 -3.73605734e+02
+ -6.56368389e+15 -1.69113056e+02 -1.65268178e+16 -3.82300007e+02
+ -1.01039030e+04 -1.23968813e+17 -1.83272302e+15 -1.95753072e+16
+ -2.38508849e+03 -9.06970931e+02 -4.92386019e+15 -3.00415582e+02
+ -4.01523126e+02 -4.41992884e+15 -5.33510272e+15 -1.92526459e+03
+ -1.27742554e+03 -1.45952389e+03 -7.51856203e+02 -2.48465845e+16
+ -7.21034312e+15 -4.03018365e+15 -6.84377984e+02 -2.67996535e+02
+ -8.39768890e+02 -2.91903713e+02 -4.47354030e+15 -3.25841607e+03
+ -5.61663357e+15 -1.17198855e+16 -3.15288296e+03 -9.96241814e+15
+ -6.54728018e+02 -8.26898514e+15 -6.68571341e+15 -8.77852138e+02
+ -1.19445983e+03 -1.19232251e+16 -5.78399019e+02 -4.30192636e+02
+ -7.97483104e+02 -3.52857590e+17 -5.42564872e+15 -5.98853788e+15
+ -3.24123071e+01 -2.87083973e+03 -3.48353066e+02 -3.28110603e+16
+ -1.23000045e+04 -5.45909973e+16 -2.39209155e+03 -5.29369565e+02
+ -5.90198130e+01 -5.50851041e+03 -5.64668164e+02 -2.37705584e+03
+ -9.13664942e+02 -6.17205988e+15 -8.85981787e+03 -5.51436599e+15
+ -6.80068240e+02 -1.29817215e+16 -5.89609581e+16  5.43048239e+17
+ -5.42071715e+02 -4.43228667e+02 -8.01695076e+15 -4.38777555e+03
+ -3.06768324e+02 -5.38700622e+02 -2.94924406e+02 -1.64221010e+16
+ -2.14294661e+03 -4.30906726e+02 -2.01102016e+16 -5.99903035e+02
+ -9.94911331e+02 -1.08300409e+16 -7.26428701e+15 -1.06242922e+16
+ -1.09366779e+03 -7.73183300e+03 -1.50714396e+16 -4.91704498e+15
+ -5.36284805e+15 -2.09586279e+16 -2.23099195e+17 -1.27381795e+16
+ -4.13672271e+02 -3.15313849e+03 -7.99804140e+02 -7.97794656e+15
+ -6.84420705e+16 -1.15128120e+16 -5.56904498e+02 -3.33144072e+02
+ -7.69310193e+15 -8.00269766e+02 -6.01445762e+15 -1.94057616e+16
+ -2.97336524e+02 -3.22430391e+02 -6.83947625e+15 -2.42160812e+16
+ -8.30406581e+02 -6.05765469e+01]
+[ 55.4331 ]: Dumping at  ../dumps/dump_2023-04-23 01:08:04.895581
+[ 55.4333 ]: Exception raised
+[ 55.4335 ]: Traceback (most recent call last):
+  File "main.py", line 510, in <module>
+    abstract_and_verify( G, inp_lb, inp_ub, args.tc, args.ts )
+  File "main.py", line 411, in abstract_and_verify
+    G_new,intervals = merge_all( G, lower_bound, upper_bound, t_c, t_s )
+  File "main.py", line 344, in merge_all
+    success, intervals = merge_one(G, layer_sizes, lower_bounds, upper_bounds, t_c,
+  File "main.py", line 156, in merge_one
+    b, c, input_nodes = verify_bounds.get_coarse_bound(input_nodes, out_node, value_dict)
+  File "/home/sanaa/new-merge-across-layers/merge-across-layer/mal/verify_bounds.py", line 84, in get_coarse_bound
+    c, b, _, _ = lp_replacement.get_bounding_plane(
+  File "/home/sanaa/new-merge-across-layers/merge-across-layer/mal/lp_replacement.py", line 286, in get_bounding_plane
+    c, b, new_touched, unbounded = pivot_plane(
+  File "/home/sanaa/new-merge-across-layers/merge-across-layer/mal/lp_replacement.py", line 192, in pivot_plane
+    assert False
+AssertionError
+
